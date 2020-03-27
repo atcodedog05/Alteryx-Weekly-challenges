@@ -1,0 +1,3078 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="606" width="852" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[My Solution
+
+
+
+
+
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="306" width="300" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Inputs
+
+
+
+
+
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="306" width="324" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Outputs</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="624" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_3512_464723c8d5ec45afb6c947132be3cde7_\Engine_8260_6cdf26da09724715b51c5291a1b0f0ee_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="78" width="468" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #138</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="144" width="690" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ The input data contains information on the teams that have participated in the World Series.  Using the data, determine each team's number of appearances, provide the years in which each team won the World Series, and calculate each team's winning percentage based on their World Series appearances. ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="84" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="115" />
+          <Fields>
+            <Field name="Year" />
+            <Field name="Winning team" />
+            <Field name="Manager" />
+            <Field name="Games" />
+            <Field name="Losing team" />
+            <Field name="Manager2" />
+            <Field name="Ref." />
+          </Fields>
+          <Data>
+            <r>
+              <c>1903</c>
+              <c>Boston Americans (1, 1–0)</c>
+              <c>Jimmy Collins</c>
+              <c>5–3[V]</c>
+              <c>Pittsburgh Pirates (1, 0–1)</c>
+              <c>Fred Clarke</c>
+              <c>[8]</c>
+            </r>
+            <r>
+              <c>1904</c>
+              <c>No World Series</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>[1]</c>
+            </r>
+            <r>
+              <c>1905</c>
+              <c>New York Giants (1, 1–0)</c>
+              <c>John McGraw</c>
+              <c>4–1</c>
+              <c>Philadelphia Athletics (1, 0–1)</c>
+              <c>Connie Mack</c>
+              <c>[9]</c>
+            </r>
+            <r>
+              <c>1906</c>
+              <c>Chicago White Sox (1, 1–0)</c>
+              <c>Fielder Jones</c>
+              <c>4–2</c>
+              <c>Chicago Cubs (1, 0–1)</c>
+              <c>Frank Chance</c>
+              <c>[10]</c>
+            </r>
+            <r>
+              <c>1907</c>
+              <c>Chicago Cubs (2, 1–1)</c>
+              <c>Frank Chance</c>
+              <c>4–0–(1)[T]</c>
+              <c>Detroit Tigers (1, 0–1)</c>
+              <c>Hugh Jennings</c>
+              <c>[11]</c>
+            </r>
+            <r>
+              <c>1908</c>
+              <c>Chicago Cubs (3, 2–1)</c>
+              <c>Frank Chance</c>
+              <c>4–1</c>
+              <c>Detroit Tigers (2, 0–2)</c>
+              <c>Hugh Jennings</c>
+              <c>[12]</c>
+            </r>
+            <r>
+              <c>1909</c>
+              <c>Pittsburgh Pirates (2, 1–1)</c>
+              <c>Fred Clarke</c>
+              <c>4–3</c>
+              <c>Detroit Tigers (3, 0–3)</c>
+              <c>Hugh Jennings</c>
+              <c>[13]</c>
+            </r>
+            <r>
+              <c>1910</c>
+              <c>Philadelphia Athletics (2, 1–1)</c>
+              <c>Connie Mack</c>
+              <c>4–1</c>
+              <c>Chicago Cubs (4, 2–2)</c>
+              <c>Frank Chance</c>
+              <c>[14]</c>
+            </r>
+            <r>
+              <c>1911</c>
+              <c>Philadelphia Athletics (3, 2–1)</c>
+              <c>Connie Mack</c>
+              <c>4–2</c>
+              <c>New York Giants (2, 1–1)</c>
+              <c>John McGraw</c>
+              <c>[15]</c>
+            </r>
+            <r>
+              <c>1912</c>
+              <c>Boston Red Sox (2, 2–0)</c>
+              <c>Jake Stahl</c>
+              <c>4–3–(1)[T]</c>
+              <c>New York Giants (3, 1–2)</c>
+              <c>John McGraw</c>
+              <c>[16]</c>
+            </r>
+            <r>
+              <c>1913</c>
+              <c>Philadelphia Athletics (4, 3–1)</c>
+              <c>Connie Mack</c>
+              <c>4–1</c>
+              <c>New York Giants (4, 1–3)</c>
+              <c>John McGraw</c>
+              <c>[17]</c>
+            </r>
+            <r>
+              <c>1914</c>
+              <c>Boston Braves (1, 1–0)</c>
+              <c>George Stallings</c>
+              <c>4–0</c>
+              <c>Philadelphia Athletics (5, 3–2)</c>
+              <c>Connie Mack</c>
+              <c>[18]</c>
+            </r>
+            <r>
+              <c>1915</c>
+              <c>Boston Red Sox (3, 3–0)</c>
+              <c>Bill Carrigan</c>
+              <c>4–1</c>
+              <c>Philadelphia Phillies (1, 0–1)</c>
+              <c>Pat Moran</c>
+              <c>[19]</c>
+            </r>
+            <r>
+              <c>1916</c>
+              <c>Boston Red Sox (4, 4–0)</c>
+              <c>Bill Carrigan</c>
+              <c>4–1</c>
+              <c>Brooklyn Robins (1, 0–1)</c>
+              <c>Wilbert Robinson</c>
+              <c>[20]</c>
+            </r>
+            <r>
+              <c>1917</c>
+              <c>Chicago White Sox (2, 2–0)</c>
+              <c>Pants Rowland</c>
+              <c>4–2</c>
+              <c>New York Giants (5, 1–4)</c>
+              <c>John McGraw</c>
+              <c>[21]</c>
+            </r>
+            <r>
+              <c>1918</c>
+              <c>Boston Red Sox (5, 5–0)</c>
+              <c>Ed Barrow</c>
+              <c>4–2</c>
+              <c>Chicago Cubs (5, 2–3)</c>
+              <c>Fred Mitchell</c>
+              <c>[22]</c>
+            </r>
+            <r>
+              <c>1919</c>
+              <c>Cincinnati Reds (1, 1–0)</c>
+              <c>Pat Moran</c>
+              <c>5–3[V]</c>
+              <c>Chicago White Sox (3, 2–1)</c>
+              <c>Kid Gleason</c>
+              <c>[23]</c>
+            </r>
+            <r>
+              <c>1920</c>
+              <c>Cleveland Indians (1, 1–0)</c>
+              <c>Tris Speaker</c>
+              <c>5–2[V]</c>
+              <c>Brooklyn Robins (2, 0–2)</c>
+              <c>Wilbert Robinson</c>
+              <c>[24]</c>
+            </r>
+            <r>
+              <c>1921</c>
+              <c>New York Giants (6, 2–4)</c>
+              <c>John McGraw</c>
+              <c>5–3[V]</c>
+              <c>New York Yankees (1, 0–1)</c>
+              <c>Miller Huggins</c>
+              <c>[25]</c>
+            </r>
+            <r>
+              <c>1922</c>
+              <c>New York Giants (7, 3–4)</c>
+              <c>John McGraw</c>
+              <c>4–0–(1)[T]</c>
+              <c>New York Yankees (2, 0–2)</c>
+              <c>Miller Huggins</c>
+              <c>[26]</c>
+            </r>
+            <r>
+              <c>1923</c>
+              <c>New York Yankees (3, 1–2)</c>
+              <c>Miller Huggins</c>
+              <c>4–2</c>
+              <c>New York Giants (8, 3–5)</c>
+              <c>John McGraw</c>
+              <c>[27]</c>
+            </r>
+            <r>
+              <c>1924</c>
+              <c>Washington Senators (1, 1–0)</c>
+              <c>Bucky Harris</c>
+              <c>4–3</c>
+              <c>New York Giants (9, 3–6)</c>
+              <c>John McGraw</c>
+              <c>[28]</c>
+            </r>
+            <r>
+              <c>1925</c>
+              <c>Pittsburgh Pirates (3, 2–1)</c>
+              <c>Bill McKechnie</c>
+              <c>4–3</c>
+              <c>Washington Senators (2, 1–1)</c>
+              <c>Bucky Harris</c>
+              <c>[29]</c>
+            </r>
+            <r>
+              <c>1926</c>
+              <c>St. Louis Cardinals (1, 1–0)</c>
+              <c>Rogers Hornsby</c>
+              <c>4–3</c>
+              <c>New York Yankees (4, 1–3)</c>
+              <c>Miller Huggins</c>
+              <c>[30]</c>
+            </r>
+            <r>
+              <c>1927</c>
+              <c>New York Yankees (5, 2–3)</c>
+              <c>Miller Huggins</c>
+              <c>4–0</c>
+              <c>Pittsburgh Pirates (4, 2–2)</c>
+              <c>Donie Bush</c>
+              <c>[31]</c>
+            </r>
+            <r>
+              <c>1928</c>
+              <c>New York Yankees (6, 3–3)</c>
+              <c>Miller Huggins</c>
+              <c>4–0</c>
+              <c>St. Louis Cardinals (2, 1–1)</c>
+              <c>Bill McKechnie</c>
+              <c>[32]</c>
+            </r>
+            <r>
+              <c>1929</c>
+              <c>Philadelphia Athletics (6, 4–2)</c>
+              <c>Connie Mack</c>
+              <c>4–1</c>
+              <c>Chicago Cubs (6, 2–4)</c>
+              <c>Joe McCarthy</c>
+              <c>[33]</c>
+            </r>
+            <r>
+              <c>1930</c>
+              <c>Philadelphia Athletics (7, 5–2)</c>
+              <c>Connie Mack</c>
+              <c>4–2</c>
+              <c>St. Louis Cardinals (3, 1–2)</c>
+              <c>Gabby Street</c>
+              <c>[34]</c>
+            </r>
+            <r>
+              <c>1931</c>
+              <c>St. Louis Cardinals (4, 2–2)</c>
+              <c>Gabby Street</c>
+              <c>4–3</c>
+              <c>Philadelphia Athletics (8, 5–3)</c>
+              <c>Connie Mack</c>
+              <c>[35]</c>
+            </r>
+            <r>
+              <c>1932</c>
+              <c>New York Yankees (7, 4–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–0</c>
+              <c>Chicago Cubs (7, 2–5)</c>
+              <c>Charlie Grimm</c>
+              <c>[36]</c>
+            </r>
+            <r>
+              <c>1933</c>
+              <c>New York Giants (10, 4–6)</c>
+              <c>Bill Terry</c>
+              <c>4–1</c>
+              <c>Washington Senators (3, 1–2)</c>
+              <c>Joe Cronin</c>
+              <c>[37]</c>
+            </r>
+            <r>
+              <c>1934</c>
+              <c>St. Louis Cardinals (5, 3–2)</c>
+              <c>Frank Frisch</c>
+              <c>4–3</c>
+              <c>Detroit Tigers (4, 0–4)</c>
+              <c>Mickey Cochrane</c>
+              <c>[38]</c>
+            </r>
+            <r>
+              <c>1935</c>
+              <c>Detroit Tigers (5, 1–4)</c>
+              <c>Mickey Cochrane</c>
+              <c>4–2</c>
+              <c>Chicago Cubs (8, 2–6)</c>
+              <c>Charlie Grimm</c>
+              <c>[39]</c>
+            </r>
+            <r>
+              <c>1936</c>
+              <c>New York Yankees (8, 5–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–2</c>
+              <c>New York Giants (11, 4–7)</c>
+              <c>Bill Terry</c>
+              <c>[40]</c>
+            </r>
+            <r>
+              <c>1937</c>
+              <c>New York Yankees (9, 6–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–1</c>
+              <c>New York Giants (12, 4–8)</c>
+              <c>Bill Terry</c>
+              <c>[41]</c>
+            </r>
+            <r>
+              <c>1938</c>
+              <c>New York Yankees (10, 7–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–0</c>
+              <c>Chicago Cubs (9, 2–7)</c>
+              <c>Gabby Hartnett</c>
+              <c>[42]</c>
+            </r>
+            <r>
+              <c>1939</c>
+              <c>New York Yankees (11, 8–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–0</c>
+              <c>Cincinnati Reds (2, 1–1)</c>
+              <c>Bill McKechnie</c>
+              <c>[43]</c>
+            </r>
+            <r>
+              <c>1940</c>
+              <c>Cincinnati Reds (3, 2–1)</c>
+              <c>Bill McKechnie</c>
+              <c>4–3</c>
+              <c>Detroit Tigers (6, 1–5)</c>
+              <c>Del Baker</c>
+              <c>[44]</c>
+            </r>
+            <r>
+              <c>1941</c>
+              <c>New York Yankees (12, 9–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–1</c>
+              <c>Brooklyn Dodgers (3, 0–3)</c>
+              <c>Leo Durocher</c>
+              <c>[45]</c>
+            </r>
+            <r>
+              <c>1942</c>
+              <c>St. Louis Cardinals (6, 4–2)</c>
+              <c>Billy Southworth</c>
+              <c>4–1</c>
+              <c>New York Yankees (13, 9–4)</c>
+              <c>Joe McCarthy</c>
+              <c>[46]</c>
+            </r>
+            <r>
+              <c>1943</c>
+              <c>New York Yankees (14, 10–4)</c>
+              <c>Joe McCarthy</c>
+              <c>4–1</c>
+              <c>St. Louis Cardinals (7, 4–3)</c>
+              <c>Billy Southworth</c>
+              <c>[47]</c>
+            </r>
+            <r>
+              <c>1944</c>
+              <c>St. Louis Cardinals (8, 5–3)</c>
+              <c>Billy Southworth</c>
+              <c>4–2</c>
+              <c>St. Louis Browns (1, 0–1)</c>
+              <c>Luke Sewell</c>
+              <c>[48]</c>
+            </r>
+            <r>
+              <c>1945</c>
+              <c>Detroit Tigers (7, 2–5)</c>
+              <c>Steve O'Neill</c>
+              <c>4–3</c>
+              <c>Chicago Cubs (10, 2–8)</c>
+              <c>Charlie Grimm</c>
+              <c>[49]</c>
+            </r>
+            <r>
+              <c>1946</c>
+              <c>St. Louis Cardinals (9, 6–3)</c>
+              <c>Eddie Dyer</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (6, 5–1)</c>
+              <c>Joe Cronin</c>
+              <c>[50]</c>
+            </r>
+            <r>
+              <c>1947</c>
+              <c>New York Yankees (15, 11–4)</c>
+              <c>Bucky Harris</c>
+              <c>4–3</c>
+              <c>Brooklyn Dodgers (4, 0–4)</c>
+              <c>Burt Shotton</c>
+              <c>[51]</c>
+            </r>
+            <r>
+              <c>1948</c>
+              <c>Cleveland Indians (2, 2–0)</c>
+              <c>Lou Boudreau</c>
+              <c>4–2</c>
+              <c>Boston Braves (2, 1–1)</c>
+              <c>Billy Southworth</c>
+              <c>[52]</c>
+            </r>
+            <r>
+              <c>1949</c>
+              <c>New York Yankees (16, 12–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–1</c>
+              <c>Brooklyn Dodgers (5, 0–5)</c>
+              <c>Burt Shotton</c>
+              <c>[53]</c>
+            </r>
+            <r>
+              <c>1950</c>
+              <c>New York Yankees (17, 13–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–0</c>
+              <c>Philadelphia Phillies (2, 0–2)</c>
+              <c>Eddie Sawyer</c>
+              <c>[54]</c>
+            </r>
+            <r>
+              <c>1951</c>
+              <c>New York Yankees (18, 14–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–2</c>
+              <c>New York Giants (13, 4–9)</c>
+              <c>Leo Durocher</c>
+              <c>[55]</c>
+            </r>
+            <r>
+              <c>1952</c>
+              <c>New York Yankees (19, 15–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–3</c>
+              <c>Brooklyn Dodgers (6, 0–6)</c>
+              <c>Charlie Dressen</c>
+              <c>[56]</c>
+            </r>
+            <r>
+              <c>1953</c>
+              <c>New York Yankees (20, 16–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–2</c>
+              <c>Brooklyn Dodgers (7, 0–7)</c>
+              <c>Charlie Dressen</c>
+              <c>[57]</c>
+            </r>
+            <r>
+              <c>1954</c>
+              <c>New York Giants (14, 5–9)</c>
+              <c>Leo Durocher</c>
+              <c>4–0</c>
+              <c>Cleveland Indians (3, 2–1)</c>
+              <c>Al Lopez</c>
+              <c>[58]</c>
+            </r>
+            <r>
+              <c>1955</c>
+              <c>Brooklyn Dodgers (8, 1–7)</c>
+              <c>Walter Alston</c>
+              <c>4–3</c>
+              <c>New York Yankees (21, 16–5)</c>
+              <c>Casey Stengel</c>
+              <c>[59]</c>
+            </r>
+            <r>
+              <c>1956</c>
+              <c>New York Yankees (22, 17–5)</c>
+              <c>Casey Stengel</c>
+              <c>4–3</c>
+              <c>Brooklyn Dodgers (9, 1–8)</c>
+              <c>Walter Alston</c>
+              <c>[60]</c>
+            </r>
+            <r>
+              <c>1957</c>
+              <c>Milwaukee Braves (3, 2–1)</c>
+              <c>Fred Haney</c>
+              <c>4–3</c>
+              <c>New York Yankees (23, 17–6)</c>
+              <c>Casey Stengel</c>
+              <c>[61]</c>
+            </r>
+            <r>
+              <c>1958</c>
+              <c>New York Yankees (24, 18–6)</c>
+              <c>Casey Stengel</c>
+              <c>4–3</c>
+              <c>Milwaukee Braves (4, 2–2)</c>
+              <c>Fred Haney</c>
+              <c>[62]</c>
+            </r>
+            <r>
+              <c>1959</c>
+              <c>Los Angeles Dodgers (10, 2–8)</c>
+              <c>Walter Alston</c>
+              <c>4–2</c>
+              <c>Chicago White Sox (4, 2–2)</c>
+              <c>Al Lopez</c>
+              <c>[63]</c>
+            </r>
+            <r>
+              <c>1960</c>
+              <c>Pittsburgh Pirates (5, 3–2)</c>
+              <c>Danny Murtaugh</c>
+              <c>4–3</c>
+              <c>New York Yankees (25, 18–7)</c>
+              <c>Casey Stengel</c>
+              <c>[64]</c>
+            </r>
+            <r>
+              <c>1961</c>
+              <c>New York Yankees (26, 19–7)</c>
+              <c>Ralph Houk</c>
+              <c>4–1</c>
+              <c>Cincinnati Reds (4, 2–2)</c>
+              <c>Fred Hutchinson</c>
+              <c>[65]</c>
+            </r>
+            <r>
+              <c>1962</c>
+              <c>New York Yankees (27, 20–7)</c>
+              <c>Ralph Houk</c>
+              <c>4–3</c>
+              <c>San Francisco Giants (15, 5–10)</c>
+              <c>Alvin Dark</c>
+              <c>[66]</c>
+            </r>
+            <r>
+              <c>1963</c>
+              <c>Los Angeles Dodgers (11, 3–8)</c>
+              <c>Walter Alston</c>
+              <c>4–0</c>
+              <c>New York Yankees (28, 20–8)</c>
+              <c>Ralph Houk</c>
+              <c>[67]</c>
+            </r>
+            <r>
+              <c>1964</c>
+              <c>St. Louis Cardinals (10, 7–3)</c>
+              <c>Johnny Keane</c>
+              <c>4–3</c>
+              <c>New York Yankees (29, 20–9)</c>
+              <c>Yogi Berra</c>
+              <c>[68]</c>
+            </r>
+            <r>
+              <c>1965</c>
+              <c>Los Angeles Dodgers (12, 4–8)</c>
+              <c>Walter Alston</c>
+              <c>4–3</c>
+              <c>Minnesota Twins (4, 1–3)</c>
+              <c>Sam Mele</c>
+              <c>[69]</c>
+            </r>
+            <r>
+              <c>1966</c>
+              <c>Baltimore Orioles (2, 1–1)</c>
+              <c>Hank Bauer</c>
+              <c>4–0</c>
+              <c>Los Angeles Dodgers (13, 4–9)</c>
+              <c>Walter Alston</c>
+              <c>[70]</c>
+            </r>
+            <r>
+              <c>1967</c>
+              <c>St. Louis Cardinals (11, 8–3)</c>
+              <c>Red Schoendienst</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (7, 5–2)</c>
+              <c>Dick Williams</c>
+              <c>[71]</c>
+            </r>
+            <r>
+              <c>1968</c>
+              <c>Detroit Tigers (8, 3–5)</c>
+              <c>Mayo Smith</c>
+              <c>4–3</c>
+              <c>St. Louis Cardinals (12, 8–4)</c>
+              <c>Red Schoendienst</c>
+              <c>[72]</c>
+            </r>
+            <r>
+              <c>1969</c>
+              <c>New York Mets (1, 1–0)</c>
+              <c>Gil Hodges</c>
+              <c>4–1</c>
+              <c>Baltimore Orioles (3, 1–2)</c>
+              <c>Earl Weaver</c>
+              <c>[73]</c>
+            </r>
+            <r>
+              <c>1970</c>
+              <c>Baltimore Orioles (4, 2–2)</c>
+              <c>Earl Weaver</c>
+              <c>4–1</c>
+              <c>Cincinnati Reds (5, 2–3)</c>
+              <c>Sparky Anderson</c>
+              <c>[74]</c>
+            </r>
+            <r>
+              <c>1971</c>
+              <c>Pittsburgh Pirates (6, 4–2)</c>
+              <c>Danny Murtaugh</c>
+              <c>4–3</c>
+              <c>Baltimore Orioles (5, 2–3)</c>
+              <c>Earl Weaver</c>
+              <c>[75]</c>
+            </r>
+            <r>
+              <c>1972</c>
+              <c>Oakland Athletics (9, 6–3)</c>
+              <c>Dick Williams</c>
+              <c>4–3</c>
+              <c>Cincinnati Reds (6, 2–4)</c>
+              <c>Sparky Anderson</c>
+              <c>[76]</c>
+            </r>
+            <r>
+              <c>1973</c>
+              <c>Oakland Athletics (10, 7–3)</c>
+              <c>Dick Williams</c>
+              <c>4–3</c>
+              <c>New York Mets (2, 1–1)</c>
+              <c>Yogi Berra</c>
+              <c>[77]</c>
+            </r>
+            <r>
+              <c>1974</c>
+              <c>Oakland Athletics (11, 8–3)</c>
+              <c>Alvin Dark</c>
+              <c>4–1</c>
+              <c>Los Angeles Dodgers (14, 4–10)</c>
+              <c>Walter Alston</c>
+              <c>[78]</c>
+            </r>
+            <r>
+              <c>1975</c>
+              <c>Cincinnati Reds (7, 3–4)</c>
+              <c>Sparky Anderson</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (8, 5–3)</c>
+              <c>Darrell Johnson</c>
+              <c>[79]</c>
+            </r>
+            <r>
+              <c>1976</c>
+              <c>Cincinnati Reds (8, 4–4)</c>
+              <c>Sparky Anderson</c>
+              <c>4–0</c>
+              <c>New York Yankees (30, 20–10)</c>
+              <c>Billy Martin</c>
+              <c>[80]</c>
+            </r>
+            <r>
+              <c>1977</c>
+              <c>New York Yankees (31, 21–10)</c>
+              <c>Billy Martin</c>
+              <c>4–2</c>
+              <c>Los Angeles Dodgers (15, 4–11)</c>
+              <c>Tommy Lasorda</c>
+              <c>[81]</c>
+            </r>
+            <r>
+              <c>1978</c>
+              <c>New York Yankees (32, 22–10)</c>
+              <c>Bob Lemon</c>
+              <c>4–2</c>
+              <c>Los Angeles Dodgers (16, 4–12)</c>
+              <c>Tommy Lasorda</c>
+              <c>[82]</c>
+            </r>
+            <r>
+              <c>1979</c>
+              <c>Pittsburgh Pirates (7, 5–2)</c>
+              <c>Chuck Tanner</c>
+              <c>4–3</c>
+              <c>Baltimore Orioles (6, 2–4)</c>
+              <c>Earl Weaver</c>
+              <c>[83]</c>
+            </r>
+            <r>
+              <c>1980</c>
+              <c>Philadelphia Phillies (3, 1–2)</c>
+              <c>Dallas Green</c>
+              <c>4–2</c>
+              <c>Kansas City Royals (1, 0–1)</c>
+              <c>Jim Frey</c>
+              <c>[84]</c>
+            </r>
+            <r>
+              <c>1981</c>
+              <c>Los Angeles Dodgers (17, 5–12)</c>
+              <c>Tommy Lasorda</c>
+              <c>4–2</c>
+              <c>New York Yankees (33, 22–11)</c>
+              <c>Bob Lemon</c>
+              <c>[85]</c>
+            </r>
+            <r>
+              <c>1982</c>
+              <c>St. Louis Cardinals (13, 9–4)</c>
+              <c>Whitey Herzog</c>
+              <c>4–3</c>
+              <c>Milwaukee Brewers[L1] (1, 0–1)</c>
+              <c>Harvey Kuenn</c>
+              <c>[86]</c>
+            </r>
+            <r>
+              <c>1983</c>
+              <c>Baltimore Orioles (7, 3–4)</c>
+              <c>Joe Altobelli</c>
+              <c>4–1</c>
+              <c>Philadelphia Phillies (4, 1–3)</c>
+              <c>Paul Owens</c>
+              <c>[87]</c>
+            </r>
+            <r>
+              <c>1984</c>
+              <c>Detroit Tigers (9, 4–5)</c>
+              <c>Sparky Anderson</c>
+              <c>4–1</c>
+              <c>San Diego Padres (1, 0–1)</c>
+              <c>Dick Williams</c>
+              <c>[88]</c>
+            </r>
+            <r>
+              <c>1985</c>
+              <c>Kansas City Royals (2, 1–1)</c>
+              <c>Dick Howser</c>
+              <c>4–3</c>
+              <c>St. Louis Cardinals (14, 9–5)</c>
+              <c>Whitey Herzog</c>
+              <c>[89]</c>
+            </r>
+            <r>
+              <c>1986</c>
+              <c>New York Mets (3, 2–1)</c>
+              <c>Davey Johnson</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (9, 5–4)</c>
+              <c>John McNamara</c>
+              <c>[90]</c>
+            </r>
+            <r>
+              <c>1987</c>
+              <c>Minnesota Twins (5, 2–3)</c>
+              <c>Tom Kelly</c>
+              <c>4–3</c>
+              <c>St. Louis Cardinals (15, 9–6)</c>
+              <c>Whitey Herzog</c>
+              <c>[91]</c>
+            </r>
+            <r>
+              <c>1988</c>
+              <c>Los Angeles Dodgers (18, 6–12)</c>
+              <c>Tommy Lasorda</c>
+              <c>4–1</c>
+              <c>Oakland Athletics (12, 8–4)</c>
+              <c>Tony La Russa</c>
+              <c>[92]</c>
+            </r>
+            <r>
+              <c>1989</c>
+              <c>Oakland Athletics (13, 9–4)</c>
+              <c>Tony La Russa</c>
+              <c>4–0</c>
+              <c>San Francisco Giants (16, 5–11)</c>
+              <c>Roger Craig</c>
+              <c>[93]</c>
+            </r>
+            <r>
+              <c>1990</c>
+              <c>Cincinnati Reds (9, 5–4)</c>
+              <c>Lou Piniella</c>
+              <c>4–0</c>
+              <c>Oakland Athletics (14, 9–5)</c>
+              <c>Tony La Russa</c>
+              <c>[94]</c>
+            </r>
+            <r>
+              <c>1991</c>
+              <c>Minnesota Twins (6, 3–3)</c>
+              <c>Tom Kelly</c>
+              <c>4–3</c>
+              <c>Atlanta Braves (5, 2–3)</c>
+              <c>Bobby Cox</c>
+              <c>[95]</c>
+            </r>
+            <r>
+              <c>1992</c>
+              <c>Toronto Blue Jays (1, 1–0)</c>
+              <c>Cito Gaston</c>
+              <c>4–2</c>
+              <c>Atlanta Braves (6, 2–4)</c>
+              <c>Bobby Cox</c>
+              <c>[96]</c>
+            </r>
+            <r>
+              <c>1993</c>
+              <c>Toronto Blue Jays (2, 2–0)</c>
+              <c>Cito Gaston</c>
+              <c>4–2</c>
+              <c>Philadelphia Phillies (5, 1–4)</c>
+              <c>Jim Fregosi</c>
+              <c>[97]</c>
+            </r>
+            <r>
+              <c>1994</c>
+              <c>No World Series due to a players' strike</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>1995</c>
+              <c>Atlanta Braves (7, 3–4)</c>
+              <c>Bobby Cox</c>
+              <c>4–2</c>
+              <c>Cleveland Indians (4, 2–2)</c>
+              <c>Mike Hargrove</c>
+              <c>[98]</c>
+            </r>
+            <r>
+              <c>1996</c>
+              <c>New York Yankees (34, 23–11)</c>
+              <c>Joe Torre</c>
+              <c>4–2</c>
+              <c>Atlanta Braves (8, 3–5)</c>
+              <c>Bobby Cox</c>
+              <c>[99]</c>
+            </r>
+            <r>
+              <c>1997</c>
+              <c>Florida Marlins[W] (1, 1–0)</c>
+              <c>Jim Leyland</c>
+              <c>4–3</c>
+              <c>Cleveland Indians (5, 2–3)</c>
+              <c>Mike Hargrove</c>
+              <c>[100]</c>
+            </r>
+            <r>
+              <c>1998</c>
+              <c>New York Yankees (35, 24–11)</c>
+              <c>Joe Torre</c>
+              <c>4–0</c>
+              <c>San Diego Padres (2, 0–2)</c>
+              <c>Bruce Bochy</c>
+              <c>[101]</c>
+            </r>
+            <r>
+              <c>1999</c>
+              <c>New York Yankees (36, 25–11)</c>
+              <c>Joe Torre</c>
+              <c>4–0</c>
+              <c>Atlanta Braves (9, 3–6)</c>
+              <c>Bobby Cox</c>
+              <c>[102]</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>New York Yankees (37, 26–11)</c>
+              <c>Joe Torre</c>
+              <c>4–1</c>
+              <c>New York Mets[W] (4, 2–2)</c>
+              <c>Bobby Valentine</c>
+              <c>[103]</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>Arizona Diamondbacks (1, 1–0)</c>
+              <c>Bob Brenly</c>
+              <c>4–3</c>
+              <c>New York Yankees (38, 26–12)</c>
+              <c>Joe Torre</c>
+              <c>[104]</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>Anaheim Angels[W] (1, 1–0)</c>
+              <c>Mike Scioscia</c>
+              <c>4–3</c>
+              <c>San Francisco Giants[W] (17, 5–12)</c>
+              <c>Dusty Baker</c>
+              <c>[105]</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>Florida Marlins[W] (2, 2–0)</c>
+              <c>Jack McKeon</c>
+              <c>4–2</c>
+              <c>New York Yankees (39, 26–13)</c>
+              <c>Joe Torre</c>
+              <c>[106]</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>Boston Red Sox[W] (10, 6–4)</c>
+              <c>Terry Francona</c>
+              <c>4–0</c>
+              <c>St. Louis Cardinals (16, 9–7)</c>
+              <c>Tony La Russa</c>
+              <c>[107]</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>Chicago White Sox (5, 3–2)</c>
+              <c>Ozzie Guillén</c>
+              <c>4–0</c>
+              <c>Houston Astros[W][L2] (1, 0–1)</c>
+              <c>Phil Garner</c>
+              <c>[108]</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>St. Louis Cardinals (17, 10–7)</c>
+              <c>Tony La Russa</c>
+              <c>4–1</c>
+              <c>Detroit Tigers[W] (10, 4–6)</c>
+              <c>Jim Leyland</c>
+              <c>[109]</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>Boston Red Sox (11, 7–4)</c>
+              <c>Terry Francona</c>
+              <c>4–0</c>
+              <c>Colorado Rockies[W] (1, 0–1)</c>
+              <c>Clint Hurdle</c>
+              <c>[110]</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>Philadelphia Phillies (6, 2–4)</c>
+              <c>Charlie Manuel</c>
+              <c>4–1</c>
+              <c>Tampa Bay Rays (1, 0–1)</c>
+              <c>Joe Maddon</c>
+              <c>[111]</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>New York Yankees (40, 27–13)</c>
+              <c>Joe Girardi</c>
+              <c>4–2</c>
+              <c>Philadelphia Phillies (7, 2–5)</c>
+              <c>Charlie Manuel</c>
+              <c>[112]</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>San Francisco Giants (18, 6–12)</c>
+              <c>Bruce Bochy</c>
+              <c>4–1</c>
+              <c>Texas Rangers (1, 0–1)</c>
+              <c>Ron Washington</c>
+              <c>[113]</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>St. Louis Cardinals[W] (18, 11–7)</c>
+              <c>Tony La Russa</c>
+              <c>4–3</c>
+              <c>Texas Rangers (2, 0–2)</c>
+              <c>Ron Washington</c>
+              <c>[114]</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>San Francisco Giants (19, 7–12)</c>
+              <c>Bruce Bochy</c>
+              <c>4–0</c>
+              <c>Detroit Tigers (11, 4–7)</c>
+              <c>Jim Leyland</c>
+              <c>[115]</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>Boston Red Sox (12, 8–4)</c>
+              <c>John Farrell</c>
+              <c>4–2</c>
+              <c>St. Louis Cardinals (19, 11–8)</c>
+              <c>Mike Matheny</c>
+              <c>[116]</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>San Francisco Giants[W] (20, 8–12)</c>
+              <c>Bruce Bochy</c>
+              <c>4–3</c>
+              <c>Kansas City Royals[W] (3, 1–2)</c>
+              <c>Ned Yost</c>
+              <c>[117]</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>Kansas City Royals (4, 2–2)</c>
+              <c>Ned Yost</c>
+              <c>4–1</c>
+              <c>New York Mets (5, 2–3)</c>
+              <c>Terry Collins</c>
+              <c>[118]</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>Chicago Cubs (11, 3–8)</c>
+              <c>Joe Maddon</c>
+              <c>4–3</c>
+              <c>Cleveland Indians (6, 2–4)</c>
+              <c>Terry Francona</c>
+              <c>[119]</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>Houston Astros[L2] (2, 1–1)</c>
+              <c>A. J. Hinch</c>
+              <c>4–3</c>
+              <c>Los Angeles Dodgers (19, 6–13)</c>
+              <c>Dave Roberts</c>
+              <c>[120]</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_3512_464723c8d5ec45afb6c947132be3cde7_\Engine_8260_ef73211c503440e0a286ee1340181ceb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="37" />
+          <Fields>
+            <Field name="Team" />
+            <Field name="Appearances" />
+            <Field name="Winning Years" />
+            <Field name="Winning Percent" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Anaheim Angels</c>
+              <c>1</c>
+              <c>2002</c>
+              <c>100%</c>
+            </r>
+            <r>
+              <c>Arizona Diamondbacks</c>
+              <c>1</c>
+              <c>2001</c>
+              <c>100%</c>
+            </r>
+            <r>
+              <c>Atlanta Braves</c>
+              <c>5</c>
+              <c>1995</c>
+              <c>20%</c>
+            </r>
+            <r>
+              <c>Baltimore Orioles</c>
+              <c>6</c>
+              <c>1966,1970,1983</c>
+              <c>50%</c>
+            </r>
+            <r>
+              <c>Boston Americans</c>
+              <c>1</c>
+              <c>1903</c>
+              <c>100%</c>
+            </r>
+            <r>
+              <c>Boston Braves</c>
+              <c>2</c>
+              <c>1914</c>
+              <c>50%</c>
+            </r>
+            <r>
+              <c>Boston Red Sox</c>
+              <c>11</c>
+              <c>1912,1915,1916,1918,2004,2007,2013</c>
+              <c>64%</c>
+            </r>
+            <r>
+              <c>Brooklyn Dodgers</c>
+              <c>7</c>
+              <c>1955</c>
+              <c>14%</c>
+            </r>
+            <r>
+              <c>Brooklyn Robins</c>
+              <c>2</c>
+              <c />
+              <c>0%</c>
+            </r>
+            <r>
+              <c>Chicago Cubs</c>
+              <c>11</c>
+              <c>1907,1908,2016</c>
+              <c>27%</c>
+            </r>
+            <r>
+              <c>Chicago White Sox</c>
+              <c>5</c>
+              <c>1906,1917,2005</c>
+              <c>60%</c>
+            </r>
+            <r>
+              <c>Cincinnati Reds</c>
+              <c>9</c>
+              <c>1919,1940,1975,1976,1990</c>
+              <c>56%</c>
+            </r>
+            <r>
+              <c>Cleveland Indians</c>
+              <c>6</c>
+              <c>1920,1948</c>
+              <c>33%</c>
+            </r>
+            <r>
+              <c>Colorado Rockies</c>
+              <c>1</c>
+              <c />
+              <c>0%</c>
+            </r>
+            <r>
+              <c>Detroit Tigers</c>
+              <c>11</c>
+              <c>1935,1945,1968,1984</c>
+              <c>36%</c>
+            </r>
+            <r>
+              <c>Florida Marlins</c>
+              <c>2</c>
+              <c>1997,2003</c>
+              <c>100%</c>
+            </r>
+            <r>
+              <c>Houston Astros</c>
+              <c>2</c>
+              <c>2017</c>
+              <c>50%</c>
+            </r>
+            <r>
+              <c>Kansas City Royals</c>
+              <c>4</c>
+              <c>1985,2015</c>
+              <c>50%</c>
+            </r>
+            <r>
+              <c>Los Angeles Dodgers</c>
+              <c>10</c>
+              <c>1959,1963,1965,1981,1988</c>
+              <c>50%</c>
+            </r>
+            <r>
+              <c>Milwaukee Braves</c>
+              <c>2</c>
+              <c>1957</c>
+              <c>50%</c>
+            </r>
+            <r>
+              <c>Milwaukee Brewers</c>
+              <c>1</c>
+              <c />
+              <c>0%</c>
+            </r>
+            <r>
+              <c>Minnesota Twins</c>
+              <c>3</c>
+              <c>1987,1991</c>
+              <c>67%</c>
+            </r>
+            <r>
+              <c>New York Giants</c>
+              <c>14</c>
+              <c>1905,1921,1922,1933,1954</c>
+              <c>36%</c>
+            </r>
+            <r>
+              <c>New York Mets</c>
+              <c>5</c>
+              <c>1969,1986</c>
+              <c>40%</c>
+            </r>
+            <r>
+              <c>New York Yankees</c>
+              <c>40</c>
+              <c>1923,1927,1928,1932,1936,1937,1938,1939,1941,1943,1947,1949,1950,1951,1952,1953,1956,1958,1961,1962,1977,1978,1996,1998,1999,2000,2009</c>
+              <c>68%</c>
+            </r>
+            <r>
+              <c>Oakland Athletics</c>
+              <c>6</c>
+              <c>1972,1973,1974,1989</c>
+              <c>67%</c>
+            </r>
+            <r>
+              <c>Philadelphia Athletics</c>
+              <c>8</c>
+              <c>1910,1911,1913,1929,1930</c>
+              <c>63%</c>
+            </r>
+            <r>
+              <c>Philadelphia Phillies</c>
+              <c>7</c>
+              <c>1980,2008</c>
+              <c>29%</c>
+            </r>
+            <r>
+              <c>Pittsburgh Pirates</c>
+              <c>7</c>
+              <c>1909,1925,1960,1971,1979</c>
+              <c>71%</c>
+            </r>
+            <r>
+              <c>San Diego Padres</c>
+              <c>2</c>
+              <c />
+              <c>0%</c>
+            </r>
+            <r>
+              <c>San Francisco Giants</c>
+              <c>6</c>
+              <c>2010,2012,2014</c>
+              <c>50%</c>
+            </r>
+            <r>
+              <c>St. Louis Browns</c>
+              <c>1</c>
+              <c />
+              <c>0%</c>
+            </r>
+            <r>
+              <c>St. Louis Cardinals</c>
+              <c>19</c>
+              <c>1926,1931,1934,1942,1944,1946,1964,1967,1982,2006,2011</c>
+              <c>58%</c>
+            </r>
+            <r>
+              <c>Tampa Bay Rays</c>
+              <c>1</c>
+              <c />
+              <c>0%</c>
+            </r>
+            <r>
+              <c>Texas Rangers</c>
+              <c>2</c>
+              <c />
+              <c>0%</c>
+            </r>
+            <r>
+              <c>Toronto Blue Jays</c>
+              <c>2</c>
+              <c>1992,1993</c>
+              <c>100%</c>
+            </r>
+            <r>
+              <c>Washington Senators</c>
+              <c>3</c>
+              <c>1924</c>
+              <c>33%</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="115" />
+          <Fields>
+            <Field name="Year" />
+            <Field name="Winning team" />
+            <Field name="Manager" />
+            <Field name="Games" />
+            <Field name="Losing team" />
+            <Field name="Manager2" />
+            <Field name="Ref." />
+          </Fields>
+          <Data>
+            <r>
+              <c>1903</c>
+              <c>Boston Americans (1, 1–0)</c>
+              <c>Jimmy Collins</c>
+              <c>5–3[V]</c>
+              <c>Pittsburgh Pirates (1, 0–1)</c>
+              <c>Fred Clarke</c>
+              <c>[8]</c>
+            </r>
+            <r>
+              <c>1904</c>
+              <c>No World Series</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>[1]</c>
+            </r>
+            <r>
+              <c>1905</c>
+              <c>New York Giants (1, 1–0)</c>
+              <c>John McGraw</c>
+              <c>4–1</c>
+              <c>Philadelphia Athletics (1, 0–1)</c>
+              <c>Connie Mack</c>
+              <c>[9]</c>
+            </r>
+            <r>
+              <c>1906</c>
+              <c>Chicago White Sox (1, 1–0)</c>
+              <c>Fielder Jones</c>
+              <c>4–2</c>
+              <c>Chicago Cubs (1, 0–1)</c>
+              <c>Frank Chance</c>
+              <c>[10]</c>
+            </r>
+            <r>
+              <c>1907</c>
+              <c>Chicago Cubs (2, 1–1)</c>
+              <c>Frank Chance</c>
+              <c>4–0–(1)[T]</c>
+              <c>Detroit Tigers (1, 0–1)</c>
+              <c>Hugh Jennings</c>
+              <c>[11]</c>
+            </r>
+            <r>
+              <c>1908</c>
+              <c>Chicago Cubs (3, 2–1)</c>
+              <c>Frank Chance</c>
+              <c>4–1</c>
+              <c>Detroit Tigers (2, 0–2)</c>
+              <c>Hugh Jennings</c>
+              <c>[12]</c>
+            </r>
+            <r>
+              <c>1909</c>
+              <c>Pittsburgh Pirates (2, 1–1)</c>
+              <c>Fred Clarke</c>
+              <c>4–3</c>
+              <c>Detroit Tigers (3, 0–3)</c>
+              <c>Hugh Jennings</c>
+              <c>[13]</c>
+            </r>
+            <r>
+              <c>1910</c>
+              <c>Philadelphia Athletics (2, 1–1)</c>
+              <c>Connie Mack</c>
+              <c>4–1</c>
+              <c>Chicago Cubs (4, 2–2)</c>
+              <c>Frank Chance</c>
+              <c>[14]</c>
+            </r>
+            <r>
+              <c>1911</c>
+              <c>Philadelphia Athletics (3, 2–1)</c>
+              <c>Connie Mack</c>
+              <c>4–2</c>
+              <c>New York Giants (2, 1–1)</c>
+              <c>John McGraw</c>
+              <c>[15]</c>
+            </r>
+            <r>
+              <c>1912</c>
+              <c>Boston Red Sox (2, 2–0)</c>
+              <c>Jake Stahl</c>
+              <c>4–3–(1)[T]</c>
+              <c>New York Giants (3, 1–2)</c>
+              <c>John McGraw</c>
+              <c>[16]</c>
+            </r>
+            <r>
+              <c>1913</c>
+              <c>Philadelphia Athletics (4, 3–1)</c>
+              <c>Connie Mack</c>
+              <c>4–1</c>
+              <c>New York Giants (4, 1–3)</c>
+              <c>John McGraw</c>
+              <c>[17]</c>
+            </r>
+            <r>
+              <c>1914</c>
+              <c>Boston Braves (1, 1–0)</c>
+              <c>George Stallings</c>
+              <c>4–0</c>
+              <c>Philadelphia Athletics (5, 3–2)</c>
+              <c>Connie Mack</c>
+              <c>[18]</c>
+            </r>
+            <r>
+              <c>1915</c>
+              <c>Boston Red Sox (3, 3–0)</c>
+              <c>Bill Carrigan</c>
+              <c>4–1</c>
+              <c>Philadelphia Phillies (1, 0–1)</c>
+              <c>Pat Moran</c>
+              <c>[19]</c>
+            </r>
+            <r>
+              <c>1916</c>
+              <c>Boston Red Sox (4, 4–0)</c>
+              <c>Bill Carrigan</c>
+              <c>4–1</c>
+              <c>Brooklyn Robins (1, 0–1)</c>
+              <c>Wilbert Robinson</c>
+              <c>[20]</c>
+            </r>
+            <r>
+              <c>1917</c>
+              <c>Chicago White Sox (2, 2–0)</c>
+              <c>Pants Rowland</c>
+              <c>4–2</c>
+              <c>New York Giants (5, 1–4)</c>
+              <c>John McGraw</c>
+              <c>[21]</c>
+            </r>
+            <r>
+              <c>1918</c>
+              <c>Boston Red Sox (5, 5–0)</c>
+              <c>Ed Barrow</c>
+              <c>4–2</c>
+              <c>Chicago Cubs (5, 2–3)</c>
+              <c>Fred Mitchell</c>
+              <c>[22]</c>
+            </r>
+            <r>
+              <c>1919</c>
+              <c>Cincinnati Reds (1, 1–0)</c>
+              <c>Pat Moran</c>
+              <c>5–3[V]</c>
+              <c>Chicago White Sox (3, 2–1)</c>
+              <c>Kid Gleason</c>
+              <c>[23]</c>
+            </r>
+            <r>
+              <c>1920</c>
+              <c>Cleveland Indians (1, 1–0)</c>
+              <c>Tris Speaker</c>
+              <c>5–2[V]</c>
+              <c>Brooklyn Robins (2, 0–2)</c>
+              <c>Wilbert Robinson</c>
+              <c>[24]</c>
+            </r>
+            <r>
+              <c>1921</c>
+              <c>New York Giants (6, 2–4)</c>
+              <c>John McGraw</c>
+              <c>5–3[V]</c>
+              <c>New York Yankees (1, 0–1)</c>
+              <c>Miller Huggins</c>
+              <c>[25]</c>
+            </r>
+            <r>
+              <c>1922</c>
+              <c>New York Giants (7, 3–4)</c>
+              <c>John McGraw</c>
+              <c>4–0–(1)[T]</c>
+              <c>New York Yankees (2, 0–2)</c>
+              <c>Miller Huggins</c>
+              <c>[26]</c>
+            </r>
+            <r>
+              <c>1923</c>
+              <c>New York Yankees (3, 1–2)</c>
+              <c>Miller Huggins</c>
+              <c>4–2</c>
+              <c>New York Giants (8, 3–5)</c>
+              <c>John McGraw</c>
+              <c>[27]</c>
+            </r>
+            <r>
+              <c>1924</c>
+              <c>Washington Senators (1, 1–0)</c>
+              <c>Bucky Harris</c>
+              <c>4–3</c>
+              <c>New York Giants (9, 3–6)</c>
+              <c>John McGraw</c>
+              <c>[28]</c>
+            </r>
+            <r>
+              <c>1925</c>
+              <c>Pittsburgh Pirates (3, 2–1)</c>
+              <c>Bill McKechnie</c>
+              <c>4–3</c>
+              <c>Washington Senators (2, 1–1)</c>
+              <c>Bucky Harris</c>
+              <c>[29]</c>
+            </r>
+            <r>
+              <c>1926</c>
+              <c>St. Louis Cardinals (1, 1–0)</c>
+              <c>Rogers Hornsby</c>
+              <c>4–3</c>
+              <c>New York Yankees (4, 1–3)</c>
+              <c>Miller Huggins</c>
+              <c>[30]</c>
+            </r>
+            <r>
+              <c>1927</c>
+              <c>New York Yankees (5, 2–3)</c>
+              <c>Miller Huggins</c>
+              <c>4–0</c>
+              <c>Pittsburgh Pirates (4, 2–2)</c>
+              <c>Donie Bush</c>
+              <c>[31]</c>
+            </r>
+            <r>
+              <c>1928</c>
+              <c>New York Yankees (6, 3–3)</c>
+              <c>Miller Huggins</c>
+              <c>4–0</c>
+              <c>St. Louis Cardinals (2, 1–1)</c>
+              <c>Bill McKechnie</c>
+              <c>[32]</c>
+            </r>
+            <r>
+              <c>1929</c>
+              <c>Philadelphia Athletics (6, 4–2)</c>
+              <c>Connie Mack</c>
+              <c>4–1</c>
+              <c>Chicago Cubs (6, 2–4)</c>
+              <c>Joe McCarthy</c>
+              <c>[33]</c>
+            </r>
+            <r>
+              <c>1930</c>
+              <c>Philadelphia Athletics (7, 5–2)</c>
+              <c>Connie Mack</c>
+              <c>4–2</c>
+              <c>St. Louis Cardinals (3, 1–2)</c>
+              <c>Gabby Street</c>
+              <c>[34]</c>
+            </r>
+            <r>
+              <c>1931</c>
+              <c>St. Louis Cardinals (4, 2–2)</c>
+              <c>Gabby Street</c>
+              <c>4–3</c>
+              <c>Philadelphia Athletics (8, 5–3)</c>
+              <c>Connie Mack</c>
+              <c>[35]</c>
+            </r>
+            <r>
+              <c>1932</c>
+              <c>New York Yankees (7, 4–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–0</c>
+              <c>Chicago Cubs (7, 2–5)</c>
+              <c>Charlie Grimm</c>
+              <c>[36]</c>
+            </r>
+            <r>
+              <c>1933</c>
+              <c>New York Giants (10, 4–6)</c>
+              <c>Bill Terry</c>
+              <c>4–1</c>
+              <c>Washington Senators (3, 1–2)</c>
+              <c>Joe Cronin</c>
+              <c>[37]</c>
+            </r>
+            <r>
+              <c>1934</c>
+              <c>St. Louis Cardinals (5, 3–2)</c>
+              <c>Frank Frisch</c>
+              <c>4–3</c>
+              <c>Detroit Tigers (4, 0–4)</c>
+              <c>Mickey Cochrane</c>
+              <c>[38]</c>
+            </r>
+            <r>
+              <c>1935</c>
+              <c>Detroit Tigers (5, 1–4)</c>
+              <c>Mickey Cochrane</c>
+              <c>4–2</c>
+              <c>Chicago Cubs (8, 2–6)</c>
+              <c>Charlie Grimm</c>
+              <c>[39]</c>
+            </r>
+            <r>
+              <c>1936</c>
+              <c>New York Yankees (8, 5–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–2</c>
+              <c>New York Giants (11, 4–7)</c>
+              <c>Bill Terry</c>
+              <c>[40]</c>
+            </r>
+            <r>
+              <c>1937</c>
+              <c>New York Yankees (9, 6–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–1</c>
+              <c>New York Giants (12, 4–8)</c>
+              <c>Bill Terry</c>
+              <c>[41]</c>
+            </r>
+            <r>
+              <c>1938</c>
+              <c>New York Yankees (10, 7–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–0</c>
+              <c>Chicago Cubs (9, 2–7)</c>
+              <c>Gabby Hartnett</c>
+              <c>[42]</c>
+            </r>
+            <r>
+              <c>1939</c>
+              <c>New York Yankees (11, 8–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–0</c>
+              <c>Cincinnati Reds (2, 1–1)</c>
+              <c>Bill McKechnie</c>
+              <c>[43]</c>
+            </r>
+            <r>
+              <c>1940</c>
+              <c>Cincinnati Reds (3, 2–1)</c>
+              <c>Bill McKechnie</c>
+              <c>4–3</c>
+              <c>Detroit Tigers (6, 1–5)</c>
+              <c>Del Baker</c>
+              <c>[44]</c>
+            </r>
+            <r>
+              <c>1941</c>
+              <c>New York Yankees (12, 9–3)</c>
+              <c>Joe McCarthy</c>
+              <c>4–1</c>
+              <c>Brooklyn Dodgers (3, 0–3)</c>
+              <c>Leo Durocher</c>
+              <c>[45]</c>
+            </r>
+            <r>
+              <c>1942</c>
+              <c>St. Louis Cardinals (6, 4–2)</c>
+              <c>Billy Southworth</c>
+              <c>4–1</c>
+              <c>New York Yankees (13, 9–4)</c>
+              <c>Joe McCarthy</c>
+              <c>[46]</c>
+            </r>
+            <r>
+              <c>1943</c>
+              <c>New York Yankees (14, 10–4)</c>
+              <c>Joe McCarthy</c>
+              <c>4–1</c>
+              <c>St. Louis Cardinals (7, 4–3)</c>
+              <c>Billy Southworth</c>
+              <c>[47]</c>
+            </r>
+            <r>
+              <c>1944</c>
+              <c>St. Louis Cardinals (8, 5–3)</c>
+              <c>Billy Southworth</c>
+              <c>4–2</c>
+              <c>St. Louis Browns (1, 0–1)</c>
+              <c>Luke Sewell</c>
+              <c>[48]</c>
+            </r>
+            <r>
+              <c>1945</c>
+              <c>Detroit Tigers (7, 2–5)</c>
+              <c>Steve O'Neill</c>
+              <c>4–3</c>
+              <c>Chicago Cubs (10, 2–8)</c>
+              <c>Charlie Grimm</c>
+              <c>[49]</c>
+            </r>
+            <r>
+              <c>1946</c>
+              <c>St. Louis Cardinals (9, 6–3)</c>
+              <c>Eddie Dyer</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (6, 5–1)</c>
+              <c>Joe Cronin</c>
+              <c>[50]</c>
+            </r>
+            <r>
+              <c>1947</c>
+              <c>New York Yankees (15, 11–4)</c>
+              <c>Bucky Harris</c>
+              <c>4–3</c>
+              <c>Brooklyn Dodgers (4, 0–4)</c>
+              <c>Burt Shotton</c>
+              <c>[51]</c>
+            </r>
+            <r>
+              <c>1948</c>
+              <c>Cleveland Indians (2, 2–0)</c>
+              <c>Lou Boudreau</c>
+              <c>4–2</c>
+              <c>Boston Braves (2, 1–1)</c>
+              <c>Billy Southworth</c>
+              <c>[52]</c>
+            </r>
+            <r>
+              <c>1949</c>
+              <c>New York Yankees (16, 12–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–1</c>
+              <c>Brooklyn Dodgers (5, 0–5)</c>
+              <c>Burt Shotton</c>
+              <c>[53]</c>
+            </r>
+            <r>
+              <c>1950</c>
+              <c>New York Yankees (17, 13–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–0</c>
+              <c>Philadelphia Phillies (2, 0–2)</c>
+              <c>Eddie Sawyer</c>
+              <c>[54]</c>
+            </r>
+            <r>
+              <c>1951</c>
+              <c>New York Yankees (18, 14–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–2</c>
+              <c>New York Giants (13, 4–9)</c>
+              <c>Leo Durocher</c>
+              <c>[55]</c>
+            </r>
+            <r>
+              <c>1952</c>
+              <c>New York Yankees (19, 15–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–3</c>
+              <c>Brooklyn Dodgers (6, 0–6)</c>
+              <c>Charlie Dressen</c>
+              <c>[56]</c>
+            </r>
+            <r>
+              <c>1953</c>
+              <c>New York Yankees (20, 16–4)</c>
+              <c>Casey Stengel</c>
+              <c>4–2</c>
+              <c>Brooklyn Dodgers (7, 0–7)</c>
+              <c>Charlie Dressen</c>
+              <c>[57]</c>
+            </r>
+            <r>
+              <c>1954</c>
+              <c>New York Giants (14, 5–9)</c>
+              <c>Leo Durocher</c>
+              <c>4–0</c>
+              <c>Cleveland Indians (3, 2–1)</c>
+              <c>Al Lopez</c>
+              <c>[58]</c>
+            </r>
+            <r>
+              <c>1955</c>
+              <c>Brooklyn Dodgers (8, 1–7)</c>
+              <c>Walter Alston</c>
+              <c>4–3</c>
+              <c>New York Yankees (21, 16–5)</c>
+              <c>Casey Stengel</c>
+              <c>[59]</c>
+            </r>
+            <r>
+              <c>1956</c>
+              <c>New York Yankees (22, 17–5)</c>
+              <c>Casey Stengel</c>
+              <c>4–3</c>
+              <c>Brooklyn Dodgers (9, 1–8)</c>
+              <c>Walter Alston</c>
+              <c>[60]</c>
+            </r>
+            <r>
+              <c>1957</c>
+              <c>Milwaukee Braves (3, 2–1)</c>
+              <c>Fred Haney</c>
+              <c>4–3</c>
+              <c>New York Yankees (23, 17–6)</c>
+              <c>Casey Stengel</c>
+              <c>[61]</c>
+            </r>
+            <r>
+              <c>1958</c>
+              <c>New York Yankees (24, 18–6)</c>
+              <c>Casey Stengel</c>
+              <c>4–3</c>
+              <c>Milwaukee Braves (4, 2–2)</c>
+              <c>Fred Haney</c>
+              <c>[62]</c>
+            </r>
+            <r>
+              <c>1959</c>
+              <c>Los Angeles Dodgers (10, 2–8)</c>
+              <c>Walter Alston</c>
+              <c>4–2</c>
+              <c>Chicago White Sox (4, 2–2)</c>
+              <c>Al Lopez</c>
+              <c>[63]</c>
+            </r>
+            <r>
+              <c>1960</c>
+              <c>Pittsburgh Pirates (5, 3–2)</c>
+              <c>Danny Murtaugh</c>
+              <c>4–3</c>
+              <c>New York Yankees (25, 18–7)</c>
+              <c>Casey Stengel</c>
+              <c>[64]</c>
+            </r>
+            <r>
+              <c>1961</c>
+              <c>New York Yankees (26, 19–7)</c>
+              <c>Ralph Houk</c>
+              <c>4–1</c>
+              <c>Cincinnati Reds (4, 2–2)</c>
+              <c>Fred Hutchinson</c>
+              <c>[65]</c>
+            </r>
+            <r>
+              <c>1962</c>
+              <c>New York Yankees (27, 20–7)</c>
+              <c>Ralph Houk</c>
+              <c>4–3</c>
+              <c>San Francisco Giants (15, 5–10)</c>
+              <c>Alvin Dark</c>
+              <c>[66]</c>
+            </r>
+            <r>
+              <c>1963</c>
+              <c>Los Angeles Dodgers (11, 3–8)</c>
+              <c>Walter Alston</c>
+              <c>4–0</c>
+              <c>New York Yankees (28, 20–8)</c>
+              <c>Ralph Houk</c>
+              <c>[67]</c>
+            </r>
+            <r>
+              <c>1964</c>
+              <c>St. Louis Cardinals (10, 7–3)</c>
+              <c>Johnny Keane</c>
+              <c>4–3</c>
+              <c>New York Yankees (29, 20–9)</c>
+              <c>Yogi Berra</c>
+              <c>[68]</c>
+            </r>
+            <r>
+              <c>1965</c>
+              <c>Los Angeles Dodgers (12, 4–8)</c>
+              <c>Walter Alston</c>
+              <c>4–3</c>
+              <c>Minnesota Twins (4, 1–3)</c>
+              <c>Sam Mele</c>
+              <c>[69]</c>
+            </r>
+            <r>
+              <c>1966</c>
+              <c>Baltimore Orioles (2, 1–1)</c>
+              <c>Hank Bauer</c>
+              <c>4–0</c>
+              <c>Los Angeles Dodgers (13, 4–9)</c>
+              <c>Walter Alston</c>
+              <c>[70]</c>
+            </r>
+            <r>
+              <c>1967</c>
+              <c>St. Louis Cardinals (11, 8–3)</c>
+              <c>Red Schoendienst</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (7, 5–2)</c>
+              <c>Dick Williams</c>
+              <c>[71]</c>
+            </r>
+            <r>
+              <c>1968</c>
+              <c>Detroit Tigers (8, 3–5)</c>
+              <c>Mayo Smith</c>
+              <c>4–3</c>
+              <c>St. Louis Cardinals (12, 8–4)</c>
+              <c>Red Schoendienst</c>
+              <c>[72]</c>
+            </r>
+            <r>
+              <c>1969</c>
+              <c>New York Mets (1, 1–0)</c>
+              <c>Gil Hodges</c>
+              <c>4–1</c>
+              <c>Baltimore Orioles (3, 1–2)</c>
+              <c>Earl Weaver</c>
+              <c>[73]</c>
+            </r>
+            <r>
+              <c>1970</c>
+              <c>Baltimore Orioles (4, 2–2)</c>
+              <c>Earl Weaver</c>
+              <c>4–1</c>
+              <c>Cincinnati Reds (5, 2–3)</c>
+              <c>Sparky Anderson</c>
+              <c>[74]</c>
+            </r>
+            <r>
+              <c>1971</c>
+              <c>Pittsburgh Pirates (6, 4–2)</c>
+              <c>Danny Murtaugh</c>
+              <c>4–3</c>
+              <c>Baltimore Orioles (5, 2–3)</c>
+              <c>Earl Weaver</c>
+              <c>[75]</c>
+            </r>
+            <r>
+              <c>1972</c>
+              <c>Oakland Athletics (9, 6–3)</c>
+              <c>Dick Williams</c>
+              <c>4–3</c>
+              <c>Cincinnati Reds (6, 2–4)</c>
+              <c>Sparky Anderson</c>
+              <c>[76]</c>
+            </r>
+            <r>
+              <c>1973</c>
+              <c>Oakland Athletics (10, 7–3)</c>
+              <c>Dick Williams</c>
+              <c>4–3</c>
+              <c>New York Mets (2, 1–1)</c>
+              <c>Yogi Berra</c>
+              <c>[77]</c>
+            </r>
+            <r>
+              <c>1974</c>
+              <c>Oakland Athletics (11, 8–3)</c>
+              <c>Alvin Dark</c>
+              <c>4–1</c>
+              <c>Los Angeles Dodgers (14, 4–10)</c>
+              <c>Walter Alston</c>
+              <c>[78]</c>
+            </r>
+            <r>
+              <c>1975</c>
+              <c>Cincinnati Reds (7, 3–4)</c>
+              <c>Sparky Anderson</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (8, 5–3)</c>
+              <c>Darrell Johnson</c>
+              <c>[79]</c>
+            </r>
+            <r>
+              <c>1976</c>
+              <c>Cincinnati Reds (8, 4–4)</c>
+              <c>Sparky Anderson</c>
+              <c>4–0</c>
+              <c>New York Yankees (30, 20–10)</c>
+              <c>Billy Martin</c>
+              <c>[80]</c>
+            </r>
+            <r>
+              <c>1977</c>
+              <c>New York Yankees (31, 21–10)</c>
+              <c>Billy Martin</c>
+              <c>4–2</c>
+              <c>Los Angeles Dodgers (15, 4–11)</c>
+              <c>Tommy Lasorda</c>
+              <c>[81]</c>
+            </r>
+            <r>
+              <c>1978</c>
+              <c>New York Yankees (32, 22–10)</c>
+              <c>Bob Lemon</c>
+              <c>4–2</c>
+              <c>Los Angeles Dodgers (16, 4–12)</c>
+              <c>Tommy Lasorda</c>
+              <c>[82]</c>
+            </r>
+            <r>
+              <c>1979</c>
+              <c>Pittsburgh Pirates (7, 5–2)</c>
+              <c>Chuck Tanner</c>
+              <c>4–3</c>
+              <c>Baltimore Orioles (6, 2–4)</c>
+              <c>Earl Weaver</c>
+              <c>[83]</c>
+            </r>
+            <r>
+              <c>1980</c>
+              <c>Philadelphia Phillies (3, 1–2)</c>
+              <c>Dallas Green</c>
+              <c>4–2</c>
+              <c>Kansas City Royals (1, 0–1)</c>
+              <c>Jim Frey</c>
+              <c>[84]</c>
+            </r>
+            <r>
+              <c>1981</c>
+              <c>Los Angeles Dodgers (17, 5–12)</c>
+              <c>Tommy Lasorda</c>
+              <c>4–2</c>
+              <c>New York Yankees (33, 22–11)</c>
+              <c>Bob Lemon</c>
+              <c>[85]</c>
+            </r>
+            <r>
+              <c>1982</c>
+              <c>St. Louis Cardinals (13, 9–4)</c>
+              <c>Whitey Herzog</c>
+              <c>4–3</c>
+              <c>Milwaukee Brewers[L1] (1, 0–1)</c>
+              <c>Harvey Kuenn</c>
+              <c>[86]</c>
+            </r>
+            <r>
+              <c>1983</c>
+              <c>Baltimore Orioles (7, 3–4)</c>
+              <c>Joe Altobelli</c>
+              <c>4–1</c>
+              <c>Philadelphia Phillies (4, 1–3)</c>
+              <c>Paul Owens</c>
+              <c>[87]</c>
+            </r>
+            <r>
+              <c>1984</c>
+              <c>Detroit Tigers (9, 4–5)</c>
+              <c>Sparky Anderson</c>
+              <c>4–1</c>
+              <c>San Diego Padres (1, 0–1)</c>
+              <c>Dick Williams</c>
+              <c>[88]</c>
+            </r>
+            <r>
+              <c>1985</c>
+              <c>Kansas City Royals (2, 1–1)</c>
+              <c>Dick Howser</c>
+              <c>4–3</c>
+              <c>St. Louis Cardinals (14, 9–5)</c>
+              <c>Whitey Herzog</c>
+              <c>[89]</c>
+            </r>
+            <r>
+              <c>1986</c>
+              <c>New York Mets (3, 2–1)</c>
+              <c>Davey Johnson</c>
+              <c>4–3</c>
+              <c>Boston Red Sox (9, 5–4)</c>
+              <c>John McNamara</c>
+              <c>[90]</c>
+            </r>
+            <r>
+              <c>1987</c>
+              <c>Minnesota Twins (5, 2–3)</c>
+              <c>Tom Kelly</c>
+              <c>4–3</c>
+              <c>St. Louis Cardinals (15, 9–6)</c>
+              <c>Whitey Herzog</c>
+              <c>[91]</c>
+            </r>
+            <r>
+              <c>1988</c>
+              <c>Los Angeles Dodgers (18, 6–12)</c>
+              <c>Tommy Lasorda</c>
+              <c>4–1</c>
+              <c>Oakland Athletics (12, 8–4)</c>
+              <c>Tony La Russa</c>
+              <c>[92]</c>
+            </r>
+            <r>
+              <c>1989</c>
+              <c>Oakland Athletics (13, 9–4)</c>
+              <c>Tony La Russa</c>
+              <c>4–0</c>
+              <c>San Francisco Giants (16, 5–11)</c>
+              <c>Roger Craig</c>
+              <c>[93]</c>
+            </r>
+            <r>
+              <c>1990</c>
+              <c>Cincinnati Reds (9, 5–4)</c>
+              <c>Lou Piniella</c>
+              <c>4–0</c>
+              <c>Oakland Athletics (14, 9–5)</c>
+              <c>Tony La Russa</c>
+              <c>[94]</c>
+            </r>
+            <r>
+              <c>1991</c>
+              <c>Minnesota Twins (6, 3–3)</c>
+              <c>Tom Kelly</c>
+              <c>4–3</c>
+              <c>Atlanta Braves (5, 2–3)</c>
+              <c>Bobby Cox</c>
+              <c>[95]</c>
+            </r>
+            <r>
+              <c>1992</c>
+              <c>Toronto Blue Jays (1, 1–0)</c>
+              <c>Cito Gaston</c>
+              <c>4–2</c>
+              <c>Atlanta Braves (6, 2–4)</c>
+              <c>Bobby Cox</c>
+              <c>[96]</c>
+            </r>
+            <r>
+              <c>1993</c>
+              <c>Toronto Blue Jays (2, 2–0)</c>
+              <c>Cito Gaston</c>
+              <c>4–2</c>
+              <c>Philadelphia Phillies (5, 1–4)</c>
+              <c>Jim Fregosi</c>
+              <c>[97]</c>
+            </r>
+            <r>
+              <c>1994</c>
+              <c>No World Series due to a players' strike</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>1995</c>
+              <c>Atlanta Braves (7, 3–4)</c>
+              <c>Bobby Cox</c>
+              <c>4–2</c>
+              <c>Cleveland Indians (4, 2–2)</c>
+              <c>Mike Hargrove</c>
+              <c>[98]</c>
+            </r>
+            <r>
+              <c>1996</c>
+              <c>New York Yankees (34, 23–11)</c>
+              <c>Joe Torre</c>
+              <c>4–2</c>
+              <c>Atlanta Braves (8, 3–5)</c>
+              <c>Bobby Cox</c>
+              <c>[99]</c>
+            </r>
+            <r>
+              <c>1997</c>
+              <c>Florida Marlins[W] (1, 1–0)</c>
+              <c>Jim Leyland</c>
+              <c>4–3</c>
+              <c>Cleveland Indians (5, 2–3)</c>
+              <c>Mike Hargrove</c>
+              <c>[100]</c>
+            </r>
+            <r>
+              <c>1998</c>
+              <c>New York Yankees (35, 24–11)</c>
+              <c>Joe Torre</c>
+              <c>4–0</c>
+              <c>San Diego Padres (2, 0–2)</c>
+              <c>Bruce Bochy</c>
+              <c>[101]</c>
+            </r>
+            <r>
+              <c>1999</c>
+              <c>New York Yankees (36, 25–11)</c>
+              <c>Joe Torre</c>
+              <c>4–0</c>
+              <c>Atlanta Braves (9, 3–6)</c>
+              <c>Bobby Cox</c>
+              <c>[102]</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>New York Yankees (37, 26–11)</c>
+              <c>Joe Torre</c>
+              <c>4–1</c>
+              <c>New York Mets[W] (4, 2–2)</c>
+              <c>Bobby Valentine</c>
+              <c>[103]</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>Arizona Diamondbacks (1, 1–0)</c>
+              <c>Bob Brenly</c>
+              <c>4–3</c>
+              <c>New York Yankees (38, 26–12)</c>
+              <c>Joe Torre</c>
+              <c>[104]</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>Anaheim Angels[W] (1, 1–0)</c>
+              <c>Mike Scioscia</c>
+              <c>4–3</c>
+              <c>San Francisco Giants[W] (17, 5–12)</c>
+              <c>Dusty Baker</c>
+              <c>[105]</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>Florida Marlins[W] (2, 2–0)</c>
+              <c>Jack McKeon</c>
+              <c>4–2</c>
+              <c>New York Yankees (39, 26–13)</c>
+              <c>Joe Torre</c>
+              <c>[106]</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>Boston Red Sox[W] (10, 6–4)</c>
+              <c>Terry Francona</c>
+              <c>4–0</c>
+              <c>St. Louis Cardinals (16, 9–7)</c>
+              <c>Tony La Russa</c>
+              <c>[107]</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>Chicago White Sox (5, 3–2)</c>
+              <c>Ozzie Guillén</c>
+              <c>4–0</c>
+              <c>Houston Astros[W][L2] (1, 0–1)</c>
+              <c>Phil Garner</c>
+              <c>[108]</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>St. Louis Cardinals (17, 10–7)</c>
+              <c>Tony La Russa</c>
+              <c>4–1</c>
+              <c>Detroit Tigers[W] (10, 4–6)</c>
+              <c>Jim Leyland</c>
+              <c>[109]</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>Boston Red Sox (11, 7–4)</c>
+              <c>Terry Francona</c>
+              <c>4–0</c>
+              <c>Colorado Rockies[W] (1, 0–1)</c>
+              <c>Clint Hurdle</c>
+              <c>[110]</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>Philadelphia Phillies (6, 2–4)</c>
+              <c>Charlie Manuel</c>
+              <c>4–1</c>
+              <c>Tampa Bay Rays (1, 0–1)</c>
+              <c>Joe Maddon</c>
+              <c>[111]</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>New York Yankees (40, 27–13)</c>
+              <c>Joe Girardi</c>
+              <c>4–2</c>
+              <c>Philadelphia Phillies (7, 2–5)</c>
+              <c>Charlie Manuel</c>
+              <c>[112]</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>San Francisco Giants (18, 6–12)</c>
+              <c>Bruce Bochy</c>
+              <c>4–1</c>
+              <c>Texas Rangers (1, 0–1)</c>
+              <c>Ron Washington</c>
+              <c>[113]</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>St. Louis Cardinals[W] (18, 11–7)</c>
+              <c>Tony La Russa</c>
+              <c>4–3</c>
+              <c>Texas Rangers (2, 0–2)</c>
+              <c>Ron Washington</c>
+              <c>[114]</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>San Francisco Giants (19, 7–12)</c>
+              <c>Bruce Bochy</c>
+              <c>4–0</c>
+              <c>Detroit Tigers (11, 4–7)</c>
+              <c>Jim Leyland</c>
+              <c>[115]</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>Boston Red Sox (12, 8–4)</c>
+              <c>John Farrell</c>
+              <c>4–2</c>
+              <c>St. Louis Cardinals (19, 11–8)</c>
+              <c>Mike Matheny</c>
+              <c>[116]</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>San Francisco Giants[W] (20, 8–12)</c>
+              <c>Bruce Bochy</c>
+              <c>4–3</c>
+              <c>Kansas City Royals[W] (3, 1–2)</c>
+              <c>Ned Yost</c>
+              <c>[117]</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>Kansas City Royals (4, 2–2)</c>
+              <c>Ned Yost</c>
+              <c>4–1</c>
+              <c>New York Mets (5, 2–3)</c>
+              <c>Terry Collins</c>
+              <c>[118]</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>Chicago Cubs (11, 3–8)</c>
+              <c>Joe Maddon</c>
+              <c>4–3</c>
+              <c>Cleveland Indians (6, 2–4)</c>
+              <c>Terry Francona</c>
+              <c>[119]</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>Houston Astros[L2] (2, 1–1)</c>
+              <c>A. J. Hinch</c>
+              <c>4–3</c>
+              <c>Los Angeles Dodgers (19, 6–13)</c>
+              <c>Dave Roberts</c>
+              <c>[120]</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="114" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Games</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-03-24 23:49:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-03-24 23:49:25</StartDate>
+              <EndDate>2020-03-24 23:49:25</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Games])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="174" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Winning team</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Winning team</RootName>
+          <Delimeters value="(" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="234" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Losing team</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Losing team</RootName>
+          <Delimeters value="(" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="True" type="String" size="5" />
+            <SelectField field="Winning team" selected="False" />
+            <SelectField field="Manager" selected="False" />
+            <SelectField field="Games" selected="False" />
+            <SelectField field="Losing team" selected="False" />
+            <SelectField field="Manager2" selected="False" />
+            <SelectField field="Ref." selected="False" />
+            <SelectField field="Winning team1" selected="True" rename="Winning team" />
+            <SelectField field="Winning team2" selected="False" />
+            <SelectField field="Losing team1" selected="True" rename="Losing team" />
+            <SelectField field="Losing team2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="354" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Year" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Year" selected="False" />
+            <Field field="Winning team" selected="True" />
+            <Field field="Losing team" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="426" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Value" action="GroupBy" rename="Team" />
+            <SummarizeField field="Year" action="CountDistinct" rename="Apperance" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="426" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Name</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-03-24 23:54:48</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Winning team</Operand>
+              <StartDate>2020-03-24 23:54:48</StartDate>
+              <EndDate>2020-03-24 23:54:48</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Name] = "Winning team"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Value" action="GroupBy" rename="Value" />
+            <SummarizeField field="Year" action="Concat" rename="Winning Years">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Name]='Winning team' THEN 1 ELSE 0 ENDIF" field="Win" size="2" type="Int16" />
+            <FormulaField expression="IF [Name]='Winning team' THEN 0 ELSE 1 ENDIF" field="Lost" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Win = IF [Name]='Winning team' THEN 1 ELSE 0 ENDIF
+Lost = IF [Name]='Winning tea...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Value" action="GroupBy" rename="Value" />
+            <SummarizeField field="Win" action="Sum" rename="Win" />
+            <SummarizeField field="Lost" action="Sum" rename="Lost" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString([Win]/([Win]+[Lost])*100)+&quot;%&quot;&#xA;" field="Winning Percent" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Winning Percent = ToString([Win]/([Win]+[Lost])*100)+"%"
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="606" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="Value" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="Team" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="Value" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_Team" selected="True" />
+                <SelectField field="Input_#2_Apperance" selected="True" />
+                <SelectField field="Input_#3_Winning Years" selected="True" />
+                <SelectField field="Input_#1_Winning Percent" selected="True" />
+                <SelectField field="Input_#1_Value" selected="False" />
+                <SelectField field="Input_#1_Win" selected="False" />
+                <SelectField field="Input_#1_Lost" selected="False" />
+                <SelectField field="Input_#3_Value" selected="False" rename="Input_#3_Value" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="666" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Team" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Team - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="726" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Team</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="[" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="1" selected="True" rename="Team" />
+            <SelectField field="Team" selected="False" />
+            <SelectField field="Apperance" selected="True" />
+            <SelectField field="Winning Years" selected="True" />
+            <SelectField field="Winning Percent" selected="True" />
+            <SelectField field="2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="True" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="True" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_138_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

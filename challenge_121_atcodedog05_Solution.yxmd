@@ -1,0 +1,2192 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="498" width="1044" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Inputs</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="330" width="216" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Inputs</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="672" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[World Cup 2018 is in full swing!  Using the provided dataset, create an output (sorted by date) that lists the matches and their locations in the host country of Russia. There's plenty of room for creativity with this one, especially with apps and reporting! ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="66" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #121</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="330" width="216" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="165" />
+          <Fields>
+            <Field name="Field_1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1. Luzhniki Stadium, Moscow</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-857950036.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Lenin: The Russian revolutionary Lenin stands outside the stadium (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 80,000</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Russia v Saudi Arabia (14 June); Germany v Mexico (17 June); Portugal v Morocco (20 June); Denmark v France (26 June); Round of 16 (1 July); Semi-final (11 July); Final (15 July)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Stadium wise, Luzhniki Stadium is the jewel in the Russian crown for the 2018 World Cup. Built in 1956, it has a long, illustrious history of hosting events, like the 2008 Champions league Final between Manchester United and Chelsea. Recently modernised, it will no doubt continue to be the home of the national side.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>2. Otkritie Stadium, Moscow</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-824869710.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Gladiator: The Spartacus statue will be a favourite amongst tourists (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,360</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Argentina v Iceland (16 June); Poland v Senegal (19 June); Belgium v Tunisia (23 June); Brazil v Serbia (27 June); Round of 16 (3 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: A statue of Spartacus outside the stadium will prove popular, and the home of Spartak Moscow will likely be a fan favourite in 2018. It was built for club football, so the stands are close to the pitch, and in terms of travel, it has its own metro station so it doesnât take long at all to get into the city centre.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>3. Nizhny Novgorod Stadium, Nizhny Novgorod</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-855884786.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Striking: The Nizhny Novgorod design is sure to amaze (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,899</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Sweden v South Korea (18 June); Argentina v Croatia (21 June); England v Panama (24 June); Switzerland v Costa Rica (27 June); Round of 16 (1 July); Quarter-final (6 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: With a striking design, Nizhny Novgorod promises to be one of the most attractive stadiums to look at out of the 12. After the tournament it will become home to Olimpiyets Nizhny Novgorod, a second-tier club.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>4. Mordovia Arena, Saransk</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-928007190.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Colourful: The Mordovia exterior is certain to give good pictures (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,442</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Peru v Denmark (16 June); Colombia v Japan (19 June); Iran v Portugal (25 June); Panama v Tunisia (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: One of the smallest cities to host a match, Saransk was an interesting choice. The Mordovia Arena is not that stimulating either, but the brightly coloured exterior may produce some good photos. Local side Moldovia Saransk, currently in the third-tier will move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>5. Kazan Arena, Kazan</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-800596182.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Kazan: The HD screen on the side of the stadium is a sight to behold (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,379</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: France v Australia (16 June); Iran v Spain (20 June); Poland v Colombia (24 June); South Korea v Germany (27 June); Round of 16 (30 June); Quarter-final (6 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Designed by Populous, the same company that designed Wembley and the Emirates, the Kazan Arena is home to Rubin Kazan. It is a modern stadium but will be one of the oldest stadiums at the tournament because of new constructions. Has previously held football and athletics events, as well as the 2015 World Aquatic Championships where the football pitch was replaced by swimming pools.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>6. Samara Arena, Samara</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-921384082.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Dome: The 65-metre dome is a defining feature of the Samara Arena (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,807</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Costa Rica v Serbia (17 June); Denmark v Australia (21 June); Uruguay v Russia (25 June); Senegal v Colombia (28 June); Round of 16 (2 July); Quarter-final (7 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Samara was once home to the Russian space-programme, and the 65-metre dome, when lit up, is sure to look spectacular. It has had countless delays and re-designs after soaring costs, and will also become home to Krylia Sovetov, who are due to return to the Russian top-flight next year.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/06/Screen-Shot-2018-06-13-at-10.11.42.png</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Sport Nation</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://static.apester.com/sdk/loader.gif</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>7. Central Stadium, Yekaterinburg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-880612806.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Bizarre: Ekaterinburg Stadium has an odd design (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 35,696</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Egypt v Uruguay (15 June); France v Peru (21 June); Japan v Senegal (24 June); Mexico v Sweden (27 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: The main aspect of note at Ekaterinburg are the temporary stands that sit behind each goal. Protruding outside of the stadium, FIFA introduced them to make sure the stadium is above the 35,000 required minimum. They will be taken down after the tournament and the stadium will be home to FC Ural, a mid-table team in the Russian premier League.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>8. Krestovsky Stadium, Saint Petersburg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-912051072.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Expensive: St Petersburg stadium is thought to be one of the most expensive ever (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 64,287</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Morocco v Iran (15 June); Russia v Egypt (19 June); Brazil v Costa Rica (22 June); Nigeria v Argentina (26 June); Round of 16 (3 July); Semi-final (10 July); Third place play-off (14 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: The stadium took a decade to build, with huge costs too, but it is certainly spectacular. It hasnât been devoid of controversy though, with the most significant being the allegation that 110 North Koreans were working there in atrocious conditions. Zenit St Petersburg will move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>9. Kaliningrad Stadium, Kaliningrad</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-840183288.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Allianz: The Kaliningrad Stadium is designed to look like the Allianz Arena in Germany (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 35,212</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Croatia v Nigeria (16 June); Serbia v Switzerland (22 June); Spain v Morocco (25 June); England v Belgium (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Originally designed to look like the Allianz Arena, Kaliningrad Stadium had financial issues from the beginning. The company that drew up the plans went bankrupt so they were altered to have less capacity and a less expensive design. After the tournament it will be home to Baltika Kaliningrad, the local side who havenât been in the Russian top-flight for years.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>10. Volgograd Arena, Volgograd</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-857150476.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Rotor: The Volgograd will become home to Rotor after the World Cup (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,568</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Tunisia v England (18 June); Nigeria v Iceland (22 June); Saudi Arabia v Egypt (25 June); Japan v Poland (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Shockingly, in 2014, it had to be searched thoroughly for unexploded ordnance after bombs from the Battle of Stalingrad but that has been the only real issue. Currently bottom of the second-tier, Rotor are expected to move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>11. Rostov Arena, Rostov-on-Don</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-926164834.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Costs: The Rostov Arena scaled back its design due to spiralling costs (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,145</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Brazil v Switzerland (17 June); Uruguay v Saudi Arabia (20 June); South Korea v Mexico (23 June); Iceland v Croatia (26 June); Round of 16 (2 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Built alongside the River Don, the Rostov Arena will supposedly be notable for its roof which imitates the meanderings of the river. FC Rostov will move in after the tournament has concluded.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>12. Fisht Olympic Stadium, Sochi</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-925335334.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>2014: Fisht Stadium hosted the Winter olympics and Paralympics in 2014 (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 47,659</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Portugal v Spain (15 June); Belgium v Panama (18 June); Germany v Sweden (23 June) ; Australia v Peru (26 June) ; Round of 16 (30 June); Quarter-final (7 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Fisht Stadium was built for the 2014 Winter Olympics and Paralympics, so is clearly capable of hosting big events. Situated 18 miles outside of Sochi, it may be difficult to get to, but it is also one of the most dramatic stadiums in the tournament. The removal of its roof to comply with FIFA regulations also cost a lot of money.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Read more at http://www.worldsoccer.com/world-cup/world-cup-stadiums-2-400516#9lceYvf3UF2Zfd80.99</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_11136_cb7082b392134be6a26183c0093a054b_\Engine_8260_4c363b3e514449c4b134dea880237fd6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="64" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="Stadium" />
+            <Field name="City" />
+            <Field name="Capacity" />
+            <Field name="Games" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2018-06-14</c>
+              <c>Luzhniki Stadium</c>
+              <c>Moscow</c>
+              <c>80,000</c>
+              <c>Russia v Saudi Arabia</c>
+            </r>
+            <r>
+              <c>2018-06-15</c>
+              <c>Central Stadium</c>
+              <c>Yekaterinburg</c>
+              <c>35,696</c>
+              <c>Egypt v Uruguay</c>
+            </r>
+            <r>
+              <c>2018-06-15</c>
+              <c>Krestovsky Stadium</c>
+              <c>Saint Petersburg</c>
+              <c>64,287</c>
+              <c>Morocco v Iran</c>
+            </r>
+            <r>
+              <c>2018-06-15</c>
+              <c>Fisht Olympic Stadium</c>
+              <c>Sochi</c>
+              <c>47,659</c>
+              <c>Portugal v Spain</c>
+            </r>
+            <r>
+              <c>2018-06-16</c>
+              <c>Otkritie Stadium</c>
+              <c>Moscow</c>
+              <c>45,360</c>
+              <c>Argentina v Iceland</c>
+            </r>
+            <r>
+              <c>2018-06-16</c>
+              <c>Mordovia Arena</c>
+              <c>Saransk</c>
+              <c>44,442</c>
+              <c>Peru v Denmark</c>
+            </r>
+            <r>
+              <c>2018-06-16</c>
+              <c>Kazan Arena</c>
+              <c>Kazan</c>
+              <c>45,379</c>
+              <c>France v Australia</c>
+            </r>
+            <r>
+              <c>2018-06-16</c>
+              <c>Kaliningrad Stadium</c>
+              <c>Kaliningrad</c>
+              <c>35,212</c>
+              <c>Croatia v Nigeria</c>
+            </r>
+            <r>
+              <c>2018-06-17</c>
+              <c>Luzhniki Stadium</c>
+              <c>Moscow</c>
+              <c>80,000</c>
+              <c>Germany v Mexico</c>
+            </r>
+            <r>
+              <c>2018-06-17</c>
+              <c>Samara Arena</c>
+              <c>Samara</c>
+              <c>44,807</c>
+              <c>Costa Rica v Serbia</c>
+            </r>
+            <r>
+              <c>2018-06-17</c>
+              <c>Rostov Arena</c>
+              <c>Rostov-on-Don</c>
+              <c>45,145</c>
+              <c>Brazil v Switzerland</c>
+            </r>
+            <r>
+              <c>2018-06-18</c>
+              <c>Nizhny Novgorod Stadium</c>
+              <c>Nizhny Novgorod</c>
+              <c>44,899</c>
+              <c>Sweden v South Korea</c>
+            </r>
+            <r>
+              <c>2018-06-18</c>
+              <c>Volgograd Arena</c>
+              <c>Volgograd</c>
+              <c>45,568</c>
+              <c>Tunisia v England</c>
+            </r>
+            <r>
+              <c>2018-06-18</c>
+              <c>Fisht Olympic Stadium</c>
+              <c>Sochi</c>
+              <c>47,659</c>
+              <c>Belgium v Panama</c>
+            </r>
+            <r>
+              <c>2018-06-19</c>
+              <c>Otkritie Stadium</c>
+              <c>Moscow</c>
+              <c>45,360</c>
+              <c>Poland v Senegal</c>
+            </r>
+            <r>
+              <c>2018-06-19</c>
+              <c>Mordovia Arena</c>
+              <c>Saransk</c>
+              <c>44,442</c>
+              <c>Colombia v Japan</c>
+            </r>
+            <r>
+              <c>2018-06-19</c>
+              <c>Krestovsky Stadium</c>
+              <c>Saint Petersburg</c>
+              <c>64,287</c>
+              <c>Russia v Egypt</c>
+            </r>
+            <r>
+              <c>2018-06-20</c>
+              <c>Luzhniki Stadium</c>
+              <c>Moscow</c>
+              <c>80,000</c>
+              <c>Portugal v Morocco</c>
+            </r>
+            <r>
+              <c>2018-06-20</c>
+              <c>Kazan Arena</c>
+              <c>Kazan</c>
+              <c>45,379</c>
+              <c>Iran v Spain</c>
+            </r>
+            <r>
+              <c>2018-06-20</c>
+              <c>Rostov Arena</c>
+              <c>Rostov-on-Don</c>
+              <c>45,145</c>
+              <c>Uruguay v Saudi Arabia</c>
+            </r>
+            <r>
+              <c>2018-06-21</c>
+              <c>Nizhny Novgorod Stadium</c>
+              <c>Nizhny Novgorod</c>
+              <c>44,899</c>
+              <c>Argentina v Croatia</c>
+            </r>
+            <r>
+              <c>2018-06-21</c>
+              <c>Samara Arena</c>
+              <c>Samara</c>
+              <c>44,807</c>
+              <c>Denmark v Australia</c>
+            </r>
+            <r>
+              <c>2018-06-21</c>
+              <c>Central Stadium</c>
+              <c>Yekaterinburg</c>
+              <c>35,696</c>
+              <c>France v Peru</c>
+            </r>
+            <r>
+              <c>2018-06-22</c>
+              <c>Krestovsky Stadium</c>
+              <c>Saint Petersburg</c>
+              <c>64,287</c>
+              <c>Brazil v Costa Rica</c>
+            </r>
+            <r>
+              <c>2018-06-22</c>
+              <c>Kaliningrad Stadium</c>
+              <c>Kaliningrad</c>
+              <c>35,212</c>
+              <c>Serbia v Switzerland</c>
+            </r>
+            <r>
+              <c>2018-06-22</c>
+              <c>Volgograd Arena</c>
+              <c>Volgograd</c>
+              <c>45,568</c>
+              <c>Nigeria v Iceland</c>
+            </r>
+            <r>
+              <c>2018-06-23</c>
+              <c>Otkritie Stadium</c>
+              <c>Moscow</c>
+              <c>45,360</c>
+              <c>Belgium v Tunisia</c>
+            </r>
+            <r>
+              <c>2018-06-23</c>
+              <c>Rostov Arena</c>
+              <c>Rostov-on-Don</c>
+              <c>45,145</c>
+              <c>South Korea v Mexico</c>
+            </r>
+            <r>
+              <c>2018-06-23</c>
+              <c>Fisht Olympic Stadium</c>
+              <c>Sochi</c>
+              <c>47,659</c>
+              <c>Germany v Sweden</c>
+            </r>
+            <r>
+              <c>2018-06-24</c>
+              <c>Nizhny Novgorod Stadium</c>
+              <c>Nizhny Novgorod</c>
+              <c>44,899</c>
+              <c>England v Panama</c>
+            </r>
+            <r>
+              <c>2018-06-24</c>
+              <c>Kazan Arena</c>
+              <c>Kazan</c>
+              <c>45,379</c>
+              <c>Poland v Colombia</c>
+            </r>
+            <r>
+              <c>2018-06-24</c>
+              <c>Central Stadium</c>
+              <c>Yekaterinburg</c>
+              <c>35,696</c>
+              <c>Japan v Senegal</c>
+            </r>
+            <r>
+              <c>2018-06-25</c>
+              <c>Mordovia Arena</c>
+              <c>Saransk</c>
+              <c>44,442</c>
+              <c>Iran v Portugal</c>
+            </r>
+            <r>
+              <c>2018-06-25</c>
+              <c>Samara Arena</c>
+              <c>Samara</c>
+              <c>44,807</c>
+              <c>Uruguay v Russia</c>
+            </r>
+            <r>
+              <c>2018-06-25</c>
+              <c>Kaliningrad Stadium</c>
+              <c>Kaliningrad</c>
+              <c>35,212</c>
+              <c>Spain v Morocco</c>
+            </r>
+            <r>
+              <c>2018-06-25</c>
+              <c>Volgograd Arena</c>
+              <c>Volgograd</c>
+              <c>45,568</c>
+              <c>Saudi Arabia v Egypt</c>
+            </r>
+            <r>
+              <c>2018-06-26</c>
+              <c>Luzhniki Stadium</c>
+              <c>Moscow</c>
+              <c>80,000</c>
+              <c>Denmark v France</c>
+            </r>
+            <r>
+              <c>2018-06-26</c>
+              <c>Krestovsky Stadium</c>
+              <c>Saint Petersburg</c>
+              <c>64,287</c>
+              <c>Nigeria v Argentina</c>
+            </r>
+            <r>
+              <c>2018-06-26</c>
+              <c>Rostov Arena</c>
+              <c>Rostov-on-Don</c>
+              <c>45,145</c>
+              <c>Iceland v Croatia</c>
+            </r>
+            <r>
+              <c>2018-06-26</c>
+              <c>Fisht Olympic Stadium</c>
+              <c>Sochi</c>
+              <c>47,659</c>
+              <c>Australia v Peru</c>
+            </r>
+            <r>
+              <c>2018-06-27</c>
+              <c>Otkritie Stadium</c>
+              <c>Moscow</c>
+              <c>45,360</c>
+              <c>Brazil v Serbia</c>
+            </r>
+            <r>
+              <c>2018-06-27</c>
+              <c>Nizhny Novgorod Stadium</c>
+              <c>Nizhny Novgorod</c>
+              <c>44,899</c>
+              <c>Switzerland v Costa Rica</c>
+            </r>
+            <r>
+              <c>2018-06-27</c>
+              <c>Kazan Arena</c>
+              <c>Kazan</c>
+              <c>45,379</c>
+              <c>South Korea v Germany</c>
+            </r>
+            <r>
+              <c>2018-06-27</c>
+              <c>Central Stadium</c>
+              <c>Yekaterinburg</c>
+              <c>35,696</c>
+              <c>Mexico v Sweden</c>
+            </r>
+            <r>
+              <c>2018-06-28</c>
+              <c>Mordovia Arena</c>
+              <c>Saransk</c>
+              <c>44,442</c>
+              <c>Panama v Tunisia</c>
+            </r>
+            <r>
+              <c>2018-06-28</c>
+              <c>Samara Arena</c>
+              <c>Samara</c>
+              <c>44,807</c>
+              <c>Senegal v Colombia</c>
+            </r>
+            <r>
+              <c>2018-06-28</c>
+              <c>Kaliningrad Stadium</c>
+              <c>Kaliningrad</c>
+              <c>35,212</c>
+              <c>England v Belgium</c>
+            </r>
+            <r>
+              <c>2018-06-28</c>
+              <c>Volgograd Arena</c>
+              <c>Volgograd</c>
+              <c>45,568</c>
+              <c>Japan v Poland</c>
+            </r>
+            <r>
+              <c>2018-06-30</c>
+              <c>Kazan Arena</c>
+              <c>Kazan</c>
+              <c>45,379</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-06-30</c>
+              <c>Fisht Olympic Stadium</c>
+              <c>Sochi</c>
+              <c>47,659</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-07-01</c>
+              <c>Luzhniki Stadium</c>
+              <c>Moscow</c>
+              <c>80,000</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-07-01</c>
+              <c>Nizhny Novgorod Stadium</c>
+              <c>Nizhny Novgorod</c>
+              <c>44,899</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-07-02</c>
+              <c>Samara Arena</c>
+              <c>Samara</c>
+              <c>44,807</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-07-02</c>
+              <c>Rostov Arena</c>
+              <c>Rostov-on-Don</c>
+              <c>45,145</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-07-03</c>
+              <c>Otkritie Stadium</c>
+              <c>Moscow</c>
+              <c>45,360</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-07-03</c>
+              <c>Krestovsky Stadium</c>
+              <c>Saint Petersburg</c>
+              <c>64,287</c>
+              <c>Round of 16</c>
+            </r>
+            <r>
+              <c>2018-07-06</c>
+              <c>Nizhny Novgorod Stadium</c>
+              <c>Nizhny Novgorod</c>
+              <c>44,899</c>
+              <c>Quarter-final</c>
+            </r>
+            <r>
+              <c>2018-07-06</c>
+              <c>Kazan Arena</c>
+              <c>Kazan</c>
+              <c>45,379</c>
+              <c>Quarter-final</c>
+            </r>
+            <r>
+              <c>2018-07-07</c>
+              <c>Samara Arena</c>
+              <c>Samara</c>
+              <c>44,807</c>
+              <c>Quarter-final</c>
+            </r>
+            <r>
+              <c>2018-07-07</c>
+              <c>Fisht Olympic Stadium</c>
+              <c>Sochi</c>
+              <c>47,659</c>
+              <c>Quarter-final</c>
+            </r>
+            <r>
+              <c>2018-07-10</c>
+              <c>Krestovsky Stadium</c>
+              <c>Saint Petersburg</c>
+              <c>64,287</c>
+              <c>Semi-final</c>
+            </r>
+            <r>
+              <c>2018-07-11</c>
+              <c>Luzhniki Stadium</c>
+              <c>Moscow</c>
+              <c>80,000</c>
+              <c>Semi-final</c>
+            </r>
+            <r>
+              <c>2018-07-14</c>
+              <c>Krestovsky Stadium</c>
+              <c>Saint Petersburg</c>
+              <c>64,287</c>
+              <c>Third place play-off</c>
+            </r>
+            <r>
+              <c>2018-07-15</c>
+              <c>Luzhniki Stadium</c>
+              <c>Moscow</c>
+              <c>80,000</c>
+              <c>Final</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_11136_cb7082b392134be6a26183c0093a054b_\Engine_8260_96593d7fa67649a3b658a3f5338815fe_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="126" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Field_1</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-03-24 20:50:50</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-03-24 20:50:50</StartDate>
+              <EndDate>2020-03-24 20:50:50</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Field_1])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="165" />
+          <Fields>
+            <Field name="Field_1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1. Luzhniki Stadium, Moscow</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-857950036.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Lenin: The Russian revolutionary Lenin stands outside the stadium (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 80,000</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Russia v Saudi Arabia (14 June); Germany v Mexico (17 June); Portugal v Morocco (20 June); Denmark v France (26 June); Round of 16 (1 July); Semi-final (11 July); Final (15 July)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Stadium wise, Luzhniki Stadium is the jewel in the Russian crown for the 2018 World Cup. Built in 1956, it has a long, illustrious history of hosting events, like the 2008 Champions league Final between Manchester United and Chelsea. Recently modernised, it will no doubt continue to be the home of the national side.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>2. Otkritie Stadium, Moscow</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-824869710.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Gladiator: The Spartacus statue will be a favourite amongst tourists (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,360</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Argentina v Iceland (16 June); Poland v Senegal (19 June); Belgium v Tunisia (23 June); Brazil v Serbia (27 June); Round of 16 (3 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: A statue of Spartacus outside the stadium will prove popular, and the home of Spartak Moscow will likely be a fan favourite in 2018. It was built for club football, so the stands are close to the pitch, and in terms of travel, it has its own metro station so it doesnât take long at all to get into the city centre.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>3. Nizhny Novgorod Stadium, Nizhny Novgorod</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-855884786.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Striking: The Nizhny Novgorod design is sure to amaze (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,899</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Sweden v South Korea (18 June); Argentina v Croatia (21 June); England v Panama (24 June); Switzerland v Costa Rica (27 June); Round of 16 (1 July); Quarter-final (6 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: With a striking design, Nizhny Novgorod promises to be one of the most attractive stadiums to look at out of the 12. After the tournament it will become home to Olimpiyets Nizhny Novgorod, a second-tier club.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>4. Mordovia Arena, Saransk</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-928007190.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Colourful: The Mordovia exterior is certain to give good pictures (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,442</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Peru v Denmark (16 June); Colombia v Japan (19 June); Iran v Portugal (25 June); Panama v Tunisia (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: One of the smallest cities to host a match, Saransk was an interesting choice. The Mordovia Arena is not that stimulating either, but the brightly coloured exterior may produce some good photos. Local side Moldovia Saransk, currently in the third-tier will move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>5. Kazan Arena, Kazan</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-800596182.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Kazan: The HD screen on the side of the stadium is a sight to behold (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,379</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: France v Australia (16 June); Iran v Spain (20 June); Poland v Colombia (24 June); South Korea v Germany (27 June); Round of 16 (30 June); Quarter-final (6 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Designed by Populous, the same company that designed Wembley and the Emirates, the Kazan Arena is home to Rubin Kazan. It is a modern stadium but will be one of the oldest stadiums at the tournament because of new constructions. Has previously held football and athletics events, as well as the 2015 World Aquatic Championships where the football pitch was replaced by swimming pools.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>6. Samara Arena, Samara</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-921384082.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Dome: The 65-metre dome is a defining feature of the Samara Arena (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,807</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Costa Rica v Serbia (17 June); Denmark v Australia (21 June); Uruguay v Russia (25 June); Senegal v Colombia (28 June); Round of 16 (2 July); Quarter-final (7 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Samara was once home to the Russian space-programme, and the 65-metre dome, when lit up, is sure to look spectacular. It has had countless delays and re-designs after soaring costs, and will also become home to Krylia Sovetov, who are due to return to the Russian top-flight next year.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/06/Screen-Shot-2018-06-13-at-10.11.42.png</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Sport Nation</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://static.apester.com/sdk/loader.gif</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>7. Central Stadium, Yekaterinburg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-880612806.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Bizarre: Ekaterinburg Stadium has an odd design (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 35,696</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Egypt v Uruguay (15 June); France v Peru (21 June); Japan v Senegal (24 June); Mexico v Sweden (27 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: The main aspect of note at Ekaterinburg are the temporary stands that sit behind each goal. Protruding outside of the stadium, FIFA introduced them to make sure the stadium is above the 35,000 required minimum. They will be taken down after the tournament and the stadium will be home to FC Ural, a mid-table team in the Russian premier League.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>8. Krestovsky Stadium, Saint Petersburg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-912051072.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Expensive: St Petersburg stadium is thought to be one of the most expensive ever (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 64,287</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Morocco v Iran (15 June); Russia v Egypt (19 June); Brazil v Costa Rica (22 June); Nigeria v Argentina (26 June); Round of 16 (3 July); Semi-final (10 July); Third place play-off (14 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: The stadium took a decade to build, with huge costs too, but it is certainly spectacular. It hasnât been devoid of controversy though, with the most significant being the allegation that 110 North Koreans were working there in atrocious conditions. Zenit St Petersburg will move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>9. Kaliningrad Stadium, Kaliningrad</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-840183288.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Allianz: The Kaliningrad Stadium is designed to look like the Allianz Arena in Germany (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 35,212</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Croatia v Nigeria (16 June); Serbia v Switzerland (22 June); Spain v Morocco (25 June); England v Belgium (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Originally designed to look like the Allianz Arena, Kaliningrad Stadium had financial issues from the beginning. The company that drew up the plans went bankrupt so they were altered to have less capacity and a less expensive design. After the tournament it will be home to Baltika Kaliningrad, the local side who havenât been in the Russian top-flight for years.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>10. Volgograd Arena, Volgograd</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-857150476.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Rotor: The Volgograd will become home to Rotor after the World Cup (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,568</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Tunisia v England (18 June); Nigeria v Iceland (22 June); Saudi Arabia v Egypt (25 June); Japan v Poland (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Shockingly, in 2014, it had to be searched thoroughly for unexploded ordnance after bombs from the Battle of Stalingrad but that has been the only real issue. Currently bottom of the second-tier, Rotor are expected to move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>11. Rostov Arena, Rostov-on-Don</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-926164834.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Costs: The Rostov Arena scaled back its design due to spiralling costs (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,145</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Brazil v Switzerland (17 June); Uruguay v Saudi Arabia (20 June); South Korea v Mexico (23 June); Iceland v Croatia (26 June); Round of 16 (2 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Built alongside the River Don, the Rostov Arena will supposedly be notable for its roof which imitates the meanderings of the river. FC Rostov will move in after the tournament has concluded.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>12. Fisht Olympic Stadium, Sochi</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-925335334.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>2014: Fisht Stadium hosted the Winter olympics and Paralympics in 2014 (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 47,659</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Portugal v Spain (15 June); Belgium v Panama (18 June); Germany v Sweden (23 June) ; Australia v Peru (26 June) ; Round of 16 (30 June); Quarter-final (7 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Fisht Stadium was built for the 2014 Winter Olympics and Paralympics, so is clearly capable of hosting big events. Situated 18 miles outside of Sochi, it may be difficult to get to, but it is also one of the most dramatic stadiums in the tournament. The removal of its roof to comply with FIFA regulations also cost a lot of money.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Read more at http://www.worldsoccer.com/world-cup/world-cup-stadiums-2-400516#9lceYvf3UF2Zfd80.99</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="186" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_1</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value=" " />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="246" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="(Right([1], 1)=&quot;.&quot;)*-1" field="Block" size="2" type="Int16" />
+            <FormulaField expression="IF [Block]=1 THEN &quot;Name&quot; ELSE [1] ENDIF" field="1" size="396" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Block = (Right([1], 1)=".")*-1
+1 = IF [Block]=1 THEN "Name" ELSE [1] ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RunningTotal.RunningTotal">
+        <Position x="306" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupByFields />
+          <RunningTotalFields>
+            <Field field="Block" />
+          </RunningTotalFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunningTotal" />
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="366" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="RunTot_Block" />
+          </GroupFields>
+          <HeaderField field="1" />
+          <DataField field="2" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RunTot_Block" source="CrossTab:Group:Concat:" type="Int64" />
+            <Field name="2014_" size="2048" source="CrossTab:Header:1:2014 :Concat:" type="V_String" />
+            <Field name="Allianz_" size="2048" source="CrossTab:Header:1:Allianz :Concat:" type="V_String" />
+            <Field name="Background_" size="2048" source="CrossTab:Header:1:Background :Concat:" type="V_String" />
+            <Field name="Bizarre_" size="2048" source="CrossTab:Header:1:Bizarre :Concat:" type="V_String" />
+            <Field name="Capacity_" size="2048" source="CrossTab:Header:1:Capacity :Concat:" type="V_String" />
+            <Field name="Colourful_" size="2048" source="CrossTab:Header:1:Colourful :Concat:" type="V_String" />
+            <Field name="Costs_" size="2048" source="CrossTab:Header:1:Costs :Concat:" type="V_String" />
+            <Field name="Dome_" size="2048" source="CrossTab:Header:1:Dome :Concat:" type="V_String" />
+            <Field name="Expensive_" size="2048" source="CrossTab:Header:1:Expensive :Concat:" type="V_String" />
+            <Field name="Games_" size="2048" source="CrossTab:Header:1:Games :Concat:" type="V_String" />
+            <Field name="Gladiator_" size="2048" source="CrossTab:Header:1:Gladiator :Concat:" type="V_String" />
+            <Field name="image_" size="2048" source="CrossTab:Header:1:image :Concat:" type="V_String" />
+            <Field name="Kazan_" size="2048" source="CrossTab:Header:1:Kazan :Concat:" type="V_String" />
+            <Field name="Lenin_" size="2048" source="CrossTab:Header:1:Lenin :Concat:" type="V_String" />
+            <Field name="Name" size="2048" source="CrossTab:Header:1:Name:Concat:" type="V_String" />
+            <Field name="Read" size="2048" source="CrossTab:Header:1:Read:Concat:" type="V_String" />
+            <Field name="Rotor_" size="2048" source="CrossTab:Header:1:Rotor :Concat:" type="V_String" />
+            <Field name="Sport" size="2048" source="CrossTab:Header:1:Sport:Concat:" type="V_String" />
+            <Field name="Striking_" size="2048" source="CrossTab:Header:1:Striking :Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RunTot_Block" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RunTot_Block" selected="True" />
+            <SelectField field="Capacity_" selected="True" rename="Capacity" />
+            <SelectField field="Games_" selected="True" rename="Games" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="486" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Name</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Name</RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="546" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Games</Field>
+          <Delimeters value=";" />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Games2" selected="True" rename="Dates" />
+            <SelectField field="Name1" selected="True" rename="Stadium" />
+            <SelectField field="Name2" selected="True" rename="City" />
+            <SelectField field="Capacity" selected="True" />
+            <SelectField field="Games1" selected="True" rename="Games" />
+            <SelectField field="RunTot_Block" selected="False" />
+            <SelectField field="Games" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="606" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Games</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Games</RootName>
+          <Delimeters value="(" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TrimRight([Dates],&quot;)&quot;)+&quot; 2018&quot;" field="Dates" size="2048" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Dates = TrimRight([Dates],")")+" 2018"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings>
+        <Position x="786" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Dates","Stadium","City","Capacity","Games"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="846" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Dates</InputFieldName>
+          <Format>dd Month yyyy</Format>
+          <OutputFieldName>Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Dates From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Dates" selected="False" />
+            <SelectField field="Stadium" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Capacity" selected="True" type="Int32" size="4" />
+            <SelectField field="Games" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="966" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1026" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="True" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output26" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="95" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="False" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_121_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

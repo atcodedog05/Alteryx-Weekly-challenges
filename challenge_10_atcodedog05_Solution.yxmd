@@ -1,0 +1,1768 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="390" width="216" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>My solution</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="454" y="390" width="248" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Solution for output file</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="454" y="240" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="239" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="70" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #10</Text>
+          <Font name="Lato" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="114" width="612" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The use case:
+A distribution center receives a package. At the point of receipt, the package is scanned and a timestamp is captured for arrival date/time. The company is trying to reduce the amount of time the package is at its facility and as a result is trying to analyze how long packages remain at the facility.
+
+The objective for this exercise is to calculate the delta between arrival date/time and the Time_Now field (this field has the date/time of the creation of this exercise and will be changing as time goes on). Create a unique field for Days, Hours, Minutes and Seconds.</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="81" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="46" />
+          <Fields>
+            <Field name="Registrant ID" />
+            <Field name="TIMESTAMP" />
+            <Field name="Time_Now" />
+          </Fields>
+          <Data>
+            <r>
+              <c>HPNZGSDMQMX</c>
+              <c>2014-07-09 11:07:47</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>F5NZRZ3YVRD</c>
+              <c>2014-07-09 08:40:07</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>FHNBTNMV3MP</c>
+              <c>2014-07-08 12:26:56</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZHN7W97Z955</c>
+              <c>2014-07-08 13:26:38</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZKNWRVBTXZ2</c>
+              <c>2014-07-08 13:25:42</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HGNYD3V77CQ</c>
+              <c>2014-07-07 19:13:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HJN6JRBWR3Z</c>
+              <c>2014-07-08 11:39:52</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KNNHPH2YTPX</c>
+              <c>2014-07-07 14:35:10</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>JPNX3YQ5GV3</c>
+              <c>2014-07-08 10:35:18</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-07 20:00:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-09 13:31:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>GTNVDYQPLXT</c>
+              <c>2014-07-08 13:26:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZPNZYQRYRP9</c>
+              <c>2014-07-07 14:13:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N5N8T5CKSXY</c>
+              <c>2014-07-07 17:06:37</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HNNDMTZHK7R</c>
+              <c>2014-07-08 13:01:44</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZDNF7FBYH54</c>
+              <c>2014-07-08 08:41:20</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N9NJ275XPMZ</c>
+              <c>2014-07-09 11:21:16</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:10:34</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:42:25</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>JYNLNB87C73</c>
+              <c>2014-07-07 14:55:58</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N4N4QCSJWQX</c>
+              <c>2014-07-07 15:48:03</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>P8N4TSH8SL3</c>
+              <c>2014-07-08 16:37:45</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-07 20:01:11</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-09 13:31:40</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>PJNT3NKM6F4</c>
+              <c>2014-07-07 19:45:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 08:44:18</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 16:54:40</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>F2NCWKFQ5FS</c>
+              <c>2014-07-09 11:12:11</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>MDNSZPY6MLY</c>
+              <c>2014-07-08 16:17:20</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 14:15:57</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 19:13:16</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 11:40:25</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:32</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>Z2NJRFDVDN6</c>
+              <c>2014-07-08 10:35:28</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>VWN6ZZ99L3Q</c>
+              <c>2014-07-08 14:47:01</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>GMN8T99TPMR</c>
+              <c>2014-07-07 18:20:02</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>NTNS4MJ672W</c>
+              <c>2014-07-07 18:06:19</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>V7NLG9GJ2B9</c>
+              <c>2014-07-09 12:52:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LGNFMNWML96</c>
+              <c>2014-07-09 11:37:13</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>NMNP8S4HMDC</c>
+              <c>2014-07-08 14:34:21</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>J6NT6YM6BYF</c>
+              <c>2014-07-09 13:08:53</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>VBNHT8DPRD5</c>
+              <c>2014-07-08 15:11:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>onsite095</c>
+              <c>2014-07-09 12:54:48</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HVN9P6WBWPD</c>
+              <c>2014-07-07 17:38:41</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNW7B2ZXV4</c>
+              <c>2014-07-08 13:13:04</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="189" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_3820_678048992d374b289368965cf22abba3_\Engine_9232_8f6fbd8115d54f199ab25ee3cbf127a0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="477" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="46" />
+          <Fields>
+            <Field name="Registrant ID" />
+            <Field name="TIMESTAMP" />
+            <Field name="Time_Now" />
+            <Field name="Days" />
+            <Field name="Hours" />
+            <Field name="Minutes" />
+            <Field name="Seconds" />
+          </Fields>
+          <Data>
+            <r>
+              <c>HPNZGSDMQMX</c>
+              <c>2014-07-09 11:07:47</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>21</c>
+              <c>17</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>F5NZRZ3YVRD</c>
+              <c>2014-07-09 08:40:07</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>23</c>
+              <c>45</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>FHNBTNMV3MP</c>
+              <c>2014-07-08 12:26:56</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>58</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>ZHN7W97Z955</c>
+              <c>2014-07-08 13:26:38</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>18</c>
+              <c>58</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>ZKNWRVBTXZ2</c>
+              <c>2014-07-08 13:25:42</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>18</c>
+              <c>59</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>HGNYD3V77CQ</c>
+              <c>2014-07-07 19:13:24</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>13</c>
+              <c>11</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>HJN6JRBWR3Z</c>
+              <c>2014-07-08 11:39:52</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>20</c>
+              <c>45</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>KNNHPH2YTPX</c>
+              <c>2014-07-07 14:35:10</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>17</c>
+              <c>50</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>JPNX3YQ5GV3</c>
+              <c>2014-07-08 10:35:18</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>21</c>
+              <c>49</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-07 20:00:46</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>12</c>
+              <c>24</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-09 13:31:24</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>18</c>
+              <c>53</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>GTNVDYQPLXT</c>
+              <c>2014-07-08 13:26:46</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>18</c>
+              <c>58</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>ZPNZYQRYRP9</c>
+              <c>2014-07-07 14:13:24</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>18</c>
+              <c>11</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>N5N8T5CKSXY</c>
+              <c>2014-07-07 17:06:37</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>15</c>
+              <c>18</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>HNNDMTZHK7R</c>
+              <c>2014-07-08 13:01:44</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>23</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>ZDNF7FBYH54</c>
+              <c>2014-07-08 08:41:20</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>23</c>
+              <c>43</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>N9NJ275XPMZ</c>
+              <c>2014-07-09 11:21:16</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>21</c>
+              <c>4</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:10:34</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>15</c>
+              <c>14</c>
+              <c>42</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:42:25</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>42</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>JYNLNB87C73</c>
+              <c>2014-07-07 14:55:58</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>17</c>
+              <c>29</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>N4N4QCSJWQX</c>
+              <c>2014-07-07 15:48:03</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>16</c>
+              <c>37</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>P8N4TSH8SL3</c>
+              <c>2014-07-08 16:37:45</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>15</c>
+              <c>47</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-07 20:01:11</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>12</c>
+              <c>24</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-09 13:31:40</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>18</c>
+              <c>53</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>PJNT3NKM6F4</c>
+              <c>2014-07-07 19:45:35</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>12</c>
+              <c>39</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 08:44:18</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>23</c>
+              <c>40</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 16:54:40</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>15</c>
+              <c>30</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>F2NCWKFQ5FS</c>
+              <c>2014-07-09 11:12:11</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>21</c>
+              <c>13</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>MDNSZPY6MLY</c>
+              <c>2014-07-08 16:17:20</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>16</c>
+              <c>7</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 14:15:57</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>18</c>
+              <c>9</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 19:13:16</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>13</c>
+              <c>12</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 11:40:25</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>20</c>
+              <c>44</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:32</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>58</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:46</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>58</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>Z2NJRFDVDN6</c>
+              <c>2014-07-08 10:35:28</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>21</c>
+              <c>49</c>
+              <c>48</c>
+            </r>
+            <r>
+              <c>VWN6ZZ99L3Q</c>
+              <c>2014-07-08 14:47:01</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>17</c>
+              <c>38</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>GMN8T99TPMR</c>
+              <c>2014-07-07 18:20:02</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>5</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>NTNS4MJ672W</c>
+              <c>2014-07-07 18:06:19</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>18</c>
+              <c>57</c>
+            </r>
+            <r>
+              <c>V7NLG9GJ2B9</c>
+              <c>2014-07-09 12:52:35</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>19</c>
+              <c>32</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>LGNFMNWML96</c>
+              <c>2014-07-09 11:37:13</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>20</c>
+              <c>48</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>NMNP8S4HMDC</c>
+              <c>2014-07-08 14:34:21</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>17</c>
+              <c>50</c>
+              <c>55</c>
+            </r>
+            <r>
+              <c>J6NT6YM6BYF</c>
+              <c>2014-07-09 13:08:53</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>19</c>
+              <c>16</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>VBNHT8DPRD5</c>
+              <c>2014-07-08 15:11:35</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>17</c>
+              <c>13</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>onsite095</c>
+              <c>2014-07-09 12:54:48</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>19</c>
+              <c>30</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>HVN9P6WBWPD</c>
+              <c>2014-07-07 17:38:41</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>46</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>KMNW7B2ZXV4</c>
+              <c>2014-07-08 13:13:04</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>12</c>
+              <c>12</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="597" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_3820_678048992d374b289368965cf22abba3_\Engine_9232_5004f8ce4dd04dc09d120d8353bac865_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="46" />
+          <Fields>
+            <Field name="Registrant ID" />
+            <Field name="TIMESTAMP" />
+            <Field name="Time_Now" />
+          </Fields>
+          <Data>
+            <r>
+              <c>HPNZGSDMQMX</c>
+              <c>2014-07-09 11:07:47</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>F5NZRZ3YVRD</c>
+              <c>2014-07-09 08:40:07</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>FHNBTNMV3MP</c>
+              <c>2014-07-08 12:26:56</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZHN7W97Z955</c>
+              <c>2014-07-08 13:26:38</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZKNWRVBTXZ2</c>
+              <c>2014-07-08 13:25:42</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HGNYD3V77CQ</c>
+              <c>2014-07-07 19:13:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HJN6JRBWR3Z</c>
+              <c>2014-07-08 11:39:52</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KNNHPH2YTPX</c>
+              <c>2014-07-07 14:35:10</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>JPNX3YQ5GV3</c>
+              <c>2014-07-08 10:35:18</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-07 20:00:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-09 13:31:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>GTNVDYQPLXT</c>
+              <c>2014-07-08 13:26:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZPNZYQRYRP9</c>
+              <c>2014-07-07 14:13:24</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N5N8T5CKSXY</c>
+              <c>2014-07-07 17:06:37</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HNNDMTZHK7R</c>
+              <c>2014-07-08 13:01:44</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>ZDNF7FBYH54</c>
+              <c>2014-07-08 08:41:20</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N9NJ275XPMZ</c>
+              <c>2014-07-09 11:21:16</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:10:34</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:42:25</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>JYNLNB87C73</c>
+              <c>2014-07-07 14:55:58</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N4N4QCSJWQX</c>
+              <c>2014-07-07 15:48:03</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>P8N4TSH8SL3</c>
+              <c>2014-07-08 16:37:45</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-07 20:01:11</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-09 13:31:40</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>PJNT3NKM6F4</c>
+              <c>2014-07-07 19:45:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 08:44:18</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 16:54:40</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>F2NCWKFQ5FS</c>
+              <c>2014-07-09 11:12:11</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>MDNSZPY6MLY</c>
+              <c>2014-07-08 16:17:20</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 14:15:57</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 19:13:16</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 11:40:25</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:32</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:46</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>Z2NJRFDVDN6</c>
+              <c>2014-07-08 10:35:28</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>VWN6ZZ99L3Q</c>
+              <c>2014-07-08 14:47:01</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>GMN8T99TPMR</c>
+              <c>2014-07-07 18:20:02</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>NTNS4MJ672W</c>
+              <c>2014-07-07 18:06:19</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>V7NLG9GJ2B9</c>
+              <c>2014-07-09 12:52:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>LGNFMNWML96</c>
+              <c>2014-07-09 11:37:13</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>NMNP8S4HMDC</c>
+              <c>2014-07-08 14:34:21</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>J6NT6YM6BYF</c>
+              <c>2014-07-09 13:08:53</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>VBNHT8DPRD5</c>
+              <c>2014-07-08 15:11:35</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>onsite095</c>
+              <c>2014-07-09 12:54:48</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>HVN9P6WBWPD</c>
+              <c>2014-07-07 17:38:41</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+            <r>
+              <c>KMNW7B2ZXV4</c>
+              <c>2014-07-08 13:13:04</c>
+              <c>2014-07-14 08:24:35</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="138" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;days&quot;)" field="Days" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;hours&quot;)&#xA;- [Days]*24" field="Hours" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;minutes&quot;)&#xA;-([Days]*24*60)-([Hours]*60)&#xA;" field="Minutes" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;seconds&quot;)&#xA;-([Days]*24*60*60)-([Hours]*60*60)&#xA;-([Minutes]*60)" field="Seconds" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Days = DateTimeDiff([Time_Now],[TIMESTAMP],"days")
+Hours = DateTimeDiff([Time_No...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="522" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Days" selected="True" rename="D" />
+            <SelectField field="Hours" selected="True" rename="H" />
+            <SelectField field="Minutes" selected="True" rename="M" />
+            <SelectField field="Seconds" selected="True" rename="S" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;days&quot;)" field="Days" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;hours&quot;)&#xA;- [Days]*24" field="Hours" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;minutes&quot;)&#xA;-([Days]*24*60)-([Hours]*60)&#xA;" field="Minutes" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Time_Now],[TIMESTAMP],&quot;seconds&quot;)&#xA;-([Days]*24*60*60)-([Hours]*60*60)&#xA;-([Minutes]*60)" field="Seconds" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Days = DateTimeDiff([Time_Now],[TIMESTAMP],"days")
+Hours = DateTimeDiff([Time_No...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="462" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="46" />
+          <Fields>
+            <Field name="Registrant ID" />
+            <Field name="TIMESTAMP" />
+            <Field name="Time_Now" />
+            <Field name="Days" />
+            <Field name="Hours" />
+            <Field name="Minutes" />
+            <Field name="Seconds" />
+          </Fields>
+          <Data>
+            <r>
+              <c>HPNZGSDMQMX</c>
+              <c>2014-07-09 11:07:47</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>21</c>
+              <c>17</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>F5NZRZ3YVRD</c>
+              <c>2014-07-09 08:40:07</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>23</c>
+              <c>45</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>FHNBTNMV3MP</c>
+              <c>2014-07-08 12:26:56</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>58</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>ZHN7W97Z955</c>
+              <c>2014-07-08 13:26:38</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>18</c>
+              <c>58</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>ZKNWRVBTXZ2</c>
+              <c>2014-07-08 13:25:42</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>18</c>
+              <c>59</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>HGNYD3V77CQ</c>
+              <c>2014-07-07 19:13:24</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>13</c>
+              <c>11</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>HJN6JRBWR3Z</c>
+              <c>2014-07-08 11:39:52</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>20</c>
+              <c>45</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>KNNHPH2YTPX</c>
+              <c>2014-07-07 14:35:10</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>17</c>
+              <c>50</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>JPNX3YQ5GV3</c>
+              <c>2014-07-08 10:35:18</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>21</c>
+              <c>49</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-07 20:00:46</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>12</c>
+              <c>24</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>ZFN8QQ3RSP7</c>
+              <c>2014-07-09 13:31:24</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>18</c>
+              <c>53</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>GTNVDYQPLXT</c>
+              <c>2014-07-08 13:26:46</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>18</c>
+              <c>58</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>ZPNZYQRYRP9</c>
+              <c>2014-07-07 14:13:24</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>18</c>
+              <c>11</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>N5N8T5CKSXY</c>
+              <c>2014-07-07 17:06:37</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>15</c>
+              <c>18</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>HNNDMTZHK7R</c>
+              <c>2014-07-08 13:01:44</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>23</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>ZDNF7FBYH54</c>
+              <c>2014-07-08 08:41:20</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>23</c>
+              <c>43</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>N9NJ275XPMZ</c>
+              <c>2014-07-09 11:21:16</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>21</c>
+              <c>4</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:10:34</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>15</c>
+              <c>14</c>
+              <c>42</c>
+            </r>
+            <r>
+              <c>KMNC8ML97ZK</c>
+              <c>2014-07-07 17:42:25</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>42</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>JYNLNB87C73</c>
+              <c>2014-07-07 14:55:58</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>17</c>
+              <c>29</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>N4N4QCSJWQX</c>
+              <c>2014-07-07 15:48:03</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>16</c>
+              <c>37</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>P8N4TSH8SL3</c>
+              <c>2014-07-08 16:37:45</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>15</c>
+              <c>47</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-07 20:01:11</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>12</c>
+              <c>24</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>LHNKDQDD8G3</c>
+              <c>2014-07-09 13:31:40</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>18</c>
+              <c>53</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>PJNT3NKM6F4</c>
+              <c>2014-07-07 19:45:35</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>12</c>
+              <c>39</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 08:44:18</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>23</c>
+              <c>40</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>G9NNGTMNLPJ</c>
+              <c>2014-07-08 16:54:40</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>15</c>
+              <c>30</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>F2NCWKFQ5FS</c>
+              <c>2014-07-09 11:12:11</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>21</c>
+              <c>13</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>MDNSZPY6MLY</c>
+              <c>2014-07-08 16:17:20</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>16</c>
+              <c>7</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 14:15:57</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>18</c>
+              <c>9</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>K7NW774HZMJ</c>
+              <c>2014-07-07 19:13:16</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>13</c>
+              <c>12</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 11:40:25</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>20</c>
+              <c>44</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:32</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>58</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>N6ND7Z47PGT</c>
+              <c>2014-07-08 12:26:46</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>58</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>Z2NJRFDVDN6</c>
+              <c>2014-07-08 10:35:28</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>21</c>
+              <c>49</c>
+              <c>48</c>
+            </r>
+            <r>
+              <c>VWN6ZZ99L3Q</c>
+              <c>2014-07-08 14:47:01</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>17</c>
+              <c>38</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>GMN8T99TPMR</c>
+              <c>2014-07-07 18:20:02</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>5</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>NTNS4MJ672W</c>
+              <c>2014-07-07 18:06:19</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>18</c>
+              <c>57</c>
+            </r>
+            <r>
+              <c>V7NLG9GJ2B9</c>
+              <c>2014-07-09 12:52:35</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>19</c>
+              <c>32</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>LGNFMNWML96</c>
+              <c>2014-07-09 11:37:13</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>20</c>
+              <c>48</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>NMNP8S4HMDC</c>
+              <c>2014-07-08 14:34:21</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>17</c>
+              <c>50</c>
+              <c>55</c>
+            </r>
+            <r>
+              <c>J6NT6YM6BYF</c>
+              <c>2014-07-09 13:08:53</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>19</c>
+              <c>16</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>VBNHT8DPRD5</c>
+              <c>2014-07-08 15:11:35</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>17</c>
+              <c>13</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>onsite095</c>
+              <c>2014-07-09 12:54:48</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>4</c>
+              <c>19</c>
+              <c>30</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>HVN9P6WBWPD</c>
+              <c>2014-07-07 17:38:41</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>6</c>
+              <c>14</c>
+              <c>46</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>KMNW7B2ZXV4</c>
+              <c>2014-07-08 13:13:04</c>
+              <c>2014-07-14 08:25:16</c>
+              <c>5</c>
+              <c>19</c>
+              <c>12</c>
+              <c>12</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_10_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

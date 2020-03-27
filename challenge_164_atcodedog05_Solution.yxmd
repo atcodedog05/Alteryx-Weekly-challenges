@@ -1,0 +1,900 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="354" width="504" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>My Solution</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="69" width="468" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #164</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="138" width="1032" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Determine the items of clothing that have the highest average rating.  In your analysis, include 1) only items of clothing that have at least 10 positive feedback reviews and  2) the five highest rated clothing items from each class. ]]></Text>
+          <Font name="Microsoft Sans Serif" size="18" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.HtmlBox.HtmlBox">
+        <Position x="1554" y="54" width="1596" height="1008" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URL>https://en.wikipedia.org/wiki/ROT13</URL>
+          <HideAddressBar value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Rating" selected="True" type="Int32" size="4" />
+            <SelectField field="Positive Feedback Count" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;=</Operator>
+            <Field>Positive Feedback Count</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-03-25 01:23:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>10</Operand>
+              <StartDate>2020-03-25 01:23:26</StartDate>
+              <EndDate>2020-03-25 01:23:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Positive Feedback Count] &gt;= 10</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="306" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Department Name" action="GroupBy" rename="Department Name" />
+            <SummarizeField field="Class Name" action="GroupBy" rename="Class Name" />
+            <SummarizeField field="Clothing ID" action="GroupBy" rename="Clothing ID" />
+            <SummarizeField field="Rating" action="Avg" rename="Average Rating" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="366" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Class Name" order="Ascending" />
+            <Field field="Average Rating" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Class Name - Ascending
+Average Rating - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="426" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>5</N>
+          <GroupFields orderChanged="False">
+            <Field name="Class Name" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="964" y="390" width="121.0792" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="989" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="82" />
+              <Fields>
+                <Field name="Department Name" />
+                <Field name="Class Name" />
+                <Field name="Clothing ID" />
+                <Field name="Average Rating" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Tops</c>
+                  <c>Blouses</c>
+                  <c>817</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Blouses</c>
+                  <c>815</c>
+                  <c>4.66666666666667</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Blouses</c>
+                  <c>834</c>
+                  <c>4.61538461538461</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Blouses</c>
+                  <c>840</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Blouses</c>
+                  <c>845</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Dresses</c>
+                  <c>Dresses</c>
+                  <c>1076</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Dresses</c>
+                  <c>Dresses</c>
+                  <c>1093</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Dresses</c>
+                  <c>Dresses</c>
+                  <c>1101</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Dresses</c>
+                  <c>Dresses</c>
+                  <c>1087</c>
+                  <c>4.75</c>
+                </r>
+                <r>
+                  <c>Dresses</c>
+                  <c>Dresses</c>
+                  <c>1151</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Fine gauge</c>
+                  <c>918</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Fine gauge</c>
+                  <c>903</c>
+                  <c>4.54545454545455</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Fine gauge</c>
+                  <c>916</c>
+                  <c>4.25</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Fine gauge</c>
+                  <c>904</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Fine gauge</c>
+                  <c>905</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Jackets</c>
+                  <c>1119</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Jackets</c>
+                  <c>960</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Jackets</c>
+                  <c>966</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Jackets</c>
+                  <c>974</c>
+                  <c>4.77777777777778</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Jackets</c>
+                  <c>984</c>
+                  <c>4.58333333333333</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Jeans</c>
+                  <c>1033</c>
+                  <c>4.875</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Jeans</c>
+                  <c>1025</c>
+                  <c>4.66666666666667</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Jeans</c>
+                  <c>1022</c>
+                  <c>4.25</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Jeans</c>
+                  <c>1024</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Jeans</c>
+                  <c>1028</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Knits</c>
+                  <c>869</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Knits</c>
+                  <c>880</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Knits</c>
+                  <c>877</c>
+                  <c>4.75</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Knits</c>
+                  <c>870</c>
+                  <c>4.66666666666667</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Knits</c>
+                  <c>876</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Layering</c>
+                  <c>439</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Layering</c>
+                  <c>547</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Layering</c>
+                  <c>121</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Layering</c>
+                  <c>520</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Legwear</c>
+                  <c>163</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Legwear</c>
+                  <c>169</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Legwear</c>
+                  <c>183</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Lounge</c>
+                  <c>146</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Lounge</c>
+                  <c>251</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Lounge</c>
+                  <c>290</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Lounge</c>
+                  <c>336</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Lounge</c>
+                  <c>365</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Outerwear</c>
+                  <c>1117</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Outerwear</c>
+                  <c>1132</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Outerwear</c>
+                  <c>1121</c>
+                  <c>4.6</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Outerwear</c>
+                  <c>1115</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Jackets</c>
+                  <c>Outerwear</c>
+                  <c>1123</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Pants</c>
+                  <c>1046</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Pants</c>
+                  <c>1051</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Pants</c>
+                  <c>1054</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Pants</c>
+                  <c>1061</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Pants</c>
+                  <c>1062</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Shorts</c>
+                  <c>316</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Shorts</c>
+                  <c>602</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Shorts</c>
+                  <c>282</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Shorts</c>
+                  <c>271</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Shorts</c>
+                  <c>619</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Skirts</c>
+                  <c>1011</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Skirts</c>
+                  <c>999</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Skirts</c>
+                  <c>993</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Skirts</c>
+                  <c>996</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Bottoms</c>
+                  <c>Skirts</c>
+                  <c>1008</c>
+                  <c>4.45454545454545</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Sleep</c>
+                  <c>145</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Sleep</c>
+                  <c>147</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Sleep</c>
+                  <c>148</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Sleep</c>
+                  <c>193</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Sleep</c>
+                  <c>250</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Sweaters</c>
+                  <c>933</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Sweaters</c>
+                  <c>941</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Sweaters</c>
+                  <c>947</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Sweaters</c>
+                  <c>954</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Tops</c>
+                  <c>Sweaters</c>
+                  <c>949</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Swim</c>
+                  <c>240</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Swim</c>
+                  <c>241</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Swim</c>
+                  <c>252</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Swim</c>
+                  <c>254</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Intimate</c>
+                  <c>Swim</c>
+                  <c>378</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Trend</c>
+                  <c>Trend</c>
+                  <c>562</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Trend</c>
+                  <c>Trend</c>
+                  <c>555</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Trend</c>
+                  <c>Trend</c>
+                  <c>573</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Trend</c>
+                  <c>Trend</c>
+                  <c>1146</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>Trend</c>
+                  <c>Trend</c>
+                  <c>559</c>
+                  <c>2</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="377" width="111.3784" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Input</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Womens Clothing E-Commerce Reviews.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Womens Clothing E-Commerce Reviews.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Clothing ID" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Age" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Title" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Review Text" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Rating" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Recommended IND" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Positive Feedback Count" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Division Name" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Department Name" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+                <Field name="Class Name" size="254" source="File: C:\Users\Kiran\Downloads\challenge_164_start_file\Womens Clothing E-Commerce Reviews.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-3" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_164_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

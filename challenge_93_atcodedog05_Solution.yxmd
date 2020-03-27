@@ -1,0 +1,2565 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="258" width="276" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="258" width="276" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="69" width="252" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #93</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="126" width="636" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[
+Input Data 1 contains information on pumpkin production for different states (ANSI codes) for the years between 2000 and 2016.  Input Data 2 contains a pipe delimited lookup table for state ANSI codes.  Using the Inputs, create a table that identifies the most and least productive states with respect to pumpkin production volume.  Compare the production values to the average production for that state.           ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="438" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Year" />
+            <Field name="Max Producer" />
+            <Field name="Max Pumpkin Numbers" />
+            <Field name="Max Average State Production" />
+            <Field name="Max Diff from Average Production" />
+            <Field name="Min Producer" />
+            <Field name="Min Pumpkin Numbers" />
+            <Field name="Min Average State Production" />
+            <Field name="Min Diff from Average Production" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2000</c>
+              <c>Illinois</c>
+              <c>3636000</c>
+              <c>4713117.64705882</c>
+              <c>-1077117.64705882</c>
+              <c>Michigan</c>
+              <c>704000</c>
+              <c>853823.529411765</c>
+              <c>-149823.529411765</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>Illinois</c>
+              <c>3192000</c>
+              <c>4713117.64705882</c>
+              <c>-1521117.64705882</c>
+              <c>Michigan</c>
+              <c>528000</c>
+              <c>853823.529411765</c>
+              <c>-325823.529411765</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>Illinois</c>
+              <c>2988000</c>
+              <c>4713117.64705882</c>
+              <c>-1725117.64705882</c>
+              <c>Michigan</c>
+              <c>816000</c>
+              <c>853823.529411765</c>
+              <c>-37823.5294117647</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>Illinois</c>
+              <c>3258000</c>
+              <c>4713117.64705882</c>
+              <c>-1455117.64705882</c>
+              <c>New York</c>
+              <c>742000</c>
+              <c>903529.411764706</c>
+              <c>-161529.411764706</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>Illinois</c>
+              <c>4572000</c>
+              <c>4713117.64705882</c>
+              <c>-141117.647058823</c>
+              <c>New York</c>
+              <c>819000</c>
+              <c>903529.411764706</c>
+              <c>-84529.4117647059</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>Illinois</c>
+              <c>4967000</c>
+              <c>4713117.64705882</c>
+              <c>253882.352941177</c>
+              <c>Michigan</c>
+              <c>754000</c>
+              <c>853823.529411765</c>
+              <c>-99823.5294117647</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>Illinois</c>
+              <c>4918000</c>
+              <c>4713117.64705882</c>
+              <c>204882.352941177</c>
+              <c>New York</c>
+              <c>798000</c>
+              <c>903529.411764706</c>
+              <c>-105529.411764706</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>Illinois</c>
+              <c>5420000</c>
+              <c>4713117.64705882</c>
+              <c>706882.352941177</c>
+              <c>Michigan</c>
+              <c>713000</c>
+              <c>853823.529411765</c>
+              <c>-140823.529411765</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>Illinois</c>
+              <c>4960000</c>
+              <c>4713117.64705882</c>
+              <c>246882.352941177</c>
+              <c>Ohio</c>
+              <c>931000</c>
+              <c>1137941.17647059</c>
+              <c>-206941.176470588</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>Illinois</c>
+              <c>4291000</c>
+              <c>4713117.64705882</c>
+              <c>-422117.647058823</c>
+              <c>Michigan</c>
+              <c>737000</c>
+              <c>853823.529411765</c>
+              <c>-116823.529411765</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>Illinois</c>
+              <c>4274000</c>
+              <c>4713117.64705882</c>
+              <c>-439117.647058823</c>
+              <c>Michigan</c>
+              <c>952000</c>
+              <c>853823.529411765</c>
+              <c>98176.4705882353</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>Illinois</c>
+              <c>5204000</c>
+              <c>4713117.64705882</c>
+              <c>490882.352941177</c>
+              <c>New York</c>
+              <c>693000</c>
+              <c>903529.411764706</c>
+              <c>-210529.411764706</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>Illinois</c>
+              <c>5563000</c>
+              <c>4713117.64705882</c>
+              <c>849882.352941177</c>
+              <c>Michigan</c>
+              <c>945000</c>
+              <c>853823.529411765</c>
+              <c>91176.4705882353</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>Illinois</c>
+              <c>5476000</c>
+              <c>4713117.64705882</c>
+              <c>762882.352941177</c>
+              <c>Pennsylvania</c>
+              <c>856000</c>
+              <c>1020588.23529412</c>
+              <c>-164588.235294118</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>Illinois</c>
+              <c>7458000</c>
+              <c>4713117.64705882</c>
+              <c>2744882.35294118</c>
+              <c>New York</c>
+              <c>690000</c>
+              <c>903529.411764706</c>
+              <c>-213529.411764706</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>Illinois</c>
+              <c>3179000</c>
+              <c>4713117.64705882</c>
+              <c>-1534117.64705882</c>
+              <c>New York</c>
+              <c>489000</c>
+              <c>903529.411764706</c>
+              <c>-414529.411764706</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>Illinois</c>
+              <c>6767000</c>
+              <c>4713117.64705882</c>
+              <c>2053882.35294118</c>
+              <c>Minnesota</c>
+              <c>167000</c>
+              <c>167000</c>
+              <c>0</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_2376_81d148bf060141be95fb31dd2babb8a8_\Engine_8408_c2f368668243481bbff000d5770d7530_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="113" />
+          <Fields>
+            <Field name="Year" />
+            <Field name="State ANSI" />
+            <Field name="PUMPKINS  -  &lt;b&gt;VALUE&lt;/b&gt;" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2016</c>
+              <c>6</c>
+              <c>1,350,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>17</c>
+              <c>6,767,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>18</c>
+              <c>662,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>26</c>
+              <c>791,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>27</c>
+              <c>167,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>34</c>
+              <c>202,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>36</c>
+              <c>322,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>37</c>
+              <c>936,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>39</c>
+              <c>930,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>41</c>
+              <c>483,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c />
+              <c>0</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>42</c>
+              <c>735,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>47</c>
+              <c>274,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>48</c>
+              <c>1,480,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>51</c>
+              <c>372,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>53</c>
+              <c>398,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>55</c>
+              <c>201,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>6</c>
+              <c>1,464,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>17</c>
+              <c>3,179,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>26</c>
+              <c>770,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>36</c>
+              <c>489,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>39</c>
+              <c>842,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>42</c>
+              <c>794,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>6</c>
+              <c>1,798,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>17</c>
+              <c>7,458,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>26</c>
+              <c>970,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>36</c>
+              <c>690,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>39</c>
+              <c>1,053,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>42</c>
+              <c>1,050,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>6</c>
+              <c>1,947,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>17</c>
+              <c>5,476,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>26</c>
+              <c>978,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>36</c>
+              <c>960,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>39</c>
+              <c>1,004,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>42</c>
+              <c>856,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>6</c>
+              <c>1,870,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>17</c>
+              <c>5,563,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>26</c>
+              <c>945,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>36</c>
+              <c>1,071,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>39</c>
+              <c>1,440,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>42</c>
+              <c>1,147,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>6</c>
+              <c>1,674,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>17</c>
+              <c>5,204,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>26</c>
+              <c>986,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>36</c>
+              <c>693,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>39</c>
+              <c>1,122,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>42</c>
+              <c>1,026,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>6</c>
+              <c>1,984,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>17</c>
+              <c>4,274,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>26</c>
+              <c>952,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>36</c>
+              <c>1,462,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>39</c>
+              <c>1,104,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>42</c>
+              <c>972,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>6</c>
+              <c>1,479,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>17</c>
+              <c>4,291,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>26</c>
+              <c>737,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>36</c>
+              <c>750,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>39</c>
+              <c>1,237,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>42</c>
+              <c>819,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>6</c>
+              <c>1,484,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>17</c>
+              <c>4,960,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>26</c>
+              <c>986,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>36</c>
+              <c>1,062,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>39</c>
+              <c>931,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>42</c>
+              <c>1,240,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>6</c>
+              <c>1,224,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>17</c>
+              <c>5,420,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>26</c>
+              <c>713,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>36</c>
+              <c>1,152,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>39</c>
+              <c>2,013,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>42</c>
+              <c>936,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>6</c>
+              <c>1,325,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>17</c>
+              <c>4,918,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>26</c>
+              <c>855,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>36</c>
+              <c>798,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>39</c>
+              <c>1,340,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>42</c>
+              <c>1,248,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>6</c>
+              <c>1,595,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>17</c>
+              <c>4,967,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>26</c>
+              <c>754,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>36</c>
+              <c>795,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>39</c>
+              <c>1,332,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>42</c>
+              <c>1,313,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>6</c>
+              <c>1,404,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>17</c>
+              <c>4,572,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>26</c>
+              <c>1,008,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>36</c>
+              <c>819,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>39</c>
+              <c>1,116,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>42</c>
+              <c>1,216,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>6</c>
+              <c>1,225,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>17</c>
+              <c>3,258,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>26</c>
+              <c>1,022,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>36</c>
+              <c>742,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>39</c>
+              <c>1,088,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>42</c>
+              <c>750,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>6</c>
+              <c>1,540,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>17</c>
+              <c>2,988,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>26</c>
+              <c>816,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>36</c>
+              <c>1,071,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>39</c>
+              <c>924,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>42</c>
+              <c>1,170,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>6</c>
+              <c>1,464,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>17</c>
+              <c>3,192,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>26</c>
+              <c>528,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>36</c>
+              <c>1,344,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>39</c>
+              <c>944,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>42</c>
+              <c>988,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>6</c>
+              <c>1,800,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>17</c>
+              <c>3,636,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>26</c>
+              <c>704,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>36</c>
+              <c>1,140,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>39</c>
+              <c>925,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>42</c>
+              <c>1,090,000</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input 1</AnnotationText>
+          <DefaultAnnotationText>Input 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="58" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>STATE|STUSAB|STATE_NAME|STATENS</c>
+            </r>
+            <r>
+              <c>01|AL|Alabama|01779775</c>
+            </r>
+            <r>
+              <c>02|AK|Alaska|01785533</c>
+            </r>
+            <r>
+              <c>04|AZ|Arizona|01779777</c>
+            </r>
+            <r>
+              <c>05|AR|Arkansas|00068085</c>
+            </r>
+            <r>
+              <c>06|CA|California|01779778</c>
+            </r>
+            <r>
+              <c>08|CO|Colorado|01779779</c>
+            </r>
+            <r>
+              <c>09|CT|Connecticut|01779780</c>
+            </r>
+            <r>
+              <c>10|DE|Delaware|01779781</c>
+            </r>
+            <r>
+              <c>11|DC|District of Columbia|01702382</c>
+            </r>
+            <r>
+              <c>12|FL|Florida|00294478</c>
+            </r>
+            <r>
+              <c>13|GA|Georgia|01705317</c>
+            </r>
+            <r>
+              <c>15|HI|Hawaii|01779782</c>
+            </r>
+            <r>
+              <c>16|ID|Idaho|01779783</c>
+            </r>
+            <r>
+              <c>17|IL|Illinois|01779784</c>
+            </r>
+            <r>
+              <c>18|IN|Indiana|00448508</c>
+            </r>
+            <r>
+              <c>19|IA|Iowa|01779785</c>
+            </r>
+            <r>
+              <c>20|KS|Kansas|00481813</c>
+            </r>
+            <r>
+              <c>21|KY|Kentucky|01779786</c>
+            </r>
+            <r>
+              <c>22|LA|Louisiana|01629543</c>
+            </r>
+            <r>
+              <c>23|ME|Maine|01779787</c>
+            </r>
+            <r>
+              <c>24|MD|Maryland|01714934</c>
+            </r>
+            <r>
+              <c>25|MA|Massachusetts|00606926</c>
+            </r>
+            <r>
+              <c>26|MI|Michigan|01779789</c>
+            </r>
+            <r>
+              <c>27|MN|Minnesota|00662849</c>
+            </r>
+            <r>
+              <c>28|MS|Mississippi|01779790</c>
+            </r>
+            <r>
+              <c>29|MO|Missouri|01779791</c>
+            </r>
+            <r>
+              <c>30|MT|Montana|00767982</c>
+            </r>
+            <r>
+              <c>31|NE|Nebraska|01779792</c>
+            </r>
+            <r>
+              <c>32|NV|Nevada|01779793</c>
+            </r>
+            <r>
+              <c>33|NH|New Hampshire|01779794</c>
+            </r>
+            <r>
+              <c>34|NJ|New Jersey|01779795</c>
+            </r>
+            <r>
+              <c>35|NM|New Mexico|00897535</c>
+            </r>
+            <r>
+              <c>36|NY|New York|01779796</c>
+            </r>
+            <r>
+              <c>37|NC|North Carolina|01027616</c>
+            </r>
+            <r>
+              <c>38|ND|North Dakota|01779797</c>
+            </r>
+            <r>
+              <c>39|OH|Ohio|01085497</c>
+            </r>
+            <r>
+              <c>40|OK|Oklahoma|01102857</c>
+            </r>
+            <r>
+              <c>41|OR|Oregon|01155107</c>
+            </r>
+            <r>
+              <c>42|PA|Pennsylvania|01779798</c>
+            </r>
+            <r>
+              <c>44|RI|Rhode Island|01219835</c>
+            </r>
+            <r>
+              <c>45|SC|South Carolina|01779799</c>
+            </r>
+            <r>
+              <c>46|SD|South Dakota|01785534</c>
+            </r>
+            <r>
+              <c>47|TN|Tennessee|01325873</c>
+            </r>
+            <r>
+              <c>48|TX|Texas|01779801</c>
+            </r>
+            <r>
+              <c>49|UT|Utah|01455989</c>
+            </r>
+            <r>
+              <c>50|VT|Vermont|01779802</c>
+            </r>
+            <r>
+              <c>51|VA|Virginia|01779803</c>
+            </r>
+            <r>
+              <c>53|WA|Washington|01779804</c>
+            </r>
+            <r>
+              <c>54|WV|West Virginia|01779805</c>
+            </r>
+            <r>
+              <c>55|WI|Wisconsin|01779806</c>
+            </r>
+            <r>
+              <c>56|WY|Wyoming|01779807</c>
+            </r>
+            <r>
+              <c>60|AS|American Samoa|01802701</c>
+            </r>
+            <r>
+              <c>66|GU|Guam|01802705</c>
+            </r>
+            <r>
+              <c>69|MP|Northern Mariana Islands|01779809</c>
+            </r>
+            <r>
+              <c>72|PR|Puerto Rico|01779808</c>
+            </r>
+            <r>
+              <c>74|UM|U.S. Minor Outlying Islands|01878752</c>
+            </r>
+            <r>
+              <c>78|VI|U.S. Virgin Islands|01802710</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input 2</AnnotationText>
+          <DefaultAnnotationText>Input 2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_2376_81d148bf060141be95fb31dd2babb8a8_\Engine_8408_b59c8a16b16844dcb4e67358dde913bc_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_2376_81d148bf060141be95fb31dd2babb8a8_\Engine_8408_cdc74423138a449b8ab3a8143c24d954_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="558" width="744" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>My Solution</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="113" />
+          <Fields>
+            <Field name="Year" />
+            <Field name="State ANSI" />
+            <Field name="PUMPKINS  -  &lt;b&gt;VALUE&lt;/b&gt;" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2016</c>
+              <c>6</c>
+              <c>1,350,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>17</c>
+              <c>6,767,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>18</c>
+              <c>662,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>26</c>
+              <c>791,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>27</c>
+              <c>167,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>34</c>
+              <c>202,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>36</c>
+              <c>322,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>37</c>
+              <c>936,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>39</c>
+              <c>930,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>41</c>
+              <c>483,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c />
+              <c>0</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>42</c>
+              <c>735,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>47</c>
+              <c>274,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>48</c>
+              <c>1,480,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>51</c>
+              <c>372,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>53</c>
+              <c>398,000</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>55</c>
+              <c>201,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>6</c>
+              <c>1,464,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>17</c>
+              <c>3,179,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>26</c>
+              <c>770,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>36</c>
+              <c>489,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>39</c>
+              <c>842,000</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>42</c>
+              <c>794,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>6</c>
+              <c>1,798,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>17</c>
+              <c>7,458,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>26</c>
+              <c>970,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>36</c>
+              <c>690,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>39</c>
+              <c>1,053,000</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>42</c>
+              <c>1,050,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>6</c>
+              <c>1,947,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>17</c>
+              <c>5,476,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>26</c>
+              <c>978,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>36</c>
+              <c>960,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>39</c>
+              <c>1,004,000</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>42</c>
+              <c>856,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>6</c>
+              <c>1,870,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>17</c>
+              <c>5,563,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>26</c>
+              <c>945,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>36</c>
+              <c>1,071,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>39</c>
+              <c>1,440,000</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>42</c>
+              <c>1,147,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>6</c>
+              <c>1,674,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>17</c>
+              <c>5,204,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>26</c>
+              <c>986,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>36</c>
+              <c>693,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>39</c>
+              <c>1,122,000</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>42</c>
+              <c>1,026,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>6</c>
+              <c>1,984,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>17</c>
+              <c>4,274,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>26</c>
+              <c>952,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>36</c>
+              <c>1,462,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>39</c>
+              <c>1,104,000</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>42</c>
+              <c>972,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>6</c>
+              <c>1,479,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>17</c>
+              <c>4,291,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>26</c>
+              <c>737,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>36</c>
+              <c>750,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>39</c>
+              <c>1,237,000</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>42</c>
+              <c>819,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>6</c>
+              <c>1,484,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>17</c>
+              <c>4,960,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>26</c>
+              <c>986,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>36</c>
+              <c>1,062,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>39</c>
+              <c>931,000</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>42</c>
+              <c>1,240,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>6</c>
+              <c>1,224,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>17</c>
+              <c>5,420,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>26</c>
+              <c>713,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>36</c>
+              <c>1,152,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>39</c>
+              <c>2,013,000</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>42</c>
+              <c>936,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>6</c>
+              <c>1,325,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>17</c>
+              <c>4,918,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>26</c>
+              <c>855,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>36</c>
+              <c>798,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>39</c>
+              <c>1,340,000</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>42</c>
+              <c>1,248,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>6</c>
+              <c>1,595,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>17</c>
+              <c>4,967,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>26</c>
+              <c>754,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>36</c>
+              <c>795,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>39</c>
+              <c>1,332,000</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>42</c>
+              <c>1,313,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>6</c>
+              <c>1,404,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>17</c>
+              <c>4,572,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>26</c>
+              <c>1,008,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>36</c>
+              <c>819,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>39</c>
+              <c>1,116,000</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>42</c>
+              <c>1,216,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>6</c>
+              <c>1,225,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>17</c>
+              <c>3,258,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>26</c>
+              <c>1,022,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>36</c>
+              <c>742,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>39</c>
+              <c>1,088,000</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>42</c>
+              <c>750,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>6</c>
+              <c>1,540,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>17</c>
+              <c>2,988,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>26</c>
+              <c>816,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>36</c>
+              <c>1,071,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>39</c>
+              <c>924,000</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>42</c>
+              <c>1,170,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>6</c>
+              <c>1,464,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>17</c>
+              <c>3,192,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>26</c>
+              <c>528,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>36</c>
+              <c>1,344,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>39</c>
+              <c>944,000</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>42</c>
+              <c>988,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>6</c>
+              <c>1,800,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>17</c>
+              <c>3,636,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>26</c>
+              <c>704,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>36</c>
+              <c>1,140,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>39</c>
+              <c>925,000</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>42</c>
+              <c>1,090,000</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input 1</AnnotationText>
+          <DefaultAnnotationText>Input 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="58" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>STATE|STUSAB|STATE_NAME|STATENS</c>
+            </r>
+            <r>
+              <c>01|AL|Alabama|01779775</c>
+            </r>
+            <r>
+              <c>02|AK|Alaska|01785533</c>
+            </r>
+            <r>
+              <c>04|AZ|Arizona|01779777</c>
+            </r>
+            <r>
+              <c>05|AR|Arkansas|00068085</c>
+            </r>
+            <r>
+              <c>06|CA|California|01779778</c>
+            </r>
+            <r>
+              <c>08|CO|Colorado|01779779</c>
+            </r>
+            <r>
+              <c>09|CT|Connecticut|01779780</c>
+            </r>
+            <r>
+              <c>10|DE|Delaware|01779781</c>
+            </r>
+            <r>
+              <c>11|DC|District of Columbia|01702382</c>
+            </r>
+            <r>
+              <c>12|FL|Florida|00294478</c>
+            </r>
+            <r>
+              <c>13|GA|Georgia|01705317</c>
+            </r>
+            <r>
+              <c>15|HI|Hawaii|01779782</c>
+            </r>
+            <r>
+              <c>16|ID|Idaho|01779783</c>
+            </r>
+            <r>
+              <c>17|IL|Illinois|01779784</c>
+            </r>
+            <r>
+              <c>18|IN|Indiana|00448508</c>
+            </r>
+            <r>
+              <c>19|IA|Iowa|01779785</c>
+            </r>
+            <r>
+              <c>20|KS|Kansas|00481813</c>
+            </r>
+            <r>
+              <c>21|KY|Kentucky|01779786</c>
+            </r>
+            <r>
+              <c>22|LA|Louisiana|01629543</c>
+            </r>
+            <r>
+              <c>23|ME|Maine|01779787</c>
+            </r>
+            <r>
+              <c>24|MD|Maryland|01714934</c>
+            </r>
+            <r>
+              <c>25|MA|Massachusetts|00606926</c>
+            </r>
+            <r>
+              <c>26|MI|Michigan|01779789</c>
+            </r>
+            <r>
+              <c>27|MN|Minnesota|00662849</c>
+            </r>
+            <r>
+              <c>28|MS|Mississippi|01779790</c>
+            </r>
+            <r>
+              <c>29|MO|Missouri|01779791</c>
+            </r>
+            <r>
+              <c>30|MT|Montana|00767982</c>
+            </r>
+            <r>
+              <c>31|NE|Nebraska|01779792</c>
+            </r>
+            <r>
+              <c>32|NV|Nevada|01779793</c>
+            </r>
+            <r>
+              <c>33|NH|New Hampshire|01779794</c>
+            </r>
+            <r>
+              <c>34|NJ|New Jersey|01779795</c>
+            </r>
+            <r>
+              <c>35|NM|New Mexico|00897535</c>
+            </r>
+            <r>
+              <c>36|NY|New York|01779796</c>
+            </r>
+            <r>
+              <c>37|NC|North Carolina|01027616</c>
+            </r>
+            <r>
+              <c>38|ND|North Dakota|01779797</c>
+            </r>
+            <r>
+              <c>39|OH|Ohio|01085497</c>
+            </r>
+            <r>
+              <c>40|OK|Oklahoma|01102857</c>
+            </r>
+            <r>
+              <c>41|OR|Oregon|01155107</c>
+            </r>
+            <r>
+              <c>42|PA|Pennsylvania|01779798</c>
+            </r>
+            <r>
+              <c>44|RI|Rhode Island|01219835</c>
+            </r>
+            <r>
+              <c>45|SC|South Carolina|01779799</c>
+            </r>
+            <r>
+              <c>46|SD|South Dakota|01785534</c>
+            </r>
+            <r>
+              <c>47|TN|Tennessee|01325873</c>
+            </r>
+            <r>
+              <c>48|TX|Texas|01779801</c>
+            </r>
+            <r>
+              <c>49|UT|Utah|01455989</c>
+            </r>
+            <r>
+              <c>50|VT|Vermont|01779802</c>
+            </r>
+            <r>
+              <c>51|VA|Virginia|01779803</c>
+            </r>
+            <r>
+              <c>53|WA|Washington|01779804</c>
+            </r>
+            <r>
+              <c>54|WV|West Virginia|01779805</c>
+            </r>
+            <r>
+              <c>55|WI|Wisconsin|01779806</c>
+            </r>
+            <r>
+              <c>56|WY|Wyoming|01779807</c>
+            </r>
+            <r>
+              <c>60|AS|American Samoa|01802701</c>
+            </r>
+            <r>
+              <c>66|GU|Guam|01802705</c>
+            </r>
+            <r>
+              <c>69|MP|Northern Mariana Islands|01779809</c>
+            </r>
+            <r>
+              <c>72|PR|Puerto Rico|01779808</c>
+            </r>
+            <r>
+              <c>74|UM|U.S. Minor Outlying Islands|01878752</c>
+            </r>
+            <r>
+              <c>78|VI|U.S. Virgin Islands|01802710</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input 2</AnnotationText>
+          <DefaultAnnotationText>Input 2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="126" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field1</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="|" />
+          <NumFields value="4" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="186" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Field1" />
+            <Field name="1" />
+            <Field name="2" />
+            <Field name="3" />
+            <Field name="4" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="STATE|STUSAB|STATE_NAME|STATENS" size="42" source="TextInput:" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="STATE" size="42" source="TextToColumns: Parsed from Field1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="STUSAB" size="42" source="TextToColumns: Parsed from Field1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="STATE_NAME" size="42" source="TextToColumns: Parsed from Field1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="STATENS" size="42" source="TextToColumns: Parsed from Field1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="State ANSI" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="STATE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Year" selected="True" input="Left_" />
+                <SelectField field="Left_State ANSI" selected="False" input="Left_" />
+                <SelectField field="Right_STATE_NAME" selected="True" rename="State" input="Right_" />
+                <SelectField field="Left_PUMPKINS  -  &lt;b&gt;VALUE&lt;/b&gt;" selected="True" rename="Pumpkins" input="Left_" type="Int64" size="8" />
+                <SelectField field="Right_STATE|STUSAB|STATE_NAME|STATENS" selected="False" input="Right_" />
+                <SelectField field="Right_STATE" selected="False" input="Right_" />
+                <SelectField field="Right_STUSAB" selected="False" input="Right_" />
+                <SelectField field="Right_STATENS" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="126" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="State ANSI" selected="True" type="String" size="3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings>
+        <Position x="186" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Year","State ANSI","PUMPKINS  -  &lt;b&gt;VALUE&lt;/b&gt;"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="318" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Year" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="390" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="State" action="GroupBy" rename="State" />
+            <SummarizeField field="Pumpkins" action="Avg" rename="Avg_Pumpkins" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="390" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Year" order="Ascending" />
+            <Field field="Pumpkins" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending
+Pumpkins - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="450" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False">
+            <Field name="Year" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="390" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Year" order="Ascending" />
+            <Field field="Pumpkins" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending
+Pumpkins - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="450" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False">
+            <Field name="Year" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="State" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="State" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Avg_Pumpkins" selected="True" rename="Min_Avg_Production" input="Left_" />
+                <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                <SelectField field="Right_Pumpkins" selected="True" rename="Min_Production" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="State" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="State" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Pumpkins" selected="True" rename="Max_Production" input="Left_" />
+                <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                <SelectField field="Right_Avg_Pumpkins" selected="True" rename="Max_Avg_Production" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Year" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Year" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Year" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" rename="Max_State" input="Left_" />
+                <SelectField field="Left_Max_Production" selected="True" input="Left_" />
+                <SelectField field="Left_Max_Avg_Production" selected="True" input="Left_" />
+                <SelectField field="Right_State" selected="True" rename="Min_State" input="Right_" />
+                <SelectField field="Right_Min_Production" selected="True" input="Right_" />
+                <SelectField field="Right_Min_Avg_Production" selected="True" input="Right_" />
+                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="630" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Max_Avg_Production]-[Max_Production]" field="Max Diff from Average Production" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Min_Avg_Production]-[Min_Production]" field="Min Diff from Average Production" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Max Diff from Average Production = [Max_Avg_Production]-[Max_Production]
+Min Dif...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Max_State" selected="True" />
+            <SelectField field="Max_Production" selected="True" />
+            <SelectField field="Max_Avg_Production" selected="True" />
+            <SelectField field="Max Diff from Average Production" selected="True" />
+            <SelectField field="Min_State" selected="True" />
+            <SelectField field="Min_Production" selected="True" />
+            <SelectField field="Min_Avg_Production" selected="True" />
+            <SelectField field="Min Diff from Average Production" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_2376_81d148bf060141be95fb31dd2babb8a8_\Engine_8408_b9fc653931754e2481831eda4c135abd_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output26" />
+      <Destination ToolID="63" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Join" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="72" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="73" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="73" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Join" />
+      <Destination ToolID="74" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Join" />
+      <Destination ToolID="74" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Join" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="False" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_93_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

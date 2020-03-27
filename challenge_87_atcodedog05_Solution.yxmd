@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="258" width="240" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="258" width="324" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="69" width="252" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #87</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="612" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Using the Input data below (or a similar dataset for your location, which can be found https://www.timeanddate.com/sun/usa/ for US-based users), calculate the amount of daylight for each day in September, as well as the day-to-day differences in daylight and the total difference from September 1 to September 30.    
+
+ ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="31" />
+          <Fields>
+            <Field name="Sep" />
+            <Field name="Sunrise" />
+            <Field name="Sunset" />
+          </Fields>
+          <Data>
+            <r>
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>1</c>
+              <c>6:28 am ↑ (79°)</c>
+              <c>7:30 pm ↑ (281°)</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>6:29 am ↑ (79°)</c>
+              <c>7:29 pm ↑ (281°)</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>6:30 am ↑ (80°)</c>
+              <c>7:27 pm ↑ (280°)</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>6:31 am ↑ (80°)</c>
+              <c>7:25 pm ↑ (280°)</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>6:32 am ↑ (81°)</c>
+              <c>7:24 pm ↑ (279°)</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>6:32 am ↑ (81°)</c>
+              <c>7:22 pm ↑ (279°)</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>6:33 am ↑ (82°)</c>
+              <c>7:21 pm ↑ (278°)</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>6:34 am ↑ (82°)</c>
+              <c>7:19 pm ↑ (278°)</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>6:35 am ↑ (83°)</c>
+              <c>7:17 pm ↑ (277°)</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>6:36 am ↑ (83°)</c>
+              <c>7:16 pm ↑ (277°)</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>6:37 am ↑ (84°)</c>
+              <c>7:14 pm ↑ (276°)</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>6:38 am ↑ (84°)</c>
+              <c>7:12 pm ↑ (276°)</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>6:39 am ↑ (85°)</c>
+              <c>7:11 pm ↑ (275°)</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>6:40 am ↑ (85°)</c>
+              <c>7:09 pm ↑ (275°)</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>6:41 am ↑ (86°)</c>
+              <c>7:07 pm ↑ (274°)</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>6:42 am ↑ (86°)</c>
+              <c>7:06 pm ↑ (274°)</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>6:43 am ↑ (87°)</c>
+              <c>7:04 pm ↑ (273°)</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>6:44 am ↑ (87°)</c>
+              <c>7:03 pm ↑ (273°)</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>6:45 am ↑ (88°)</c>
+              <c>7:01 pm ↑ (272°)</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>6:46 am ↑ (88°)</c>
+              <c>6:59 pm ↑ (272°)</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>6:46 am ↑ (89°)</c>
+              <c>6:58 pm ↑ (271°)</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>6:47 am ↑ (89°)</c>
+              <c>6:56 pm ↑ (271°)</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>6:48 am ↑ (90°)</c>
+              <c>6:54 pm ↑ (270°)</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>6:49 am ↑ (90°)</c>
+              <c>6:53 pm ↑ (270°)</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>6:50 am ↑ (91°)</c>
+              <c>6:51 pm ↑ (269°)</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>6:51 am ↑ (91°)</c>
+              <c>6:49 pm ↑ (269°)</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>6:52 am ↑ (92°)</c>
+              <c>6:48 pm ↑ (268°)</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>6:53 am ↑ (92°)</c>
+              <c>6:46 pm ↑ (268°)</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>6:54 am ↑ (93°)</c>
+              <c>6:45 pm ↑ (267°)</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>6:55 am ↑ (93°)</c>
+              <c>6:43 pm ↑ (267°)</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="462" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="31" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="Sunrise" />
+            <Field name="Sunset" />
+            <Field name="Day Length (minutes)" />
+            <Field name="Day Length Diff" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>6:28</c>
+              <c>7:30</c>
+              <c>782</c>
+              <c />
+            </r>
+            <r>
+              <c>2</c>
+              <c>6:29</c>
+              <c>7:29</c>
+              <c>780</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>6:30</c>
+              <c>7:27</c>
+              <c>777</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>6:31</c>
+              <c>7:25</c>
+              <c>774</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>6:32</c>
+              <c>7:24</c>
+              <c>772</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>6:32</c>
+              <c>7:22</c>
+              <c>770</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>6:33</c>
+              <c>7:21</c>
+              <c>768</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>6:34</c>
+              <c>7:19</c>
+              <c>765</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>6:35</c>
+              <c>7:17</c>
+              <c>762</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>6:36</c>
+              <c>7:16</c>
+              <c>760</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>6:37</c>
+              <c>7:14</c>
+              <c>757</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>6:38</c>
+              <c>7:12</c>
+              <c>754</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>6:39</c>
+              <c>7:11</c>
+              <c>752</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>6:40</c>
+              <c>7:09</c>
+              <c>749</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>6:41</c>
+              <c>7:07</c>
+              <c>746</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>6:42</c>
+              <c>7:06</c>
+              <c>744</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>6:43</c>
+              <c>7:04</c>
+              <c>741</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>6:44</c>
+              <c>7:03</c>
+              <c>739</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>6:45</c>
+              <c>7:01</c>
+              <c>736</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>6:46</c>
+              <c>6:59</c>
+              <c>733</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>6:46</c>
+              <c>6:58</c>
+              <c>732</c>
+              <c>-1</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>6:47</c>
+              <c>6:56</c>
+              <c>729</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>6:48</c>
+              <c>6:54</c>
+              <c>726</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>6:49</c>
+              <c>6:53</c>
+              <c>724</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>6:50</c>
+              <c>6:51</c>
+              <c>721</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>6:51</c>
+              <c>6:49</c>
+              <c>718</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>6:52</c>
+              <c>6:48</c>
+              <c>716</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>6:53</c>
+              <c>6:46</c>
+              <c>713</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>6:54</c>
+              <c>6:45</c>
+              <c>711</c>
+              <c>-2</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>6:55</c>
+              <c>6:43</c>
+              <c>708</c>
+              <c>-3</c>
+            </r>
+            <r>
+              <c>September Total</c>
+              <c />
+              <c />
+              <c />
+              <c>-74</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_7840_21e7d9105e174c3ca2846634c8785dde_\Engine_9968_1d2e988aaf8c462d84689b1364521ad8_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="138" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Sunrise],4)" field="Sunrise" size="15" type="WString" />
+            <FormulaField expression="Left([Sunset],4)" field="Sunset" size="16" type="WString" />
+            <FormulaField expression="(&#xA;(&#xA;(ToNumber(Left([Sunset], 1))+12)&#xA;-ToNumber(Left([Sunrise], 1))&#xA;)&#xA;*60)&#xA;&#xA;+&#xA;&#xA;((ToNumber(Right([Sunset], 2))-ToNumber(Right([Sunrise], 2))))" field="Day Length (minutes)" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Sunrise = Left([Sunrise],4)
+Sunset = Left([Sunset],4)
+Day Length (minutes) = (
+(...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="198" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Sep</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-03-24 14:21:13</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-03-24 14:21:13</StartDate>
+              <EndDate>2020-03-24 14:21:13</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Sep])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="258" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Sep</UpdateField_Name>
+          <CreateField_Name>Day Length Diff</CreateField_Name>
+          <CreateField_Type>Float</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>NULL</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Day Length (minutes)]-[Row-1:Day Length (minutes)]</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>[Day Length (minutes)]-[Row-1:Day Length (minutes)]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_7840_21e7d9105e174c3ca2846634c8785dde_\Engine_9968_20696a83d6884367aaa0062b552567b7_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="True" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_87_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

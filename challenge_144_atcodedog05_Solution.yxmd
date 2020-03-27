@@ -1,0 +1,1388 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="582" width="720" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>My Solution - Scroogieness :)</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="306" width="300" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="378" y="306" width="336" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="50" />
+          <Fields>
+            <Field name="First" />
+            <Field name="Last" />
+            <Field name="Email" />
+            <Field name="Scroogieness" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Johanne</c>
+              <c>Poulsen</c>
+              <c>Johanne.Poulsen@Example.Com</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Jaxon</c>
+              <c>Edwards</c>
+              <c>Jaxon.Edwards@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Avery</c>
+              <c>Ortiz</c>
+              <c>Avery.Ortiz@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Jos</c>
+              <c>Udink</c>
+              <c>Jos.Udink@Example.Com</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Wayne</c>
+              <c>Stephens</c>
+              <c>Wayne.Stephens@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Mato</c>
+              <c>Plate</c>
+              <c>Mato.Plate@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Irma</c>
+              <c>Cooper</c>
+              <c>Irma.Cooper@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Mélissa</c>
+              <c>Dupuis</c>
+              <c>Mélissa.Dupuis@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Elizabeth</c>
+              <c>Gauthier</c>
+              <c>Elizabeth.Gauthier@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Laurie</c>
+              <c>Liu</c>
+              <c>Laurie.Liu@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>تینا</c>
+              <c>صدر</c>
+              <c>تینا.صدر@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Joel</c>
+              <c>Ollila</c>
+              <c>Joel.Ollila@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Edzard</c>
+              <c>Molleman</c>
+              <c>Edzard.Molleman@Example.Com</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>Gabriel</c>
+              <c>Hale</c>
+              <c>Gabriel.Hale@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Carl</c>
+              <c>Pedersen</c>
+              <c>Carl.Pedersen@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Halil</c>
+              <c>Lecomte</c>
+              <c>Halil.Lecomte@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Pilar</c>
+              <c>Saez</c>
+              <c>Pilar.Saez@Example.Com</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Joel</c>
+              <c>Lindal</c>
+              <c>Joel.Lindal@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Andres</c>
+              <c>Roman</c>
+              <c>Andres.Roman@Example.Com</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Flynn</c>
+              <c>Chen</c>
+              <c>Flynn.Chen@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Nanna</c>
+              <c>Sørensen</c>
+              <c>Nanna.Sørensen@Example.Com</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>Milan</c>
+              <c>Berger</c>
+              <c>Milan.Berger@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Esther</c>
+              <c>Rodriguez</c>
+              <c>Esther.Rodriguez@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Edwin</c>
+              <c>Fernandez</c>
+              <c>Edwin.Fernandez@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Savannah</c>
+              <c>King</c>
+              <c>Savannah.King@Example.Com</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Catherine</c>
+              <c>Hale</c>
+              <c>Catherine.Hale@Example.Com</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Evandro</c>
+              <c>Alves</c>
+              <c>Evandro.Alves@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Sátiro</c>
+              <c>Silveira</c>
+              <c>Sátiro.Silveira@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>محمد</c>
+              <c>حسینی</c>
+              <c>محمد.حسینی@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Floyd</c>
+              <c>George</c>
+              <c>Floyd.George@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Taciano</c>
+              <c>Das Neves</c>
+              <c>Taciano.Dasneves@Example.Com</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Melvin</c>
+              <c>Gardner</c>
+              <c>Melvin.Gardner@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Catalina</c>
+              <c>Martinez</c>
+              <c>Catalina.Martinez@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Sharlene</c>
+              <c>Powell</c>
+              <c>Sharlene.Powell@Example.Com</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Rodney</c>
+              <c>Garcia</c>
+              <c>Rodney.Garcia@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Heidi</c>
+              <c>Lauvås</c>
+              <c>Heidi.Lauvås@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Alexander</c>
+              <c>Vargas</c>
+              <c>Alexander.Vargas@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Ayşe</c>
+              <c>Koç</c>
+              <c>Ayşe.Koç@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Tracy</c>
+              <c>Black</c>
+              <c>Tracy.Black@Example.Com</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Tomothy</c>
+              <c>Thompson</c>
+              <c>Tomothy.Thompson@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Nico</c>
+              <c>Dubois</c>
+              <c>Nico.Dubois@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Mariano</c>
+              <c>Molina</c>
+              <c>Mariano.Molina@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Chloe</c>
+              <c>Wells</c>
+              <c>Chloe.Wells@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Sebastian</c>
+              <c>Suarez</c>
+              <c>Sebastian.Suarez@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Simon</c>
+              <c>Taylor</c>
+              <c>Simon.Taylor@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Elsa</c>
+              <c>Neva</c>
+              <c>Elsa.Neva@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Hugo</c>
+              <c>Hernandez</c>
+              <c>Hugo.Hernandez@Example.Com</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Koray</c>
+              <c>Bakırcıoğlu</c>
+              <c>Koray.Bakırcıoğlu@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Lidwina</c>
+              <c>Dinter</c>
+              <c>Lidwina.Dinter@Example.Com</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Felix</c>
+              <c>Andersen</c>
+              <c>Felix.Andersen@Example.Com</c>
+              <c>2</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="450" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="25" />
+          <Fields>
+            <Field name="First" />
+            <Field name="Last" />
+            <Field name="Email" />
+            <Field name="SS First" />
+            <Field name="SS Last" />
+            <Field name="SS Email" />
+            <Field name="net_scroogieness" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Floyd</c>
+              <c>George</c>
+              <c>Floyd.George@Example.Com</c>
+              <c>Jaxon</c>
+              <c>Edwards</c>
+              <c>Jaxon.Edwards@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Simon</c>
+              <c>Taylor</c>
+              <c>Simon.Taylor@Example.Com</c>
+              <c>Mato</c>
+              <c>Plate</c>
+              <c>Mato.Plate@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Koray</c>
+              <c>Bakırcıoğlu</c>
+              <c>Koray.Bakırcıoğlu@Example.Com</c>
+              <c>Gabriel</c>
+              <c>Hale</c>
+              <c>Gabriel.Hale@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Milan</c>
+              <c>Berger</c>
+              <c>Milan.Berger@Example.Com</c>
+              <c>Mélissa</c>
+              <c>Dupuis</c>
+              <c>Mélissa.Dupuis@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Esther</c>
+              <c>Rodriguez</c>
+              <c>Esther.Rodriguez@Example.Com</c>
+              <c>Laurie</c>
+              <c>Liu</c>
+              <c>Laurie.Liu@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Catalina</c>
+              <c>Martinez</c>
+              <c>Catalina.Martinez@Example.Com</c>
+              <c>تینا</c>
+              <c>صدر</c>
+              <c>تینا.صدر@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Heidi</c>
+              <c>Lauvås</c>
+              <c>Heidi.Lauvås@Example.Com</c>
+              <c>محمد</c>
+              <c>حسینی</c>
+              <c>محمد.حسینی@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Chloe</c>
+              <c>Wells</c>
+              <c>Chloe.Wells@Example.Com</c>
+              <c>Alexander</c>
+              <c>Vargas</c>
+              <c>Alexander.Vargas@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Sebastian</c>
+              <c>Suarez</c>
+              <c>Sebastian.Suarez@Example.Com</c>
+              <c>Ayşe</c>
+              <c>Koç</c>
+              <c>Ayşe.Koç@Example.Com</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>Flynn</c>
+              <c>Chen</c>
+              <c>Flynn.Chen@Example.Com</c>
+              <c>Savannah</c>
+              <c>King</c>
+              <c>Savannah.King@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Edwin</c>
+              <c>Fernandez</c>
+              <c>Edwin.Fernandez@Example.Com</c>
+              <c>Tracy</c>
+              <c>Black</c>
+              <c>Tracy.Black@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Evandro</c>
+              <c>Alves</c>
+              <c>Evandro.Alves@Example.Com</c>
+              <c>Felix</c>
+              <c>Andersen</c>
+              <c>Felix.Andersen@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Joel</c>
+              <c>Ollila</c>
+              <c>Joel.Ollila@Example.Com</c>
+              <c>Sátiro</c>
+              <c>Silveira</c>
+              <c>Sátiro.Silveira@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Joel</c>
+              <c>Lindal</c>
+              <c>Joel.Lindal@Example.Com</c>
+              <c>Mariano</c>
+              <c>Molina</c>
+              <c>Mariano.Molina@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Edzard</c>
+              <c>Molleman</c>
+              <c>Edzard.Molleman@Example.Com</c>
+              <c>Nico</c>
+              <c>Dubois</c>
+              <c>Nico.Dubois@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Nanna</c>
+              <c>Sørensen</c>
+              <c>Nanna.Sørensen@Example.Com</c>
+              <c>Elsa</c>
+              <c>Neva</c>
+              <c>Elsa.Neva@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Jos</c>
+              <c>Udink</c>
+              <c>Jos.Udink@Example.Com</c>
+              <c>Elizabeth</c>
+              <c>Gauthier</c>
+              <c>Elizabeth.Gauthier@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Andres</c>
+              <c>Roman</c>
+              <c>Andres.Roman@Example.Com</c>
+              <c>Carl</c>
+              <c>Pedersen</c>
+              <c>Carl.Pedersen@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Hugo</c>
+              <c>Hernandez</c>
+              <c>Hugo.Hernandez@Example.Com</c>
+              <c>Halil</c>
+              <c>Lecomte</c>
+              <c>Halil.Lecomte@Example.Com</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>Avery</c>
+              <c>Ortiz</c>
+              <c>Avery.Ortiz@Example.Com</c>
+              <c>Johanne</c>
+              <c>Poulsen</c>
+              <c>Johanne.Poulsen@Example.Com</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>Wayne</c>
+              <c>Stephens</c>
+              <c>Wayne.Stephens@Example.Com</c>
+              <c>Taciano</c>
+              <c>Das Neves</c>
+              <c>Taciano.Dasneves@Example.Com</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>Irma</c>
+              <c>Cooper</c>
+              <c>Irma.Cooper@Example.Com</c>
+              <c>Lidwina</c>
+              <c>Dinter</c>
+              <c>Lidwina.Dinter@Example.Com</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>Pilar</c>
+              <c>Saez</c>
+              <c>Pilar.Saez@Example.Com</c>
+              <c>Melvin</c>
+              <c>Gardner</c>
+              <c>Melvin.Gardner@Example.Com</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>Catherine</c>
+              <c>Hale</c>
+              <c>Catherine.Hale@Example.Com</c>
+              <c>Rodney</c>
+              <c>Garcia</c>
+              <c>Rodney.Garcia@Example.Com</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>Sharlene</c>
+              <c>Powell</c>
+              <c>Sharlene.Powell@Example.Com</c>
+              <c>Tomothy</c>
+              <c>Thompson</c>
+              <c>Tomothy.Thompson@Example.Com</c>
+              <c>11</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="78" width="468" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #144</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="150" width="660" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This week we are going to take a little breather before we dive into some SANTALYTICS next week. Just to get a little warm up going we are going to generate some secret Santa pairings! For our beginning users, try to generate pairs of people so nobody is picked twice or picks themselves! For a little more spice, we added the field 'scroogieness', which is certainly a word I didn't just make up just now. OK - it's more of a reflection of the character crabby and miserly 'Scrooge' in a Christmas Carol pre-visitation of three-spirits. The higher the 'scroogieness' is on a scale of 1-10 the more curmudgeonly the person. Try to create unique pairings where 'net scroogieness' does not exceed 13.</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_1292_1cbfe0c5108e4fc08718fb82ac04e61f_\Engine_5236_b052aa572e2d4eb490e187ca092a9f7e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_1292_1cbfe0c5108e4fc08718fb82ac04e61f_\Engine_5236_30263efcffbd4b8988e5a665aab0ecd4_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="138" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Scroogieness" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Scroogieness - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="50" />
+          <Fields>
+            <Field name="First" />
+            <Field name="Last" />
+            <Field name="Email" />
+            <Field name="Scroogieness" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Johanne</c>
+              <c>Poulsen</c>
+              <c>Johanne.Poulsen@Example.Com</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Jaxon</c>
+              <c>Edwards</c>
+              <c>Jaxon.Edwards@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Avery</c>
+              <c>Ortiz</c>
+              <c>Avery.Ortiz@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Jos</c>
+              <c>Udink</c>
+              <c>Jos.Udink@Example.Com</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Wayne</c>
+              <c>Stephens</c>
+              <c>Wayne.Stephens@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Mato</c>
+              <c>Plate</c>
+              <c>Mato.Plate@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Irma</c>
+              <c>Cooper</c>
+              <c>Irma.Cooper@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Mélissa</c>
+              <c>Dupuis</c>
+              <c>Mélissa.Dupuis@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Elizabeth</c>
+              <c>Gauthier</c>
+              <c>Elizabeth.Gauthier@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Laurie</c>
+              <c>Liu</c>
+              <c>Laurie.Liu@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>تینا</c>
+              <c>صدر</c>
+              <c>تینا.صدر@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Joel</c>
+              <c>Ollila</c>
+              <c>Joel.Ollila@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Edzard</c>
+              <c>Molleman</c>
+              <c>Edzard.Molleman@Example.Com</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>Gabriel</c>
+              <c>Hale</c>
+              <c>Gabriel.Hale@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Carl</c>
+              <c>Pedersen</c>
+              <c>Carl.Pedersen@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Halil</c>
+              <c>Lecomte</c>
+              <c>Halil.Lecomte@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Pilar</c>
+              <c>Saez</c>
+              <c>Pilar.Saez@Example.Com</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Joel</c>
+              <c>Lindal</c>
+              <c>Joel.Lindal@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Andres</c>
+              <c>Roman</c>
+              <c>Andres.Roman@Example.Com</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Flynn</c>
+              <c>Chen</c>
+              <c>Flynn.Chen@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Nanna</c>
+              <c>Sørensen</c>
+              <c>Nanna.Sørensen@Example.Com</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>Milan</c>
+              <c>Berger</c>
+              <c>Milan.Berger@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Esther</c>
+              <c>Rodriguez</c>
+              <c>Esther.Rodriguez@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Edwin</c>
+              <c>Fernandez</c>
+              <c>Edwin.Fernandez@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Savannah</c>
+              <c>King</c>
+              <c>Savannah.King@Example.Com</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Catherine</c>
+              <c>Hale</c>
+              <c>Catherine.Hale@Example.Com</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Evandro</c>
+              <c>Alves</c>
+              <c>Evandro.Alves@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Sátiro</c>
+              <c>Silveira</c>
+              <c>Sátiro.Silveira@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>محمد</c>
+              <c>حسینی</c>
+              <c>محمد.حسینی@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Floyd</c>
+              <c>George</c>
+              <c>Floyd.George@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Taciano</c>
+              <c>Das Neves</c>
+              <c>Taciano.Dasneves@Example.Com</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Melvin</c>
+              <c>Gardner</c>
+              <c>Melvin.Gardner@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Catalina</c>
+              <c>Martinez</c>
+              <c>Catalina.Martinez@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Sharlene</c>
+              <c>Powell</c>
+              <c>Sharlene.Powell@Example.Com</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>Rodney</c>
+              <c>Garcia</c>
+              <c>Rodney.Garcia@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Heidi</c>
+              <c>Lauvås</c>
+              <c>Heidi.Lauvås@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Alexander</c>
+              <c>Vargas</c>
+              <c>Alexander.Vargas@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Ayşe</c>
+              <c>Koç</c>
+              <c>Ayşe.Koç@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Tracy</c>
+              <c>Black</c>
+              <c>Tracy.Black@Example.Com</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>Tomothy</c>
+              <c>Thompson</c>
+              <c>Tomothy.Thompson@Example.Com</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Nico</c>
+              <c>Dubois</c>
+              <c>Nico.Dubois@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Mariano</c>
+              <c>Molina</c>
+              <c>Mariano.Molina@Example.Com</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>Chloe</c>
+              <c>Wells</c>
+              <c>Chloe.Wells@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Sebastian</c>
+              <c>Suarez</c>
+              <c>Sebastian.Suarez@Example.Com</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>Simon</c>
+              <c>Taylor</c>
+              <c>Simon.Taylor@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Elsa</c>
+              <c>Neva</c>
+              <c>Elsa.Neva@Example.Com</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Hugo</c>
+              <c>Hernandez</c>
+              <c>Hugo.Hernandez@Example.Com</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Koray</c>
+              <c>Bakırcıoğlu</c>
+              <c>Koray.Bakırcıoğlu@Example.Com</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>Lidwina</c>
+              <c>Dinter</c>
+              <c>Lidwina.Dinter@Example.Com</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Felix</c>
+              <c>Andersen</c>
+              <c>Felix.Andersen@Example.Com</c>
+              <c>2</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="198" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&lt;=</Operator>
+            <Field>RecordID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-03-25 01:00:28</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>25</Operand>
+              <StartDate>2020-03-25 01:00:28</StartDate>
+              <EndDate>2020-03-25 01:00:28</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RecordID] &lt;= 25</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="462" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_RecordID" selected="False" input="Left_" />
+                <SelectField field="Right_RecordID" selected="False" rename="Right_RecordID" input="Right_" />
+                <SelectField field="Right_RecordID2" selected="False" input="Right_" />
+                <SelectField field="Right_First" selected="True" rename="SS First" input="Right_" />
+                <SelectField field="Right_Last" selected="True" rename="SS Last" input="Right_" />
+                <SelectField field="Right_Email" selected="True" rename="SS Email" input="Right_" />
+                <SelectField field="Right_Scroogieness" selected="True" rename="SS Scroogieness" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="390" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="330" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="RecordID" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RecordID - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Scroogieness]+[SS Scroogieness]" field="Net Scroogieness" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Net Scroogieness = [Scroogieness]+[SS Scroogieness]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="582" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Net Scroogieness" order="Descending" />
+            <Field field="First" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Net Scroogieness - Descending
+First - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Scroogieness" selected="False" />
+            <SelectField field="SS Scroogieness" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="False" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="39" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="39" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_144_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

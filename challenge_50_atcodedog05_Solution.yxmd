@@ -1,0 +1,5089 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="270" width="583" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>My Solution</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="690" y="102" width="216" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAAXoAAAA0CAIAAAAL52RvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnEAABJxAfPceo4AAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAA0cSURBVHhe7Z3fjhXHEYf9Bs4bxG+A38B+A/sN7DdI3sBccYcSKXBhCQkuLPliibGEfcNeJGKvFiFhNgoKijFai+BVEPJCIrAlS+TbU72V2uo/02dn5uyedX1qjU7XVPd0D1O/qZ4zZ3nrTRAEwUoIuQmCYEWE3ARBsCJORm7+8uQ/Nx7tp0qwDjx58uTu3bu7u7upHgTLs2q5efzi5/e/+PatP31DSaZgHQi5CcazUrm59+zVbz79m2jNsnLz40+/nN/eQ6oQrGQKVkjITTCelcrNJ9s/qNYsJTdWp1iIJWuwQkJugvGsh9y8/emOtgq5ORFCboLxrIfc2FYhNydCyE0wnpCboIuQm2A8ITdBFyE3wXhCboIuQm6C8YTcBF2E3ATjGZCbH3/65Y/fPPt48/v3v/jWvjJDeffzh9jZe+/Zq+Q9xMnKDeM8v733+9v/Yi5s+fzloxdpXzBEyE0wngG5+eCr72yo18o71x4QwIMv4C0lN3+49290gYKu2VZoHEphy6AAXX3w3GmlFuz0gKom1xLs/euT/0pJpsXvMES5RLySdQG71L/ds6JNrHbzWftJpgp2hDO9BhlyE4xnQG4+2tx18dkohG5qVmEpubGe7fLen/+Z2mQQh06tigWfhi5YzUUE8URi1CIluS6wdk5gstZBDdX/t9f+nqxH3zb63e0nyZrh5thzxGMQchOMZ0BuuOty0RPPhBxiYQsWGw9S2okGraxzslawnu3SkJtzn/8jd5bi7ERsapNhnZl1nii5AVh5GpRgsIPkFCXrIr9TO6V2blEi67bW2c3+/j6HAD4kU5PXr1+LPyRTnU43RQbDIVJ9wbKd7O3tuU7EwjbVSxR9BluBjNmdPSzWKNUexH9Cxj4qdgoyodzkSlErNkQt7nBUbQrDZxeotX5ybXLFJRQ3Hu3bve3fvqMO1tmJhT0JrFjzFIwTrg6U2hTGM6vcEAk3b968fPnyBQPVzc1NF+0Cxq2trStXriTXQ7Ds7OwkpwzxuXXrVqo3efjwofi7KYuR0aZ6k9u3b4u/7eSzzz7DwjbVSxR9Fj1duH//fqqXkCOyTfUF0lCNUu1BTsLFixcbMscucb5z504y1RkrN+5yn1BulKUOobgwJlNIO45iFYd4Ttaj5HJDWofEMJJ7z16xzVWANZE6t1c3NoVxWRLQv+6luCUVx2XMuhdtSjtmYD65IX7kei3Ctc5Fn1wXcH1jTLsXEJbWgugUwyPtvnBhMEeAS5cuiXNRbmDwVKCJOqoJ5aYd/NPKDc6Dox10sJxZubE6Yh+IOIhYdaMUO3dyQ1TbB7pFXN6U65Fihenqg+fJanAnzY7QHWVwVGOYSW64JS4u7AOIBxtIHIskAvvGxkYyHdUa9lp/UiR6kL3FmJRWMBgbVgFrcjPYiUS+MKHcAHpaTPpADqrKIkgrZ1QYmzgU/3E5q7K3mFXpiWoooOXMyo19rlRLbQSrJowwWQ3WgW57otrlVkUdAZu80HNNlYpLKndaiiOfkDnkhmtULtbGHRu7DS1dQLmUR8FfFAfPZDoEo0pVYyKalUiC4zwXrVM/jXVNo5ORciPd1lZzk8sNSJ+sbZ3G6Rw716dwNuXm2KP64KvvktVg5SZf79SwGlHsFmx60lhzuenIksr2T4rUSKAmYQ65kaCCznuj3ktrkSNo/Dg5ECOxwZbgSdYMiS7cZHhuygddLAbAttGJ5GVs806KUuIo+mABPQlFsZOBufMj/rWTpqer8Y8roul6kGOhOE6GGpxNuXHf6SRrBTuqopocT27s19uUohzYFKw9L7du+vDrx7bac05GMrncaJZeu1HnSGrTc303wlXvycVwlb1yCOmkKDfaSTGGZWo48CHvpDg2R9EHC/BBtAxymRYJcKMS5+JQoUdu1IcZiUX/+WppZpGzKTdkCrZJslaYSW7QF21FyddT9gusxtMlgd7sUx5bJNmZm8nlRu/SndcrES7+PfKkj4RSfYFaGrdliWSJzFwp4KCLRScy/mN0UpQSR9EHC/CBI4ry5gscmZpTlkW7UXIDGxsb+Fy/fl2qPbPI6ZIbrvUvH704v73HTVXeo9XiXqI7JXJjBYLixuyK/XJnQrkBq3ocKFkPsXt7JMOdBykrWEYJk8uNBAZ0rqQ0KmphYymGkFjkc3F1IHdsdkkMS0S5KR90cbQT9+RCU5taJz2BWvTBAvJZH1Fp/AtyVt28Fu3Gyg3zkiPipk002elkQG4ev/j5483v3SXeKKdTbvrLtHLjXsCx79S43Me9blPDLakoK/sPLeaTm1QfQi/xWthY1NkOWCzyWXMTGzByA9dFVq4UcNDFYSd6FNuJtNKXUPJOilLiKPpggVSpPMmSs+pOUe5mKZ6rIpIzMioZXs8/hKMlN+T/tZ8a1coccuMegswqN8XntceWG7ArIPsFmZ3Uue73ZZzy9ryyPBXzyU3nHVKjoucqL4aQWFLlMKR1aSZNSFikCuLgpnzQRdaJphg9nYiFbaqXKPpggVRZII+9QfuXs+pOkfjUzpuMGdxMi+g3g5oDLkVVbrjfOq0hKtALCndUrnst1odqal/ieHLjWrUPIViBYNg61MGS2h9ljNzYwdvfSdg+88c6NZiLtpJC/2nfzMwnN519snwQ/x65kddhwWqZWFLFhJms5mq64Ia3aPH/TnRU4iZNND+CWrdsU71E0QcLpMoh7vH53HKjJ3apJ8RKVW7sD3/aL5uoG6UWscKJyM34FGCM3LgXcGTR5IydD1/cedAy69t9yuRyoxduj3wI8qwkf6EmR277NsuAxdGOhKusnohqWZi48JaYd1M+6OJoJ/JgGGeJ28FO9KCpXkJaOR8skCqHoKfySEVOy9xys5RzTlVu7AXdfk3Oep5CuaEk63EZIzdgm8uZtN/TN163sdgXAl1p/Lh0QiaXG5A4aby94pDAHrzWuc9Lz7pQEqRtqiwgVsUo/u6hda4UsHD3nehE2Dr/vBNRBJqkegkR1qJqpIpBhRuRXUu5IaTtBd2O8H7PlcmNazLyu5uRcmMf08jPsuyaqPNZr21CsuleLGK+yW825pAbiQ2oRYJD1YE7eePBgaqSXUmBGFPlEH384bQJOuUGdCIuH4G8E11/2TWXRUPayZ8YU+UoOgtZW6233CRrBeu5lNwcbxHRIzdu/P0PR4qMlBumaV/ns+oz+LqN4MRFUiQ7KsrcS6o55EbTEKj9nphAskKggU1cOTUBOrx+/bo45B2KPVUOkTFA3lu/3CzbiRjxz88nEoOdvblyHRy4IjcgfQrrLTftCO/3PIZwgAu2nnTAfc2cv/OyFCPlBtxrh1p6Xrdxz+x1ANitis29pJpDbkCjC1iMoBEcQuCzLE9cGGvyAojL1tYWqwm22LWrPFUB2ZUqBsQCUsXQLzewVCdMR4fKFHZ2dhYz3t3c3BQje11qA7IrVTI4uva5ZnLjnhQ0sgP31LOtIPbGTul8bOG0r7OVi/AxCc54uXFT0CJPjtvYo6Mvtkkx65mJmeQGiCtZAhQhXPPAYxkiTzdysNcWKeKQKh0sJTc1ip1AY9ZMIZ8yyN5UKaFasGZyA/bO+c61B3lgIEn5G4DcY+XvB5NQ5BGeP+/EU3omH5EXl/NFgVM0iv5dZLb9rXArLt8ahxbGyw3kP0E41/G6jROU/BmNHRtJkJyWOZhPbgQyFFISgpNbNPHGB5ZR7cPRhBDa2NjAmS2fsaR9JXCDVOmAAeDvIn+SThSUkZGL7jBrPte0EnoOzRnIO5GGtZ4ZmzjUBmlZyjmnKjf5C6woiPwHBh9+/di++F8rxW+gaz/80TL4m+xiKS4l3NpNCp4yEflBhp1IbT0yidzkgxlMuNAOu4wqypNT1ZHLxgZzy03wa6AqN9zzB6WBgk9DC/J8obas0FIUqTwtyktyPUrtoUmtFNOfSeQmz7aKx7K4E1tLvpyQzbSkCrkJxlOVG+D6zl9jtYUMiJghkOzKS4t70KBwVy/6S6n9aZgbj/YbrRoLkzxNa5TigCeRG7D9DD6Bcs+50JS0o4T9Z5ppSRVyE4ynJTcC1z0SoJkOMU/YcAu1N2c+Ez/qw9VPkDcuevzpgW7pSjqkEFG1G7hQbMWBBr+rYiQMr6FWjLwxYAYmbdkOroAaMHI94uCYmalMUOaYrBU4b+pMaZ/G4xFyE4xnWG7OEsQhcY58SCGkWdzNkQvkcBTVGmQrWdeHkJtgPL8uuTlB7JpuMFs5hYTcBOMJuVkFLAPtd0yryaemJeQmGE/IzSpg4aZa896Ih80nSMhNMJ6Qm9m59+yVTW3aL16fWkJugvGE3MwIa6jz23tWa9Y0tYGQm2A8ITcTg6AgK+8e/YvxUt6u/8d1p5+Qm2A8ITcT4yRGC1ozx+swKyPkJhhPyM3EOJWR8tHm7vrmNULITTCekJuJ0fee2X6y/cPVB8/X8WvvnJcvXz59+jT/81FB0E/ITRAEKyLkJgiCFRFyEwTBSnjz5n+Bsg0wC+hiuAAAAABJRU5ErkJggg==</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="70" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #50</Text>
+          <Font name="Lato" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="114" width="612" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use Case:  The 2 sources of data contain survey information. The Data input contains all of the survey responses. The Questions input contains the associated questions.
+
+The column (called Column) in the Questions file corresponds to the field header value in the Data file, so value 38 in the Questions files is the questions associated with field F38 in the Data file.
+
+The first row in the Data file contains the response type. In field F38, the data is formatted as Response (Scale 1-10) - Age Range.
+
+Objective:  Create an output file for a visualization tool (Tableau, Qlik, PowerBI) that details the response by age for each individual.</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="33" />
+          <Fields>
+            <Field name="F1" />
+            <Field name="F2" />
+            <Field name="F3" />
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F6" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F10" />
+            <Field name="F11" />
+            <Field name="F12" />
+            <Field name="F13" />
+            <Field name="F14" />
+            <Field name="F15" />
+            <Field name="F16" />
+            <Field name="F17" />
+            <Field name="F18" />
+            <Field name="F19" />
+            <Field name="F20" />
+            <Field name="F21" />
+            <Field name="F22" />
+            <Field name="F23" />
+            <Field name="F24" />
+            <Field name="F25" />
+            <Field name="F26" />
+            <Field name="F27" />
+            <Field name="F28" />
+            <Field name="F29" />
+            <Field name="F30" />
+            <Field name="F31" />
+            <Field name="F32" />
+            <Field name="F33" />
+            <Field name="F34" />
+            <Field name="F35" />
+            <Field name="F36" />
+            <Field name="F37" />
+            <Field name="F38" />
+            <Field name="F39" />
+            <Field name="F40" />
+            <Field name="F41" />
+            <Field name="F42" />
+            <Field name="F43" />
+            <Field name="F44" />
+            <Field name="F45" />
+            <Field name="F46" />
+            <Field name="F47" />
+            <Field name="F48" />
+            <Field name="F49" />
+            <Field name="F50" />
+            <Field name="F51" />
+            <Field name="F52" />
+            <Field name="F53" />
+            <Field name="F54" />
+            <Field name="F55" />
+            <Field name="F56" />
+            <Field name="F57" />
+            <Field name="F58" />
+            <Field name="F59" />
+            <Field name="F60" />
+            <Field name="F61" />
+            <Field name="F62" />
+            <Field name="F63" />
+            <Field name="F64" />
+            <Field name="F65" />
+            <Field name="F66" />
+            <Field name="F67" />
+            <Field name="F68" />
+            <Field name="F69" />
+            <Field name="F70" />
+            <Field name="F71" />
+            <Field name="F72" />
+            <Field name="F73" />
+            <Field name="F74" />
+            <Field name="F75" />
+            <Field name="F76" />
+            <Field name="F77" />
+            <Field name="F78" />
+            <Field name="F79" />
+            <Field name="F80" />
+            <Field name="F81" />
+            <Field name="F82" />
+            <Field name="F83" />
+            <Field name="F84" />
+            <Field name="F85" />
+            <Field name="F86" />
+            <Field name="F87" />
+            <Field name="F88" />
+            <Field name="F89" />
+            <Field name="F90" />
+            <Field name="F91" />
+            <Field name="F92" />
+            <Field name="F93" />
+            <Field name="F94" />
+            <Field name="F95" />
+            <Field name="F96" />
+            <Field name="F97" />
+            <Field name="F98" />
+            <Field name="F99" />
+          </Fields>
+          <Data>
+            <r>
+              <c>RespondentId</c>
+              <c>Date</c>
+              <c>Time</c>
+              <c>Functionality</c>
+              <c>Information</c>
+              <c>Look and Feel</c>
+              <c>Navigation</c>
+              <c>Site Performance</c>
+              <c>Satisfaction</c>
+              <c>Primary Resource</c>
+              <c>Recommend</c>
+              <c>Recommend Company</c>
+              <c>Return</c>
+              <c>Functionality - Convenient</c>
+              <c>Functionality - Usefulness</c>
+              <c>Functionality - Variety</c>
+              <c>Look and Feel - Appeal</c>
+              <c>Look and Feel - Balance</c>
+              <c>Look and Feel - Readability</c>
+              <c>Navigation - Layout</c>
+              <c>Navigation - Options</c>
+              <c>Navigation - Organized</c>
+              <c>Primary Resource</c>
+              <c>Product Information - Answers</c>
+              <c>Product Information - Thoroughness</c>
+              <c>Product Information - Understandable</c>
+              <c>Recommend</c>
+              <c>Recommend Company</c>
+              <c>Return</c>
+              <c>Sat - Expectations</c>
+              <c>Sat - Ideal</c>
+              <c>Sat - Overall</c>
+              <c>Site Performance - Consistency</c>
+              <c>Site Performance - Errors</c>
+              <c>Site Performance - Loading</c>
+              <c>Able to Log In</c>
+              <c>Aexcel</c>
+              <c>Age</c>
+              <c>Did Not Find</c>
+              <c>Discourage</c>
+              <c>Do Next</c>
+              <c>Doctor Search</c>
+              <c>Effort</c>
+              <c>Frequency of Visit</c>
+              <c>Looked for Information</c>
+              <c>Primary Reason</c>
+              <c>Role</c>
+              <c>Search Experience</c>
+              <c>Task Acc_Find Info</c>
+              <c>Task Accomplishment</c>
+              <c>Task on ste</c>
+              <c>Try to Log In</c>
+              <c>Use Provider Search</c>
+              <c>Valued</c>
+              <c>OE_Aexcel</c>
+              <c>OE_Did Not Accomplish</c>
+              <c>OE_Do Next</c>
+              <c>OE_Doctor Search</c>
+              <c>OE_Improvement</c>
+              <c>OE_Looked for Information</c>
+              <c>OE_Other Role</c>
+              <c>OE_Task Acc_Find Info</c>
+              <c>OE_Unable to Login</c>
+              <c>OPS_Primary Reason</c>
+              <c>OPS_Task on site</c>
+              <c>brand_name</c>
+              <c>browser</c>
+              <c>browser_name</c>
+              <c>browser_version</c>
+              <c>device</c>
+              <c>dual_orientation</c>
+              <c>flash</c>
+              <c>is_tablet</c>
+              <c>locale</c>
+              <c>model_name</c>
+              <c>os</c>
+              <c>os_name</c>
+              <c>os_version</c>
+              <c>pointing_method</c>
+              <c>pv</c>
+              <c>ref_url</c>
+              <c>referrer</c>
+              <c>resolution</c>
+              <c>resolution_height</c>
+              <c>resolution_width</c>
+              <c>screen</c>
+              <c>screen_height</c>
+              <c>screen_width</c>
+              <c>searchterms</c>
+              <c>secureState</c>
+              <c>sessionid</c>
+              <c>sid</c>
+              <c>site</c>
+              <c>survey_presentation</c>
+              <c>terms</c>
+              <c>trigger_version</c>
+              <c>url</c>
+              <c>wurfl_id</c>
+              <c>Modelinstance Name</c>
+            </r>
+            <r>
+              <c>dgJolclo55EoZkJAtZ4s4Q4C</c>
+              <c>08/05/2013</c>
+              <c>12:12:18 PM</c>
+              <c>54</c>
+              <c>56</c>
+              <c>66</c>
+              <c>57</c>
+              <c>83</c>
+              <c>37</c>
+              <c>0</c>
+              <c>11</c>
+              <c>11</c>
+              <c>78</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-6</c>
+              <c>6-6</c>
+              <c>-</c>
+              <c>1-1=Very Unlikely</c>
+              <c>6-6</c>
+              <c>-</c>
+              <c>6-6</c>
+              <c>2-2</c>
+              <c>2-2</c>
+              <c>8-8</c>
+              <c>4-4</c>
+              <c>4-4</c>
+              <c>5-5</c>
+              <c>8-8</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>8-Prefer not to answer</c>
+              <c>1-Plan/benefits information</c>
+              <c>7-7</c>
+              <c>1-Contact client service</c>
+              <c>-</c>
+              <c>-</c>
+              <c>5-Several times a week</c>
+              <c>2-Top navigation tabs</c>
+              <c>13-View precertification list</c>
+              <c>3-I am a Provider/Healthcare professional who is currently within the Aetna network</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>1-Log in to the secure site</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>4-4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>give inpat benefits also and be able to get a precert on line or at least start and if you have questions you can have someone call back.</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d0722c5-87531872-4b40-53bd-898e2</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/policies-guidelines/concurrent-review.html</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>sccI9pI81R1B1pZk1g4w1g4C</c>
+              <c>08/05/2013</c>
+              <c>12:43:16 PM</c>
+              <c>94</c>
+              <c>61</c>
+              <c>96</c>
+              <c>77</c>
+              <c>73</c>
+              <c>96</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>10-Excellent=10</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>9-9</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>5-45-54</c>
+              <c>-</c>
+              <c>10-Very Likely = 10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>5|3-Links in the center of the page|Followed provided directions</c>
+              <c>5-View plan/benefits/product information</c>
+              <c>9-I am a Broker / Agent / Producer who is currently licensed with Aetna</c>
+              <c>-</c>
+              <c>2-I found some, but not all of what I wanted</c>
+              <c>1-Yes</c>
+              <c>4|3|1-Log in to the secure site|Get a quote on a plan or product|Find information on Health Care Reform</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>9-9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>video tutorials on how new agents can access and use the producer part od the websight</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Chrome 28</c>
+              <c>Chrome</c>
+              <c>28</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>3</c>
+              <c>http://www.aetna.com/</c>
+              <c>www.aetna.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d464cf5-82055255-40af-e78f-dfde2</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/employer-plans/arc.html</c>
+              <c>google_chrome_28</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>UlMwhAJ4Yo5YFk4wR0tctg4C</c>
+              <c>08/05/2013</c>
+              <c>01:23:18 PM</c>
+              <c>54</c>
+              <c>0</c>
+              <c>66</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Very Unlikely</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Falls Short</c>
+              <c>1-1=Not Very Close</c>
+              <c>1-1=Very Dissatisfied</c>
+              <c>1-1=Poor</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>2-18-24</c>
+              <c>6-Other</c>
+              <c>5-5</c>
+              <c>2-Continue looking on aetna.com</c>
+              <c>-</c>
+              <c>-</c>
+              <c>5-Several times a week</c>
+              <c>4|3|1-Search feature|Links in the center of the page|Site map</c>
+              <c>7-Find/download/access form(s)</c>
+              <c>3-I am a Provider/Healthcare professional who is currently within the Aetna network</c>
+              <c>4|2-I had issues with the basic search process (how to use it, terms to enter).|I had issues with the search results I received.</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>6|1-Log in to the secure site|Other reason</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>1-1 = Not at all valued</c>
+              <c />
+              <c>Contact infromation page would not load, and unable to locate Referral Form.</c>
+              <c />
+              <c />
+              <c>Make all of your forms readily available for use and have contact information accessable from anywhere.</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Attempted to find a form and find contact information for Aetna</c>
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>11.202</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>17</c>
+              <c>http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;frm=1&amp;source=web&amp;cd=2&amp;sqi=2&amp;ved=0CDcQFjAB&amp;url=http%3A%2F%2Fwww.aetna.com%2Findividuals-families-health-insurance%2Fdocument-library%2Ffind-document-form.html&amp;ei=0tr_UZexDqPKigKEm4CwDg&amp;usg=AFQjCNG-f8E4c3ynq1AC8wJpGrVXxjw1vg&amp;sig2=YGEcuO0N7cXXNFRxNBVFnA&amp;bvm=bv.50165853,d.cGE</c>
+              <c>www.google.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d935c05-108218871-68d3-2480-f914d</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/documents-forms/documents-forms-index.html</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>oskU9Zo00dkBtNB1M9pB4A4C</c>
+              <c>08/05/2013</c>
+              <c>05:28:00 PM</c>
+              <c>83</c>
+              <c>61</c>
+              <c>88</c>
+              <c>78</c>
+              <c>73</c>
+              <c>89</c>
+              <c>100</c>
+              <c>89</c>
+              <c>89</c>
+              <c>89</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>4-34-44</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>4-Weekly</c>
+              <c>1-Search feature</c>
+              <c>17-Search for employment with Aetna/check on the status of a job application</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>1-The search feature met my needs today.</c>
+              <c>2-I found some, but not all of what I wanted</c>
+              <c>1-Yes</c>
+              <c>6|4|2|1-Log in to the secure site|Contact a sales representative|Find information on Health Care Reform|Other reason</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>8-8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Aetna employment information</c>
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>21</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d36c714-139190341-7c2a-c029-eb6fd</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/aetna-corporate-profile/corporate-responsibility.html</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>xUJwolkg0oho8FMxVcJlxg4C</c>
+              <c>08/05/2013</c>
+              <c>06:45:04 PM</c>
+              <c>83</c>
+              <c>76</c>
+              <c>91</c>
+              <c>58</c>
+              <c>89</c>
+              <c>82</c>
+              <c>100</c>
+              <c>100</c>
+              <c>78</c>
+              <c>100</c>
+              <c>9-9</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>10-Very Likely=10</c>
+              <c>8-8</c>
+              <c>10-Very Likely=10</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>-</c>
+              <c>7-Over 65</c>
+              <c>-</c>
+              <c>3-3</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-Daily/more than once a day</c>
+              <c>4-Site map</c>
+              <c>14-View Clinical Policy Bulletins</c>
+              <c>3-I am a Provider/Healthcare professional who is currently within the Aetna network</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>5-Find health information on diseases and conditions</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>8-8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 7</c>
+              <c>Explorer</c>
+              <c>7</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>7</c>
+              <c>http://rms.hcp.com/rms_reviewer/Referral_Review.cfm</c>
+              <c>rms.hcp.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>dc43e50-116923273-cc97-14a2-db0e1</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/policies-guidelines/cpb_alpha.html</c>
+              <c>msie_7</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>YIBNZ4JcAEM0g89FdwIpcQ4C</c>
+              <c>08/05/2013</c>
+              <c>07:29:00 PM</c>
+              <c>54</c>
+              <c>93</c>
+              <c>66</c>
+              <c>55</c>
+              <c>89</c>
+              <c>56</c>
+              <c>100</c>
+              <c>89</c>
+              <c>89</c>
+              <c>89</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-6</c>
+              <c>6-6</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>6-6</c>
+              <c>6-6</c>
+              <c>6-6</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>3-25-34</c>
+              <c>-</c>
+              <c>2-2</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-Every few months or less often</c>
+              <c>6-Other</c>
+              <c>5-View plan/benefits/product information</c>
+              <c>1-I currently have health insurance with Aetna</c>
+              <c>-</c>
+              <c>3-I found what I wanted but it took some effort to locate it</c>
+              <c>1-Yes</c>
+              <c>1-Log in to the secure site</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>9-9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Ask Ann</c>
+              <c />
+              <c>It doesn't seem like what I was looking for was where I would look for it</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>dce0751-116396681-c048-cc6e-668fb</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/individuals-families-health-insurance/healthier-living/womens-health/breastfeeding.html</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>ksMF0tgQQ5lh4ZhZhpopcg4C</c>
+              <c>08/06/2013</c>
+              <c>07:19:08 AM</c>
+              <c>54</c>
+              <c>100</c>
+              <c>66</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>3-25-34</c>
+              <c>-</c>
+              <c>10-Very Likely = 10</c>
+              <c>-</c>
+              <c>1-Search by doctor's name</c>
+              <c>-</c>
+              <c>6-Daily/more than once a day</c>
+              <c>2-Top navigation tabs</c>
+              <c>3-Contact Aetna</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>1-Yes</c>
+              <c>1-Yes</c>
+              <c>8-8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>..</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>dd905e4-134609520-2f04-1041-51f1c</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/aetna-careers/working-at-aetna/employee_profile2.html</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>F5cYlxgRkVlsxxJ90xhMFA4C</c>
+              <c>08/06/2013</c>
+              <c>10:28:37 AM</c>
+              <c>67</c>
+              <c>60</c>
+              <c>68</c>
+              <c>58</c>
+              <c>78</c>
+              <c>44</c>
+              <c>44</c>
+              <c>44</c>
+              <c>44</c>
+              <c>44</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>5-5</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>5-5</c>
+              <c>5-5</c>
+              <c>5-5</c>
+              <c>5-5</c>
+              <c>5-5</c>
+              <c>5-5</c>
+              <c>5-5</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>2-No</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>3-Prescription information</c>
+              <c>7-7</c>
+              <c>6-Other</c>
+              <c>-</c>
+              <c>-</c>
+              <c>3-Monthly</c>
+              <c>6-Other</c>
+              <c>12-Access marketing materials</c>
+              <c>1-I currently have health insurance with Aetna</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>6-Other reason</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>6-6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Lost Password and answer to question wasn't recognized as correct(Mother's Middle name)</c>
+              <c />
+              <c>ouldn't logon and was trying to get help. No Success</c>
+              <c />
+              <c>Explorer 9</c>
+              <c>Explorer</c>
+              <c>9</c>
+              <c />
+              <c />
+              <c>11.102</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>6</c>
+              <c>http://www.aetna.com/</c>
+              <c>www.aetna.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>ddf5394-130224011-b7cf-d58e-fb2d8</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/individuals-families-health-insurance/pharmacy-prescription-drugs/mail-order-pharmacies/ordering.html</c>
+              <c>msie_9</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>ZtNgdQZMpV1YQcJBpsxlQA4C</c>
+              <c>08/06/2013</c>
+              <c>11:46:05 AM</c>
+              <c>100</c>
+              <c>61</c>
+              <c>99</c>
+              <c>100</c>
+              <c>73</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>6-Search by Specialty</c>
+              <c>-</c>
+              <c>6-Daily/more than once a day</c>
+              <c>3-Links in the center of the page</c>
+              <c>13-View precertification list</c>
+              <c>3-I am a Provider/Healthcare professional who is currently within the Aetna network</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>1-Yes</c>
+              <c>1-Yes</c>
+              <c>10-Very valued = 10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>none i wished other insurance company were easy as yours</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>dc65206-119239124-681c-ed63-c5f23</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/policies-guidelines/medical_precertification_list.html</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>08E9M0NJI8wZBsw0cNM1hw4C</c>
+              <c>08/06/2013</c>
+              <c>12:47:53 PM</c>
+              <c>54</c>
+              <c>100</c>
+              <c>66</c>
+              <c>94</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-Every few months or less often</c>
+              <c>5|3|2-Top navigation tabs|Links in the center of the page|Followed provided directions</c>
+              <c>18-Other</c>
+              <c>11-Other</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6|1-Log in to the secure site|Other reason</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>10-Very valued = 10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>can't think of anything</c>
+              <c />
+              <c>grantseeker</c>
+              <c />
+              <c />
+              <c>submit grant proposal</c>
+              <c>apply for grant</c>
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>10.102</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>9</c>
+              <c>http://www.aetna-foundation.org/foundation/apply-for-a-grant/frequently-asked-questions-grants/index.html</c>
+              <c>www.aetna-foundation.org</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d0c74e2-58929905-e8f7-fb6a-1e372</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/initiatives/health_care_initiatives.html</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>BBp54pdRkgwlptQUpYc0UA4C</c>
+              <c>08/06/2013</c>
+              <c>01:50:45 PM</c>
+              <c>78</c>
+              <c>61</c>
+              <c>83</c>
+              <c>79</c>
+              <c>73</c>
+              <c>81</c>
+              <c>89</c>
+              <c>78</c>
+              <c>89</c>
+              <c>100</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>9-9</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>9-9</c>
+              <c>10-Very Likely=10</c>
+              <c>9-9</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>2-2</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>4-Site map</c>
+              <c>17-Search for employment with Aetna/check on the status of a job application</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>8-8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>job search</c>
+              <c />
+              <c>Firefox 22</c>
+              <c>Firefox</c>
+              <c>22</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>9</c>
+              <c>http://www.bing.com/search?q=aetna&amp;pc=MOZI&amp;form=MOZSBR</c>
+              <c>www.bing.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d036702-53993496-1989-406f-a4e83</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c>aetna</c>
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/aetna-careers/find-a-career/hiring_process.html</c>
+              <c>firefox_22_0</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>FEkhkExpMpsl4hA0wshphw4C</c>
+              <c>08/06/2013</c>
+              <c>02:35:28 PM</c>
+              <c>11</c>
+              <c>61</c>
+              <c>40</c>
+              <c>11</c>
+              <c>73</c>
+              <c>11</c>
+              <c>100</c>
+              <c>11</c>
+              <c>100</c>
+              <c>100</c>
+              <c>2-2</c>
+              <c>2-2</c>
+              <c>-</c>
+              <c>4-4</c>
+              <c>5-5</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-2</c>
+              <c>2-2</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-2</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>2-2</c>
+              <c>2-2</c>
+              <c>2-2</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>6-Other</c>
+              <c>4-4</c>
+              <c>1-Contact client service</c>
+              <c>-</c>
+              <c>-</c>
+              <c>5-Several times a week</c>
+              <c>6-Other</c>
+              <c>18-Other</c>
+              <c>1-I currently have health insurance with Aetna</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>1-Log in to the secure site</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>5-5</c>
+              <c />
+              <c>system would not allow me to retry an initial incorrect login.</c>
+              <c />
+              <c />
+              <c />
+              <c>Login would not work</c>
+              <c />
+              <c />
+              <c>1st try I entered an incorrect login.</c>
+              <c>Reorder RX</c>
+              <c />
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>dee43f3-197570338-b967-aaad-e979b</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>l4MIw1Ig85ds4EQV0I8xQg4C</c>
+              <c>08/06/2013</c>
+              <c>03:00:17 PM</c>
+              <c>54</c>
+              <c>85</c>
+              <c>66</c>
+              <c>79</c>
+              <c>78</c>
+              <c>78</c>
+              <c>78</c>
+              <c>78</c>
+              <c>78</c>
+              <c>78</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>3-3</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-Every few months or less often</c>
+              <c>1-Search feature</c>
+              <c>5-View plan/benefits/product information</c>
+              <c>1-I currently have health insurance with Aetna</c>
+              <c>1-The search feature met my needs today.</c>
+              <c>3-I found what I wanted but it took some effort to locate it</c>
+              <c>1-Yes</c>
+              <c>3-Get a quote on a plan or product</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>8-8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Don't switch windows in favor for a live quote sometimes you are on your computer at work</c>
+              <c />
+              <c />
+              <c>The site went to an other window before I could put in quote information</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 9</c>
+              <c>Explorer</c>
+              <c>9</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>3</c>
+              <c>http://www.bing.com/search?q=aetna&amp;form=MSNH14&amp;pq=ae&amp;sc=8-2&amp;sp=1&amp;qs=AS&amp;sk=</c>
+              <c>www.bing.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d240251-115412315-bad5-a40f-cb47e</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c>aetna</c>
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/</c>
+              <c>msie_9</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>1ZAhgN8AlVBZ5Etp1x5JJA4C</c>
+              <c>08/06/2013</c>
+              <c>04:30:53 PM</c>
+              <c>11</c>
+              <c>0</c>
+              <c>23</c>
+              <c>58</c>
+              <c>11</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3-3</c>
+              <c>1-1=Poor</c>
+              <c>-</c>
+              <c>3-3</c>
+              <c>3-3</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-1=Very Unlikely</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Falls Short</c>
+              <c>3-3</c>
+              <c>1-1=Very Dissatisfied</c>
+              <c>3-3</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>2-No</c>
+              <c>-</c>
+              <c>4-34-44</c>
+              <c>5-Health care provider</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>3-Search another site for information</c>
+              <c>2-Search by specialist</c>
+              <c>-</c>
+              <c>2-Every few months or less often</c>
+              <c>1-Search feature</c>
+              <c>18-Other</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>2-I had issues with the basic search process (how to use it, terms to enter).</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>6-Other reason</c>
+              <c>1-Yes</c>
+              <c>1-Yes</c>
+              <c>1-1 = Not at all valued</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Needs to be easier to navigate</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Trying to verify status on application. Received the run around.</c>
+              <c>trying to find the status of employment</c>
+              <c />
+              <c>Firefox 22</c>
+              <c>Firefox</c>
+              <c>22</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>18</c>
+              <c>http://www.aetna.com/index.htm</c>
+              <c>www.aetna.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d036702-53115025-41ae-65b9-3b3f2</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/aetna-careers/index.html</c>
+              <c>firefox_22_0</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>YtQEwo9JwRdgEVBNtJVJ4w4C</c>
+              <c>08/06/2013</c>
+              <c>04:32:50 PM</c>
+              <c>22</c>
+              <c>5</c>
+              <c>68</c>
+              <c>58</c>
+              <c>67</c>
+              <c>7</c>
+              <c>100</c>
+              <c>44</c>
+              <c>78</c>
+              <c>100</c>
+              <c>2-2</c>
+              <c>4-4</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>2-2</c>
+              <c>1-1=Poor</c>
+              <c>5-5</c>
+              <c>8-8</c>
+              <c>10-Very Likely=10</c>
+              <c>2-2</c>
+              <c>1-1=Not Very Close</c>
+              <c>2-2</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>5-45-54</c>
+              <c>6-Other</c>
+              <c>3-3</c>
+              <c>2-Continue looking on aetna.com</c>
+              <c>-</c>
+              <c>-</c>
+              <c>4-Weekly</c>
+              <c>4-Site map</c>
+              <c>9-Pay a bill</c>
+              <c>5-I am an Employer/Benefits Administrator who currently offers insurance through Aetna</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>1-Log in to the secure site</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>7-7</c>
+              <c />
+              <c>Had to call to find out why auto payment was not happening</c>
+              <c />
+              <c />
+              <c>get some input on design from those that use it. It is one of the more difficult sites I navigate for my business.</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d342954-142452208-14e8-3ec3-4547d</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>UV50FAFdQ4FNtY8Vo44kEQ4C</c>
+              <c>08/06/2013</c>
+              <c>05:48:27 PM</c>
+              <c>50</c>
+              <c>61</c>
+              <c>66</c>
+              <c>50</c>
+              <c>73</c>
+              <c>48</c>
+              <c>67</c>
+              <c>44</c>
+              <c>67</c>
+              <c>67</c>
+              <c>-</c>
+              <c>6-6</c>
+              <c>5-5</c>
+              <c>6-6</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>6-6</c>
+              <c>-</c>
+              <c>5-5</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>5-5</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>6-6</c>
+              <c>4-4</c>
+              <c>6-6</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>3-3</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>2-Top navigation tabs</c>
+              <c>17-Search for employment with Aetna/check on the status of a job application</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>3-3</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>applied for employment</c>
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.202</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>13</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d15e255-162966565-c891-ae2d-c9349</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>9084AZlpQcdpgs8toltQsQ4C</c>
+              <c>08/06/2013</c>
+              <c>07:09:37 PM</c>
+              <c>100</c>
+              <c>61</c>
+              <c>100</c>
+              <c>99</c>
+              <c>73</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>3-Monthly</c>
+              <c>5-Followed provided directions</c>
+              <c>18-Other</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>10-Very valued = 10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>checking for employment opportunities.</c>
+              <c />
+              <c />
+              <c>Chrome 28</c>
+              <c>Chrome</c>
+              <c>28</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d464cf5-82351191-6194-9d91-580a2</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/aetna-careers/find-a-career/index.html</c>
+              <c>google_chrome_28</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>U95R4hloMV8xRB0pEEAx9w4C</c>
+              <c>08/06/2013</c>
+              <c>07:51:59 PM</c>
+              <c>54</c>
+              <c>0</c>
+              <c>66</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>-</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Falls Short</c>
+              <c>1-1=Not Very Close</c>
+              <c>1-1=Very Dissatisfied</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>1-Plan/benefits information</c>
+              <c>10-Very Likely = 10</c>
+              <c>4-Contact a sales representative</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>5|4|3|2|1-Search feature|Top navigation tabs|Links in the center of the page|Site map|Followed provided directions</c>
+              <c>18-Other</c>
+              <c>1-I currently have health insurance with Aetna</c>
+              <c>7-None of these</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>1-Log in to the secure site</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>1-1 = Not at all valued</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>trying to change billing information.  the ask ann recommendation to edit account is not even on this page.</c>
+              <c />
+              <c />
+              <c>Safari 5</c>
+              <c>Safari</c>
+              <c>5</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Mac</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c>http://www.google.com/url?sa=t&amp;rct=j&amp;q=electronic%20payment%20aetna%20pharmacy&amp;source=web&amp;cd=1&amp;ved=0CCwQFjAA&amp;url=http%3A%2F%2Fwww.aetna.com%2Fpharmacy-insurance%2Fhealthcare-professional%2Fmail-order.html&amp;ei=v4oBUqn1LseJiALm_oAQ&amp;usg=AFQjCNG39IJ8GsLVL_8YJKOLM2eqAaTtzg&amp;bvm=bv.50310824,d.cGE</c>
+              <c>www.google.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>de3c839-89773930-5265-066a-8b63a</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c>electronic payment aetna pharmacy</c>
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/individuals-families-health-insurance/index.html</c>
+              <c>safari_5_0_mac</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>okUo0pBtdNh998tUhM5Z5g4C</c>
+              <c>08/06/2013</c>
+              <c>08:19:33 PM</c>
+              <c>67</c>
+              <c>68</c>
+              <c>72</c>
+              <c>58</c>
+              <c>100</c>
+              <c>78</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>6-Other</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>6-Other</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>3-Links in the center of the page</c>
+              <c>1-Search for a doctor or facility (using DocFind)</c>
+              <c>3-I am a Provider/Healthcare professional who is currently within the Aetna network</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>1-Log in to the secure site</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>7-7</c>
+              <c />
+              <c />
+              <c>visit site again tomorrow</c>
+              <c />
+              <c>Make NaviNet friendly to Safari browsers</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Safari 5</c>
+              <c>Safari</c>
+              <c>5</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Mac</c>
+              <c />
+              <c />
+              <c />
+              <c>3</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>de3c839-89983612-7722-b9e7-f172e</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/index.html</c>
+              <c>safari_5_0_mac</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>1spQdh0Fdwpd8dVdp1Rskw4C</c>
+              <c>08/06/2013</c>
+              <c>10:43:25 PM</c>
+              <c>100</c>
+              <c>61</c>
+              <c>99</c>
+              <c>100</c>
+              <c>73</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>5-45-54</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>5|3-Links in the center of the page|Followed provided directions</c>
+              <c>17-Search for employment with Aetna/check on the status of a job application</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>1-Log in to the secure site</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>10-Very valued = 10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>24</c>
+              <c>http://www.aetna.com/working/</c>
+              <c>www.aetna.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d2345c0-112206579-95f5-80d2-73682</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/aetna-careers/benefits/benefits_health.html</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>oJwMIRJ4YhNUMdZF8lEJYQ4C</c>
+              <c>08/07/2013</c>
+              <c>06:08:32 AM</c>
+              <c>54</c>
+              <c>100</c>
+              <c>66</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>5-45-54</c>
+              <c>-</c>
+              <c>2-2</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>3-Monthly</c>
+              <c>1-Search feature</c>
+              <c>18-Other</c>
+              <c>1-I currently have health insurance with Aetna</c>
+              <c>1-The search feature met my needs today.</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>9-9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d342234-139329846-313e-1310-129a4</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>Ng4odUtIQA9IV0w01wdZoA4C</c>
+              <c>08/07/2013</c>
+              <c>09:41:50 AM</c>
+              <c>78</c>
+              <c>98</c>
+              <c>100</c>
+              <c>58</c>
+              <c>100</c>
+              <c>78</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>6-6</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>6-Other</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>1-Contact client service</c>
+              <c>-</c>
+              <c>-</c>
+              <c>3-Monthly</c>
+              <c>4|3|2|1-Search feature|Top navigation tabs|Links in the center of the page|Site map</c>
+              <c>4-Check the status of a claim</c>
+              <c>3-I am a Provider/Healthcare professional who is currently within the Aetna network</c>
+              <c>5-I had issues with sorting, filtering, advanced search, or lack of these options.</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>2-Contact a sales representative</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>8-8</c>
+              <c />
+              <c>telephone numbers</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>7</c>
+              <c>http://www.aetna.com/about-aetna-insurance/login-register/login-register.html</c>
+              <c>www.aetna.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d943593-147539434-0607-1a7c-c41be</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/index.html</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>45I0Ed00IZ0tVxY5ts81sg4C</c>
+              <c>08/07/2013</c>
+              <c>09:52:17 AM</c>
+              <c>78</c>
+              <c>61</c>
+              <c>77</c>
+              <c>85</c>
+              <c>73</c>
+              <c>78</c>
+              <c>78</c>
+              <c>78</c>
+              <c>78</c>
+              <c>44</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>9-9</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>5-5</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>2-2</c>
+              <c>-</c>
+              <c>4-Search by location/zip code</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>2-Top navigation tabs</c>
+              <c>5-View plan/benefits/product information</c>
+              <c>2-I am an individual who is currently shopping for insurance for me or my family</c>
+              <c>-</c>
+              <c>2-I found some, but not all of what I wanted</c>
+              <c>1-Yes</c>
+              <c>3-Get a quote on a plan or product</c>
+              <c>2-No</c>
+              <c>1-Yes</c>
+              <c>5-5</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Firefox 22</c>
+              <c>Firefox</c>
+              <c>22</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d036702-53225239-ee8c-c477-ab213</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/individuals-families-health-insurance/plans-benefits/index.html</c>
+              <c>firefox_22_0</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>hElkFRFMAFpBBtoUo9sZtA4C</c>
+              <c>08/07/2013</c>
+              <c>11:18:10 AM</c>
+              <c>78</c>
+              <c>56</c>
+              <c>72</c>
+              <c>58</c>
+              <c>89</c>
+              <c>67</c>
+              <c>67</c>
+              <c>67</c>
+              <c>67</c>
+              <c>67</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>6-6</c>
+              <c>-</c>
+              <c>6-6</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>4-34-44</c>
+              <c>-</c>
+              <c>5-5</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>5-Followed provided directions</c>
+              <c>5-View plan/benefits/product information</c>
+              <c>6-I am an employer/Benefits Administrator who is currently shopping for insurance</c>
+              <c>-</c>
+              <c>2-I found some, but not all of what I wanted</c>
+              <c>1-Yes</c>
+              <c>3|2-Contact a sales representative|Get a quote on a plan or product</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>7-7</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Chrome 28</c>
+              <c>Chrome</c>
+              <c>28</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Mac</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c>https://www.google.com/</c>
+              <c>www.google.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>def5439-92836529-87dd-6e9f-ba2c8</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/employer-plans/index.html</c>
+              <c>google_chrome_28</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>NtFI9lEchRA4Upk55BZYIQ4C</c>
+              <c>08/07/2013</c>
+              <c>11:38:41 AM</c>
+              <c>54</c>
+              <c>0</c>
+              <c>66</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>0</c>
+              <c>67</c>
+              <c>33</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>2-2</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Very Unlikely</c>
+              <c>7-7</c>
+              <c>4-4</c>
+              <c>1-1=Falls Short</c>
+              <c>1-1=Not Very Close</c>
+              <c>1-1=Very Dissatisfied</c>
+              <c>1-1=Poor</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>6-Other</c>
+              <c>6-6</c>
+              <c>6-Other</c>
+              <c>-</c>
+              <c>-</c>
+              <c>3-Monthly</c>
+              <c>3-Links in the center of the page</c>
+              <c>8-Obtain billing information and invoices</c>
+              <c>5-I am an Employer/Benefits Administrator who currently offers insurance through Aetna</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>6-Other reason</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>7-7</c>
+              <c />
+              <c>trying to print invoice</c>
+              <c>wait to I am in office and look for hard copy</c>
+              <c />
+              <c>find someone else to design your website. very user unfriendly</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>trying to print invoice</c>
+              <c />
+              <c>Firefox 22</c>
+              <c>Firefox</c>
+              <c>22</c>
+              <c />
+              <c />
+              <c>11.700</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d036702-53229114-1025-ef39-6f0a2</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/employer-plans/index.html</c>
+              <c>firefox_22_0</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>x0IsI0RExRZYBwU5BkI9gg4C</c>
+              <c>08/07/2013</c>
+              <c>12:52:08 PM</c>
+              <c>54</c>
+              <c>76</c>
+              <c>66</c>
+              <c>77</c>
+              <c>78</c>
+              <c>74</c>
+              <c>100</c>
+              <c>67</c>
+              <c>67</c>
+              <c>100</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>10-Very Likely=10</c>
+              <c>8-8</c>
+              <c>7-7</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-Daily/more than once a day</c>
+              <c>2-Top navigation tabs</c>
+              <c>17-Search for employment with Aetna/check on the status of a job application</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6|1-Log in to the secure site|Other reason</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>3-3</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>I log into many sites daily, applying for employment, reviewing the company news, etc. Aetna is an excellent site for employment, it provides status updates for your application, etc. It is easy to find other types of info on the site, and it is agile and fast. I think it makes a good first impression of the company.</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>checked Aetna news (esp to see if there was info on not joining CT exchange etc.)</c>
+              <c />
+              <c>Chrome 28</c>
+              <c>Chrome</c>
+              <c>28</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>de07bd3-77975031-6360-9b71-7df69</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/index.html</c>
+              <c>google_chrome_28</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>tdo9xYMUlZ5lJg8xVlIldg4C</c>
+              <c>08/07/2013</c>
+              <c>01:27:01 PM</c>
+              <c>61</c>
+              <c>61</c>
+              <c>68</c>
+              <c>77</c>
+              <c>73</c>
+              <c>67</c>
+              <c>78</c>
+              <c>78</c>
+              <c>78</c>
+              <c>44</c>
+              <c>8-8</c>
+              <c>5-5</c>
+              <c>-</c>
+              <c>7-7</c>
+              <c>7-7</c>
+              <c>-</c>
+              <c>-</c>
+              <c>9-9</c>
+              <c>7-7</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>5-5</c>
+              <c>7-7</c>
+              <c>6-6</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>6-Other</c>
+              <c>5-5</c>
+              <c>6-Other</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>3|2-Top navigation tabs|Links in the center of the page</c>
+              <c>3-Contact Aetna</c>
+              <c>3-I am a Provider/Healthcare professional who is currently within the Aetna network</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>6-6</c>
+              <c />
+              <c>a way to speak to a PERSON and verify provider status</c>
+              <c>trust the last person i spoke w/to be accurate -- i got two different answers on provider status</c>
+              <c />
+              <c>as one who works w/a provider, a CLEAR way to contact someone who deals w/providers. it took three phone calls (one number was discontinued - found that out after 10 minutes of menu aggravation)and then i have been given contradictory answers to my question.</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>verify provider status</c>
+              <c />
+              <c>Chrome 28</c>
+              <c>Chrome</c>
+              <c>28</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c>https://www.google.com/</c>
+              <c>www.google.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d464cf5-82991060-a6f5-17a5-927ff</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/index.html</c>
+              <c>google_chrome_28</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>ApBUIM5MU4k1JwUN4ZcxBg4C</c>
+              <c>08/07/2013</c>
+              <c>01:41:28 PM</c>
+              <c>100</c>
+              <c>61</c>
+              <c>99</c>
+              <c>100</c>
+              <c>73</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>5-45-54</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>5-Followed provided directions</c>
+              <c>18-Other</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>10-Very valued = 10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Chrome 28</c>
+              <c>Chrome</c>
+              <c>28</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>10</c>
+              <c>https://www.google.com/</c>
+              <c>www.google.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d464cf5-82564528-2271-2901-e06b5</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/index.html</c>
+              <c>google_chrome_28</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>1oloVwl5AcgsZwV8EhItsw4C</c>
+              <c>08/07/2013</c>
+              <c>02:26:47 PM</c>
+              <c>54</c>
+              <c>100</c>
+              <c>66</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>4-34-44</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>3-Links in the center of the page</c>
+              <c>17-Search for employment with Aetna/check on the status of a job application</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>-</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>10-Very valued = 10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>searched for employment</c>
+              <c />
+              <c>Explorer 8</c>
+              <c>Explorer</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c>0.0</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>7</c>
+              <c>http://www.bing.com/search?q=aetna+jobs&amp;src=IE-SearchBox&amp;Form=IE8SRC&amp;adlt=strict</c>
+              <c>www.bing.com</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d24c501-114553928-871c-96dd-3da95</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c>aetna jobs</c>
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/about-aetna-insurance/aetna-careers/find-a-career/index.html</c>
+              <c>msie_8</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>898ZJAY0ZsBxwANAts5hdA4C</c>
+              <c>08/07/2013</c>
+              <c>03:09:47 PM</c>
+              <c>83</c>
+              <c>78</c>
+              <c>93</c>
+              <c>58</c>
+              <c>100</c>
+              <c>78</c>
+              <c>100</c>
+              <c>100</c>
+              <c>89</c>
+              <c>100</c>
+              <c>-</c>
+              <c>8-8</c>
+              <c>9-9</c>
+              <c>9-9</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>9-9</c>
+              <c>10-Very Likely=10</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>8-8</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>4-34-44</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>5|2-Top navigation tabs|Followed provided directions</c>
+              <c>15-Find information about joining network/submit application</c>
+              <c>4-I am a Provider/Healthcare professional who is not currently within the Aetna network</c>
+              <c>-</c>
+              <c>3-I found what I wanted but it took some effort to locate it</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>9-9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Under Healthcare Providers Tab:  Join Network Now.  Would be great to have that option stick out more.  Great site!  Much easier to navigate than many other carriers.</c>
+              <c />
+              <c />
+              <c>large menu of options/learning curve</c>
+              <c />
+              <c />
+              <c>join network, submit application</c>
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>5</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>dc65200-121522502-033f-82a5-62f83</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/healthcare-professionals/index.html</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>JERVkIkFFxshc59E91ZsYg4C</c>
+              <c>08/07/2013</c>
+              <c>04:46:39 PM</c>
+              <c>0</c>
+              <c>61</c>
+              <c>0</c>
+              <c>0</c>
+              <c>73</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Poor</c>
+              <c>1-1=Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Very Unlikely</c>
+              <c>1-1=Falls Short</c>
+              <c>1-1=Not Very Close</c>
+              <c>1-1=Very Dissatisfied</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-Yes</c>
+              <c>-</c>
+              <c>6-55-64</c>
+              <c>6-Other</c>
+              <c>4-4</c>
+              <c>6-Other</c>
+              <c>-</c>
+              <c>-</c>
+              <c>3-Monthly</c>
+              <c>3|2-Top navigation tabs|Links in the center of the page</c>
+              <c>18-Other</c>
+              <c>1-I currently have health insurance with Aetna</c>
+              <c>-</c>
+              <c>-</c>
+              <c>2-No</c>
+              <c>6|1-Log in to the secure site|Other reason</c>
+              <c>1-Yes</c>
+              <c>2-No</c>
+              <c>1-1 = Not at all valued</c>
+              <c />
+              <c>Could not re-order medications.</c>
+              <c>Use the phone to do what should be much easier to do here.</c>
+              <c />
+              <c>Fix your website !</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Tried to re-order my drugs.  But again this time, it appears I'll have to order them by phine because your website doesn't allow me to order them here.  BUT I could two years ago.  Why did you change ?</c>
+              <c>Tried to order medication refills.</c>
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.800</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d925c38-150871092-22d3-dd97-5d4e0</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/individuals-families-health-insurance/pharmacy-prescription-drugs/mail-order-pharmacies/home-delivery.html</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+            <r>
+              <c>BctkQFl1lYpNlJocwApItQ4C</c>
+              <c>08/07/2013</c>
+              <c>04:52:05 PM</c>
+              <c>100</c>
+              <c>100</c>
+              <c>99</c>
+              <c>58</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>100</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>10-Excellent=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Very Likely=10</c>
+              <c>10-Exceeds=10</c>
+              <c>10-Very Close=10</c>
+              <c>10-Very Satisfied=10</c>
+              <c>10-Excellent=10</c>
+              <c>10-Excellent=10</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>4-34-44</c>
+              <c>-</c>
+              <c>1-1 = Very Unlikely</c>
+              <c>-</c>
+              <c>-</c>
+              <c>-</c>
+              <c>1-This is my first visit</c>
+              <c>1-Search feature</c>
+              <c>17-Search for employment with Aetna/check on the status of a job application</c>
+              <c>10-I am looking for employment with Aetna</c>
+              <c>1-The search feature met my needs today.</c>
+              <c>1-I found what I wanted without any difficulty</c>
+              <c>1-Yes</c>
+              <c>6-Other reason</c>
+              <c>2-No</c>
+              <c>2-No</c>
+              <c>10-Very valued = 10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Job Search</c>
+              <c />
+              <c>Explorer 10</c>
+              <c>Explorer</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c>11.502</c>
+              <c />
+              <c>en</c>
+              <c />
+              <c>Windows</c>
+              <c />
+              <c />
+              <c />
+              <c>5</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>d572c0e-128761711-854a-8db6-35c85</c>
+              <c>browse-en</c>
+              <c>aetna.com</c>
+              <c>desktop</c>
+              <c />
+              <c>16.0.8</c>
+              <c>http://www.aetna.com/index.html</c>
+              <c>msie_10</c>
+              <c>Aetna.com Browse</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data</AnnotationText>
+          <DefaultAnnotationText>Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="95" />
+          <Fields>
+            <Field name="Id" />
+            <Field name="Column" />
+            <Field name="Type" />
+            <Field name="SubType" />
+            <Field name="Label" />
+            <Field name="Text" />
+          </Fields>
+          <Data>
+            <r>
+              <c>ENM004680Q00080</c>
+              <c>4</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Functionality - Convenient</c>
+              <c>Please rate the convenient placement of the website tools (i.e., Provider Directory, Search box, etc.) on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00070</c>
+              <c>5</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Functionality - Usefulness</c>
+              <c>Please rate the usefulness of the website tools (i.e., Provider Directory, Search box, etc.) provided on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00090</c>
+              <c>6</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Functionality - Variety</c>
+              <c>Please rate the variety of website tools (i.e., Provider Directory, Search box, etc.) on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00100</c>
+              <c>7</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Look and Feel - Appeal</c>
+              <c>Please rate the visual appeal of this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00110</c>
+              <c>8</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Look and Feel - Balance</c>
+              <c>Please rate the balance of graphics and text on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00120</c>
+              <c>9</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Look and Feel - Readability</c>
+              <c>Please rate the readability of the pages on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00150</c>
+              <c>10</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Navigation - Layout</c>
+              <c>Please rate how well the site layout helps you find what you are looking for.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00140</c>
+              <c>11</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Navigation - Options</c>
+              <c>Please rate the options available for navigating this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00130</c>
+              <c>12</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Navigation - Organized</c>
+              <c>Please rate how well the site is organized.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00200</c>
+              <c>13</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Primary Resource</c>
+              <c>How likely are you to use Aetna.com as your primary resource for obtaining information from this organization?</c>
+            </r>
+            <r>
+              <c>ENM004680Q00030</c>
+              <c>14</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Product Information - Answers</c>
+              <c>Please rate how well the information provides answers to your questions.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00010</c>
+              <c>15</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Product Information - Thoroughness</c>
+              <c>Please rate the thoroughness of information on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00020</c>
+              <c>16</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Product Information - Understandable</c>
+              <c>Please rate how understandable the information is on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00210</c>
+              <c>17</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Recommend</c>
+              <c>How likely are you to recommend this site to someone else?</c>
+            </r>
+            <r>
+              <c>ENM004680Q00220</c>
+              <c>18</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Recommend Company</c>
+              <c>How likely are you to recommend Aetna to someone else?</c>
+            </r>
+            <r>
+              <c>ENM004680Q00190</c>
+              <c>19</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Return</c>
+              <c>How likely are you to return to aetna.com in the next 30 days?</c>
+            </r>
+            <r>
+              <c>ENM004680Q00170</c>
+              <c>20</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Sat - Expectations</c>
+              <c>How well does this site meet your expectations?</c>
+            </r>
+            <r>
+              <c>ENM004680Q00180</c>
+              <c>21</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Sat - Ideal</c>
+              <c>How does this site compare to your idea of an ideal website?</c>
+            </r>
+            <r>
+              <c>ENM004680Q00160</c>
+              <c>22</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Sat - Overall</c>
+              <c>What is your overall satisfaction with this site?</c>
+            </r>
+            <r>
+              <c>ENM004680Q00050</c>
+              <c>23</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Site Performance - Consistency</c>
+              <c>Please rate the consistency of speed from page to page on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00060</c>
+              <c>24</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Site Performance - Errors</c>
+              <c>Please rate the ability to load pages without getting error messages on this site.</c>
+            </r>
+            <r>
+              <c>ENM004680Q00040</c>
+              <c>25</c>
+              <c>MQ</c>
+              <c>NonFreeform</c>
+              <c>Site Performance - Loading</c>
+              <c>Please rate how quickly pages load on this site.</c>
+            </r>
+            <r>
+              <c>CAS0035365</c>
+              <c>26</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Able to Log In</c>
+              <c>Were you able to log in successfully?</c>
+            </r>
+            <r>
+              <c>CAS0058763</c>
+              <c>27</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Aexcel</c>
+              <c>Next, we would like to know how familiar you are with the Aexcel designation that Aetna gives certain specialists. The Aexcel designation is shown as a blue star (insert blue star to the left) on the results page, after you&amp;rsquo;ve completed a search for a doctor, which identifies Aexcel&amp;reg; specialists.These are doctors that meet additional clinical quality and cost criteria. Going to an Aexcel&amp;reg; specialist can lower your costs.How familiar are you with Aexcel&amp;reg; designation? Would you say you are:</c>
+            </r>
+            <r>
+              <c>CAS0035369</c>
+              <c>28</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Age</c>
+              <c>Please select the category that includes your age:</c>
+            </r>
+            <r>
+              <c>CAS0035357</c>
+              <c>29</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Did Not Find</c>
+              <c>What were you unable to find? Please select all that apply.</c>
+            </r>
+            <r>
+              <c>CAS0035367</c>
+              <c>30</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Discourage</c>
+              <c>How likely are you to discourage others from doing business with Aetna?</c>
+            </r>
+            <r>
+              <c>CAS0035359</c>
+              <c>31</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Do Next</c>
+              <c>What do you plan to do next?</c>
+            </r>
+            <r>
+              <c>CAS0035324</c>
+              <c>32</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Doctor Search</c>
+              <c>Within the Find a Doctor/Facility section, how did you search for your doctor? (Please select all that apply.)</c>
+            </r>
+            <r>
+              <c>CAS0043065</c>
+              <c>33</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Effort</c>
+              <c>How much effort did it take to find the information you were looking for?</c>
+            </r>
+            <r>
+              <c>CAS0035322</c>
+              <c>34</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Frequency of Visit</c>
+              <c>How frequently do you visit this site?</c>
+            </r>
+            <r>
+              <c>CAS0035350</c>
+              <c>35</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Looked for Information</c>
+              <c>How did you look for information/navigate the site today? (Please select all that apply.)</c>
+            </r>
+            <r>
+              <c>CAS0035344</c>
+              <c>36</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Primary Reason</c>
+              <c>What best describes your primary reason for visiting the site today?</c>
+            </r>
+            <r>
+              <c>CAS0035323</c>
+              <c>37</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Role</c>
+              <c>Which of the following best describes you?</c>
+            </r>
+            <r>
+              <c>CAS0035352</c>
+              <c>38</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Search Experience</c>
+              <c>Please tell us about your experience with the site's search feature today. (Please select all that apply.)</c>
+            </r>
+            <r>
+              <c>CAS0035354</c>
+              <c>39</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Task Acc_Find Info</c>
+              <c>Which of the following best describes your experience in finding the information you wanted?</c>
+            </r>
+            <r>
+              <c>CAS0035353</c>
+              <c>40</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Task Accomplishment</c>
+              <c>Did we address your request on aetna.com?</c>
+            </r>
+            <r>
+              <c>CAS0035346</c>
+              <c>41</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Task on ste</c>
+              <c>Which of the following tasks did you perform on aetna.com?</c>
+            </r>
+            <r>
+              <c>CAS0035364</c>
+              <c>42</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Try to Log In</c>
+              <c>Did you try to log in to Aetna.com's secure site today?</c>
+            </r>
+            <r>
+              <c>CAS0035348</c>
+              <c>43</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Use Provider Search</c>
+              <c>Did you use the Find a Doctor/Facility feature today?</c>
+            </r>
+            <r>
+              <c>CAS0035302</c>
+              <c>44</c>
+              <c>CQ</c>
+              <c>NonFreeform</c>
+              <c>Valued</c>
+              <c>How valued do you feel as a consumer?</c>
+            </r>
+            <r>
+              <c>CAS0058764</c>
+              <c>45</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Aexcel</c>
+              <c>Based on what you know about Aexcel&amp;reg;, please share any suggestions you may have to help Aetna improve the program and display of Aexcel information.</c>
+            </r>
+            <r>
+              <c>CAS0035358</c>
+              <c>46</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Did Not Accomplish</c>
+              <c>Please specify what you were looking for.</c>
+            </r>
+            <r>
+              <c>CAS0035363</c>
+              <c>47</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Do Next</c>
+              <c>Please specify what you plan to do next.</c>
+            </r>
+            <r>
+              <c>CAS0035349</c>
+              <c>48</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Doctor Search</c>
+              <c>Please describe how you searched for your doctor/facility.</c>
+            </r>
+            <r>
+              <c>CAS0035370</c>
+              <c>49</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Improvement</c>
+              <c>If you could suggest one improvement to aetna.com, what would it be?</c>
+            </r>
+            <r>
+              <c>CAS0035351</c>
+              <c>50</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Looked for Information</c>
+              <c>Please specify the other ways you looked for information/navigated the site today.</c>
+            </r>
+            <r>
+              <c>CAS0035343</c>
+              <c>51</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Other Role</c>
+              <c>Please specify your role in visiting the site.</c>
+            </r>
+            <r>
+              <c>CAS0035355</c>
+              <c>52</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Task Acc_Find Info</c>
+              <c>Why did you feel it was difficult to find what you were looking for?</c>
+            </r>
+            <r>
+              <c>CAS0035366</c>
+              <c>53</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OE_Unable to Login</c>
+              <c>Why were you unable to log in?</c>
+            </r>
+            <r>
+              <c>CAS0035345</c>
+              <c>54</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OPS_Primary Reason</c>
+              <c>Please specify your primary reason for visiting the site today.</c>
+            </r>
+            <r>
+              <c>CAS0035347</c>
+              <c>55</c>
+              <c>CQ</c>
+              <c>Freeform</c>
+              <c>OPS_Task on site</c>
+              <c>Please specify which task(s) you performed on aetna.com.</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375741</c>
+              <c>56</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>brand_name</c>
+              <c>brand_name</c>
+            </r>
+            <r>
+              <c>CPPA2915541</c>
+              <c>57</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>browser</c>
+              <c>browser</c>
+            </r>
+            <r>
+              <c>CPPA2915641</c>
+              <c>58</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>browser_name</c>
+              <c>browser_name</c>
+            </r>
+            <r>
+              <c>CPPA2915041</c>
+              <c>59</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>browser_version</c>
+              <c>browser_version</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375941</c>
+              <c>60</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>device</c>
+              <c>device</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3376141</c>
+              <c>61</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>dual_orientation</c>
+              <c>dual_orientation</c>
+            </r>
+            <r>
+              <c>CPPA2985641</c>
+              <c>62</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>flash</c>
+              <c>flash</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3374941</c>
+              <c>63</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>is_tablet</c>
+              <c>is_tablet</c>
+            </r>
+            <r>
+              <c>CPPA2986241</c>
+              <c>64</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>locale</c>
+              <c>locale</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375041</c>
+              <c>65</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>model_name</c>
+              <c>model_name</c>
+            </r>
+            <r>
+              <c>CPPA2985841</c>
+              <c>66</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>os</c>
+              <c>os</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375841</c>
+              <c>67</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>os_name</c>
+              <c>os_name</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375241</c>
+              <c>68</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>os_version</c>
+              <c>os_version</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3374841</c>
+              <c>69</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>pointing_method</c>
+              <c>pointing_method</c>
+            </r>
+            <r>
+              <c>CPPA2986341</c>
+              <c>70</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>pv</c>
+              <c>pv</c>
+            </r>
+            <r>
+              <c>CPPA2985341</c>
+              <c>71</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>ref_url</c>
+              <c>ref_url</c>
+            </r>
+            <r>
+              <c>CPPA2986041</c>
+              <c>72</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>referrer</c>
+              <c>referrer</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3376041</c>
+              <c>73</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>resolution</c>
+              <c>resolution</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375141</c>
+              <c>74</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>resolution_height</c>
+              <c>resolution_height</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375341</c>
+              <c>75</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>resolution_width</c>
+              <c>resolution_width</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375641</c>
+              <c>76</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>screen</c>
+              <c>screen</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375441</c>
+              <c>77</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>screen_height</c>
+              <c>screen_height</c>
+            </r>
+            <r>
+              <c>CPPAUTOA3375541</c>
+              <c>78</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>screen_width</c>
+              <c>screen_width</c>
+            </r>
+            <r>
+              <c>CPPA3343241</c>
+              <c>79</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>searchterms</c>
+              <c>searchterms</c>
+            </r>
+            <r>
+              <c>CPPA4233341</c>
+              <c>80</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>secureState</c>
+              <c>secureState</c>
+            </r>
+            <r>
+              <c>CPPA2986141</c>
+              <c>81</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>sessionid</c>
+              <c>sessionid</c>
+            </r>
+            <r>
+              <c>CPPA2985441</c>
+              <c>82</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>sid</c>
+              <c>sid</c>
+            </r>
+            <r>
+              <c>CPPA2985541</c>
+              <c>83</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>site</c>
+              <c>site</c>
+            </r>
+            <r>
+              <c>CPPA2915341</c>
+              <c>84</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>survey_presentation</c>
+              <c>survey_presentation</c>
+            </r>
+            <r>
+              <c>CPPA2995441</c>
+              <c>85</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>terms</c>
+              <c>terms</c>
+            </r>
+            <r>
+              <c>CPPA2985741</c>
+              <c>86</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>trigger_version</c>
+              <c>trigger_version</c>
+            </r>
+            <r>
+              <c>CPPA2985941</c>
+              <c>87</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>url</c>
+              <c>url</c>
+            </r>
+            <r>
+              <c>CPPA2914941</c>
+              <c>88</c>
+              <c>CPP</c>
+              <c>Freeform</c>
+              <c>wurfl_id</c>
+              <c>wurfl_id</c>
+            </r>
+            <r>
+              <c>ENM004680L0003</c>
+              <c>89</c>
+              <c>LTE</c>
+              <c>Numeric</c>
+              <c>Functionality</c>
+              <c>Functionality</c>
+            </r>
+            <r>
+              <c>ENM004680L0001</c>
+              <c>90</c>
+              <c>LTE</c>
+              <c>Numeric</c>
+              <c>Information</c>
+              <c>Information</c>
+            </r>
+            <r>
+              <c>ENM004680L0004</c>
+              <c>91</c>
+              <c>LTE</c>
+              <c>Numeric</c>
+              <c>Look and Feel</c>
+              <c>Look and Feel</c>
+            </r>
+            <r>
+              <c>ENM004680L0005</c>
+              <c>92</c>
+              <c>LTE</c>
+              <c>Numeric</c>
+              <c>Navigation</c>
+              <c>Navigation</c>
+            </r>
+            <r>
+              <c>ENM004680L0002</c>
+              <c>93</c>
+              <c>LTE</c>
+              <c>Numeric</c>
+              <c>Site Performance</c>
+              <c>Site Performance</c>
+            </r>
+            <r>
+              <c>ENM004680L0006</c>
+              <c>94</c>
+              <c>LTS</c>
+              <c>Numeric</c>
+              <c>Satisfaction</c>
+              <c>Satisfaction</c>
+            </r>
+            <r>
+              <c>ENM004680L0008</c>
+              <c>95</c>
+              <c>LTF</c>
+              <c>Numeric</c>
+              <c>Primary Resource</c>
+              <c>Primary Resource</c>
+            </r>
+            <r>
+              <c>ENM004680L0009</c>
+              <c>96</c>
+              <c>LTF</c>
+              <c>Numeric</c>
+              <c>Recommend</c>
+              <c>Recommend</c>
+            </r>
+            <r>
+              <c>ENM004680L0010</c>
+              <c>97</c>
+              <c>LTF</c>
+              <c>Numeric</c>
+              <c>Recommend Company</c>
+              <c>Recommend Company</c>
+            </r>
+            <r>
+              <c>ENM004680L0007</c>
+              <c>98</c>
+              <c>LTF</c>
+              <c>Numeric</c>
+              <c>Return</c>
+              <c>Return</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Questions</AnnotationText>
+          <DefaultAnnotationText>Questions</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="703" y="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="32" />
+          <Fields>
+            <Field name="RespondentId" />
+            <Field name="Date" />
+            <Field name="Time" />
+            <Field name="Please tell us about your experience with the site's search feature today. (Please select all that apply.)" />
+            <Field name="AgeValue" />
+          </Fields>
+          <Data>
+            <r>
+              <c>dgJolclo55EoZkJAtZ4s4Q4C</c>
+              <c>08/05/2013</c>
+              <c>12:12:18 PM</c>
+              <c>8</c>
+              <c>Prefer not to answer</c>
+            </r>
+            <r>
+              <c>sccI9pI81R1B1pZk1g4w1g4C</c>
+              <c>08/05/2013</c>
+              <c>12:43:16 PM</c>
+              <c>5</c>
+              <c>45-54</c>
+            </r>
+            <r>
+              <c>UlMwhAJ4Yo5YFk4wR0tctg4C</c>
+              <c>08/05/2013</c>
+              <c>01:23:18 PM</c>
+              <c>2</c>
+              <c>18-24</c>
+            </r>
+            <r>
+              <c>oskU9Zo00dkBtNB1M9pB4A4C</c>
+              <c>08/05/2013</c>
+              <c>05:28:00 PM</c>
+              <c>4</c>
+              <c>34-44</c>
+            </r>
+            <r>
+              <c>xUJwolkg0oho8FMxVcJlxg4C</c>
+              <c>08/05/2013</c>
+              <c>06:45:04 PM</c>
+              <c>7</c>
+              <c>Over 65</c>
+            </r>
+            <r>
+              <c>YIBNZ4JcAEM0g89FdwIpcQ4C</c>
+              <c>08/05/2013</c>
+              <c>07:29:00 PM</c>
+              <c>3</c>
+              <c>25-34</c>
+            </r>
+            <r>
+              <c>ksMF0tgQQ5lh4ZhZhpopcg4C</c>
+              <c>08/06/2013</c>
+              <c>07:19:08 AM</c>
+              <c>3</c>
+              <c>25-34</c>
+            </r>
+            <r>
+              <c>F5cYlxgRkVlsxxJ90xhMFA4C</c>
+              <c>08/06/2013</c>
+              <c>10:28:37 AM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>ZtNgdQZMpV1YQcJBpsxlQA4C</c>
+              <c>08/06/2013</c>
+              <c>11:46:05 AM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>08E9M0NJI8wZBsw0cNM1hw4C</c>
+              <c>08/06/2013</c>
+              <c>12:47:53 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>BBp54pdRkgwlptQUpYc0UA4C</c>
+              <c>08/06/2013</c>
+              <c>01:50:45 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>FEkhkExpMpsl4hA0wshphw4C</c>
+              <c>08/06/2013</c>
+              <c>02:35:28 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>l4MIw1Ig85ds4EQV0I8xQg4C</c>
+              <c>08/06/2013</c>
+              <c>03:00:17 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>1ZAhgN8AlVBZ5Etp1x5JJA4C</c>
+              <c>08/06/2013</c>
+              <c>04:30:53 PM</c>
+              <c>4</c>
+              <c>34-44</c>
+            </r>
+            <r>
+              <c>YtQEwo9JwRdgEVBNtJVJ4w4C</c>
+              <c>08/06/2013</c>
+              <c>04:32:50 PM</c>
+              <c>5</c>
+              <c>45-54</c>
+            </r>
+            <r>
+              <c>UV50FAFdQ4FNtY8Vo44kEQ4C</c>
+              <c>08/06/2013</c>
+              <c>05:48:27 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>9084AZlpQcdpgs8toltQsQ4C</c>
+              <c>08/06/2013</c>
+              <c>07:09:37 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>U95R4hloMV8xRB0pEEAx9w4C</c>
+              <c>08/06/2013</c>
+              <c>07:51:59 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>okUo0pBtdNh998tUhM5Z5g4C</c>
+              <c>08/06/2013</c>
+              <c>08:19:33 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>1spQdh0Fdwpd8dVdp1Rskw4C</c>
+              <c>08/06/2013</c>
+              <c>10:43:25 PM</c>
+              <c>5</c>
+              <c>45-54</c>
+            </r>
+            <r>
+              <c>oJwMIRJ4YhNUMdZF8lEJYQ4C</c>
+              <c>08/07/2013</c>
+              <c>06:08:32 AM</c>
+              <c>5</c>
+              <c>45-54</c>
+            </r>
+            <r>
+              <c>Ng4odUtIQA9IV0w01wdZoA4C</c>
+              <c>08/07/2013</c>
+              <c>09:41:50 AM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>45I0Ed00IZ0tVxY5ts81sg4C</c>
+              <c>08/07/2013</c>
+              <c>09:52:17 AM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>hElkFRFMAFpBBtoUo9sZtA4C</c>
+              <c>08/07/2013</c>
+              <c>11:18:10 AM</c>
+              <c>4</c>
+              <c>34-44</c>
+            </r>
+            <r>
+              <c>NtFI9lEchRA4Upk55BZYIQ4C</c>
+              <c>08/07/2013</c>
+              <c>11:38:41 AM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>x0IsI0RExRZYBwU5BkI9gg4C</c>
+              <c>08/07/2013</c>
+              <c>12:52:08 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>tdo9xYMUlZ5lJg8xVlIldg4C</c>
+              <c>08/07/2013</c>
+              <c>01:27:01 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>ApBUIM5MU4k1JwUN4ZcxBg4C</c>
+              <c>08/07/2013</c>
+              <c>01:41:28 PM</c>
+              <c>5</c>
+              <c>45-54</c>
+            </r>
+            <r>
+              <c>1oloVwl5AcgsZwV8EhItsw4C</c>
+              <c>08/07/2013</c>
+              <c>02:26:47 PM</c>
+              <c>4</c>
+              <c>34-44</c>
+            </r>
+            <r>
+              <c>898ZJAY0ZsBxwANAts5hdA4C</c>
+              <c>08/07/2013</c>
+              <c>03:09:47 PM</c>
+              <c>4</c>
+              <c>34-44</c>
+            </r>
+            <r>
+              <c>JERVkIkFFxshc59E91ZsYg4C</c>
+              <c>08/07/2013</c>
+              <c>04:46:39 PM</c>
+              <c>6</c>
+              <c>55-64</c>
+            </r>
+            <r>
+              <c>BctkQFl1lYpNlJocwApItQ4C</c>
+              <c>08/07/2013</c>
+              <c>04:52:05 PM</c>
+              <c>4</c>
+              <c>34-44</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="823" y="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_4152_9218154110b14b289c8f5c65691ec101_\Engine_10320_9892016c27774566851af4de547daf31_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F1" selected="True" />
+            <SelectField field="F2" selected="True" />
+            <SelectField field="F3" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F2" selected="False" />
+            <SelectField field="F3" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="133">
+      <GuiSettings>
+        <Position x="198" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">2-</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="134">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="198" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="F1" />
+            <Field name="F2" />
+            <Field name="F3" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RespondentId" size="24" source="TextInput:" type="String" />
+            <Field name="Date" size="10" source="TextInput:" type="String" />
+            <Field name="Time" size="11" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="135">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="258" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="F1" />
+          </KeyFields>
+          <DataFields>
+            <Field field="F1" selected="False" />
+            <Field field="F4" selected="True" />
+            <Field field="F5" selected="True" />
+            <Field field="F6" selected="True" />
+            <Field field="F7" selected="True" />
+            <Field field="F8" selected="True" />
+            <Field field="F9" selected="True" />
+            <Field field="F10" selected="True" />
+            <Field field="F11" selected="True" />
+            <Field field="F12" selected="True" />
+            <Field field="F13" selected="True" />
+            <Field field="F14" selected="True" />
+            <Field field="F15" selected="True" />
+            <Field field="F16" selected="True" />
+            <Field field="F17" selected="True" />
+            <Field field="F18" selected="True" />
+            <Field field="F19" selected="True" />
+            <Field field="F20" selected="True" />
+            <Field field="F21" selected="True" />
+            <Field field="F22" selected="True" />
+            <Field field="F23" selected="True" />
+            <Field field="F24" selected="True" />
+            <Field field="F25" selected="True" />
+            <Field field="F26" selected="True" />
+            <Field field="F27" selected="True" />
+            <Field field="F28" selected="True" />
+            <Field field="F29" selected="True" />
+            <Field field="F30" selected="True" />
+            <Field field="F31" selected="True" />
+            <Field field="F32" selected="True" />
+            <Field field="F33" selected="True" />
+            <Field field="F34" selected="True" />
+            <Field field="F35" selected="True" />
+            <Field field="F36" selected="True" />
+            <Field field="F37" selected="True" />
+            <Field field="F38" selected="True" />
+            <Field field="F39" selected="True" />
+            <Field field="F40" selected="True" />
+            <Field field="F41" selected="True" />
+            <Field field="F42" selected="True" />
+            <Field field="F43" selected="True" />
+            <Field field="F44" selected="True" />
+            <Field field="F45" selected="True" />
+            <Field field="F46" selected="True" />
+            <Field field="F47" selected="True" />
+            <Field field="F48" selected="True" />
+            <Field field="F49" selected="True" />
+            <Field field="F50" selected="True" />
+            <Field field="F51" selected="True" />
+            <Field field="F52" selected="True" />
+            <Field field="F53" selected="True" />
+            <Field field="F54" selected="True" />
+            <Field field="F55" selected="True" />
+            <Field field="F56" selected="True" />
+            <Field field="F57" selected="True" />
+            <Field field="F58" selected="True" />
+            <Field field="F59" selected="True" />
+            <Field field="F60" selected="True" />
+            <Field field="F61" selected="True" />
+            <Field field="F62" selected="True" />
+            <Field field="F63" selected="True" />
+            <Field field="F64" selected="True" />
+            <Field field="F65" selected="True" />
+            <Field field="F66" selected="True" />
+            <Field field="F67" selected="True" />
+            <Field field="F68" selected="True" />
+            <Field field="F69" selected="True" />
+            <Field field="F70" selected="True" />
+            <Field field="F71" selected="True" />
+            <Field field="F72" selected="True" />
+            <Field field="F73" selected="True" />
+            <Field field="F74" selected="True" />
+            <Field field="F75" selected="True" />
+            <Field field="F76" selected="True" />
+            <Field field="F77" selected="True" />
+            <Field field="F78" selected="True" />
+            <Field field="F79" selected="True" />
+            <Field field="F80" selected="True" />
+            <Field field="F81" selected="True" />
+            <Field field="F82" selected="True" />
+            <Field field="F83" selected="True" />
+            <Field field="F84" selected="True" />
+            <Field field="F85" selected="True" />
+            <Field field="F86" selected="True" />
+            <Field field="F87" selected="True" />
+            <Field field="F88" selected="True" />
+            <Field field="F89" selected="True" />
+            <Field field="F90" selected="True" />
+            <Field field="F91" selected="True" />
+            <Field field="F92" selected="True" />
+            <Field field="F93" selected="True" />
+            <Field field="F94" selected="True" />
+            <Field field="F95" selected="True" />
+            <Field field="F96" selected="True" />
+            <Field field="F97" selected="True" />
+            <Field field="F98" selected="True" />
+            <Field field="F99" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="136">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="tonumber(TrimLeft([Name],&quot;F&quot;))" field="Column" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <AnnotationText><![CDATA[Column = tonumber(TrimLeft([Name],"F"))
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Column = tonumber(TrimLeft([Name],"F"))
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="137">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Column" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Column" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_F1" selected="True" input="Left_" />
+                <SelectField field="Left_Name" selected="True" input="Left_" />
+                <SelectField field="Right_Label" selected="False" input="Right_" />
+                <SelectField field="Right_Text" selected="True" input="Right_" />
+                <SelectField field="Left_Value" selected="True" input="Left_" />
+                <SelectField field="Left_Column" selected="False" input="Left_" />
+                <SelectField field="Right_Id" selected="False" input="Right_" />
+                <SelectField field="Right_Column" selected="False" input="Right_" />
+                <SelectField field="Right_Type" selected="False" input="Right_" />
+                <SelectField field="Right_SubType" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="139">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="138" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Column] = 38</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>[Column] = 38</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="438" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Value</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Value</RootName>
+          <Delimeters value="-" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="142">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RespondentId" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="F1" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_RespondentId" selected="True" input="Left_" />
+                <SelectField field="Left_Date" selected="True" input="Left_" />
+                <SelectField field="Left_Time" selected="True" input="Left_" />
+                <SelectField field="Right_Value1" selected="True" rename="Please tell us about your experience with the site's search feature today. (Please select all that apply.)" input="Right_" />
+                <SelectField field="Right_Value2" selected="True" rename="Age" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="143">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="125" Connection="Output" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="125" Connection="Output" />
+      <Destination ToolID="132" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="139" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="129" Connection="Output" />
+      <Destination ToolID="130" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="134" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="132" Connection="Output" />
+      <Destination ToolID="133" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="135" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="134" Connection="Output" />
+      <Destination ToolID="142" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="140" Connection="Output" />
+      <Destination ToolID="142" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="135" Connection="Output" />
+      <Destination ToolID="136" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Output" />
+      <Destination ToolID="137" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="139" Connection="True" />
+      <Destination ToolID="137" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="137" Connection="Join" />
+      <Destination ToolID="140" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="142" Connection="Join" />
+      <Destination ToolID="143" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_50_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

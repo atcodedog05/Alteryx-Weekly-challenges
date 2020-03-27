@@ -1,0 +1,2203 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="390" width="535" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>My Solution</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="234" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="457" y="234" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="70" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #24</Text>
+          <Font name="Lato" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="114" width="612" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use Case:  A retailer would like to forecast how many units of a particular product will be purchased from their locations based on a historical trend.
+
+The source data contains weekly data for 2012 and 2013 details how many units have been moved. Some of the data, however, is populated with NULL values. For the NULL values, please assign the monthly average. If the monthly average is also NULL, assigned the annual average.
+
+Objective:  Forecast the number of units that will be sole in the six weeks following the available data.</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="586" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_6932_36d71f9288dd4d33a773f530c512232c_\Engine_6736_cd0a68f30fe749289d73b3f766d1cd1e_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="490" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Period" />
+            <Field name="Sub_Period" />
+            <Field name="forecast" />
+            <Field name="forecast_high_95" />
+            <Field name="forecast_high_80" />
+            <Field name="forecast_low_80" />
+            <Field name="forecast_low_95" />
+          </Fields>
+          <Data>
+            <r>
+              <c>3</c>
+              <c>1</c>
+              <c>334.738227235981</c>
+              <c>466.538870124894</c>
+              <c>420.9180354194</c>
+              <c>248.558419052561</c>
+              <c>202.937584347067</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>2</c>
+              <c>293.126437836262</c>
+              <c>458.114318864577</c>
+              <c>401.006214656417</c>
+              <c>185.246661016106</c>
+              <c>128.138556807947</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>3</c>
+              <c>261.793005511522</c>
+              <c>442.916500671652</c>
+              <c>380.223293317982</c>
+              <c>143.362717705063</c>
+              <c>80.6695103513928</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>4</c>
+              <c>238.199115524766</c>
+              <c>427.862652462762</c>
+              <c>362.213436505595</c>
+              <c>114.184794543937</c>
+              <c>48.5355785867698</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>5</c>
+              <c>220.433055332642</c>
+              <c>414.772150701645</c>
+              <c>347.504559646592</c>
+              <c>93.361551018693</c>
+              <c>26.0939599636397</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>6</c>
+              <c>207.055316649986</c>
+              <c>403.996148338425</c>
+              <c>335.828004903848</c>
+              <c>78.2826283961243</c>
+              <c>10.1144849615482</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="190" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_6932_36d71f9288dd4d33a773f530c512232c_\Engine_6736_12a071fa0bbc488eb7a818c50537c710_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="104" />
+          <Fields>
+            <Field name="Product" />
+            <Field name="Fiscal Year" />
+            <Field name="Fiscal Month" />
+            <Field name="Fiscal Week Number" />
+            <Field name="Units" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-01</c>
+              <c>81</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-02</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-03</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-04</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-05</c>
+              <c>85</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-06</c>
+              <c>74</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-07</c>
+              <c>104</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-08</c>
+              <c>126</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-09</c>
+              <c>139</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-10</c>
+              <c>149</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-11</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-12</c>
+              <c>224</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-13</c>
+              <c>255</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-14</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-15</c>
+              <c>209</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-16</c>
+              <c>262</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-17</c>
+              <c>217</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-18</c>
+              <c>247</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-19</c>
+              <c>231</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-20</c>
+              <c>247</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-21</c>
+              <c>226</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-22</c>
+              <c>236</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-23</c>
+              <c>250</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-24</c>
+              <c>482</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-25</c>
+              <c>303</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-26</c>
+              <c>222</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-27</c>
+              <c>208</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-28</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-29</c>
+              <c>209</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-30</c>
+              <c>174</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-31</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-32</c>
+              <c>154</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-33</c>
+              <c>185</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-34</c>
+              <c>159</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-35</c>
+              <c>127</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-36</c>
+              <c>124</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-37</c>
+              <c>100</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-38</c>
+              <c>116</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-39</c>
+              <c>104</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-40</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-41</c>
+              <c>101</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-42</c>
+              <c>71</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-43</c>
+              <c>53</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-44</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-45</c>
+              <c>55</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-46</c>
+              <c>48</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-47</c>
+              <c>91</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-48</c>
+              <c>75</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-49</c>
+              <c>167</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-50</c>
+              <c>261</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-51</c>
+              <c>512</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-52</c>
+              <c>258</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-01</c>
+              <c>95</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-02</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-03</c>
+              <c>60</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-04</c>
+              <c>65</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-05</c>
+              <c>93</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-06</c>
+              <c>126</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-07</c>
+              <c>129</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-08</c>
+              <c>90</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-09</c>
+              <c>103</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-10</c>
+              <c>101</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-11</c>
+              <c>124</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-12</c>
+              <c>120</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-13</c>
+              <c>166</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-14</c>
+              <c>152</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-15</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-16</c>
+              <c>238</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-17</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-18</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-19</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-20</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-21</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-22</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-23</c>
+              <c>254</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-24</c>
+              <c>425</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-25</c>
+              <c>299</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-26</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-27</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-28</c>
+              <c>160</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-29</c>
+              <c>163</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-30</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-31</c>
+              <c>152</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-32</c>
+              <c>168</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-33</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-34</c>
+              <c>140</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-35</c>
+              <c>119</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-36</c>
+              <c>135</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-37</c>
+              <c>111</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-38</c>
+              <c>79</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-39</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-40</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-41</c>
+              <c>67</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-42</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-43</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-44</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-45</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-46</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-47</c>
+              <c>62</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-48</c>
+              <c>122</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-49</c>
+              <c>158</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-50</c>
+              <c>295</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-51</c>
+              <c>541</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-52</c>
+              <c>390</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="104" />
+          <Fields>
+            <Field name="Product" />
+            <Field name="Fiscal Year" />
+            <Field name="Fiscal Month" />
+            <Field name="Fiscal Week Number" />
+            <Field name="Units" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-01</c>
+              <c>81</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-02</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-03</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-04</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-05</c>
+              <c>85</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-06</c>
+              <c>74</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-07</c>
+              <c>104</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-08</c>
+              <c>126</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-09</c>
+              <c>139</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-10</c>
+              <c>149</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-11</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-12</c>
+              <c>224</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-13</c>
+              <c>255</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-14</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-15</c>
+              <c>209</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-16</c>
+              <c>262</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-17</c>
+              <c>217</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-18</c>
+              <c>247</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-19</c>
+              <c>231</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-20</c>
+              <c>247</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-21</c>
+              <c>226</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-22</c>
+              <c>236</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-23</c>
+              <c>250</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-24</c>
+              <c>482</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-25</c>
+              <c>303</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-26</c>
+              <c>222</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-27</c>
+              <c>208</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-28</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-29</c>
+              <c>209</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-30</c>
+              <c>174</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-31</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-32</c>
+              <c>154</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-33</c>
+              <c>185</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-34</c>
+              <c>159</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-35</c>
+              <c>127</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-36</c>
+              <c>124</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-37</c>
+              <c>100</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-38</c>
+              <c>116</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-39</c>
+              <c>104</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-40</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-41</c>
+              <c>101</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-42</c>
+              <c>71</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-43</c>
+              <c>53</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-44</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-45</c>
+              <c>55</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-46</c>
+              <c>48</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-47</c>
+              <c>91</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-48</c>
+              <c>75</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-49</c>
+              <c>167</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-50</c>
+              <c>261</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-51</c>
+              <c>512</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-52</c>
+              <c>258</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-01</c>
+              <c>95</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-02</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-03</c>
+              <c>60</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-04</c>
+              <c>65</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-05</c>
+              <c>93</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-06</c>
+              <c>126</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-07</c>
+              <c>129</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-08</c>
+              <c>90</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-09</c>
+              <c>103</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-10</c>
+              <c>101</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-11</c>
+              <c>124</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-12</c>
+              <c>120</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-13</c>
+              <c>166</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-14</c>
+              <c>152</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-15</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-16</c>
+              <c>238</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-17</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-18</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-19</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-20</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-21</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-22</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-23</c>
+              <c>254</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-24</c>
+              <c>425</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-25</c>
+              <c>299</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-26</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-27</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-28</c>
+              <c>160</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-29</c>
+              <c>163</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-30</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-31</c>
+              <c>152</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-32</c>
+              <c>168</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-33</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-34</c>
+              <c>140</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-35</c>
+              <c>119</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-36</c>
+              <c>135</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-37</c>
+              <c>111</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-38</c>
+              <c>79</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-39</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-40</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-41</c>
+              <c>67</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-42</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-43</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-44</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-45</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-46</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-47</c>
+              <c>62</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-48</c>
+              <c>122</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-49</c>
+              <c>158</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-50</c>
+              <c>295</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-51</c>
+              <c>541</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-52</c>
+              <c>390</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="150" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Fiscal Year" action="GroupBy" rename="Fiscal Year" />
+            <SummarizeField field="Units" action="Avg" rename="Yearly_Avg_Units" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="150" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Fiscal Year" action="GroupBy" rename="Fiscal Year" />
+            <SummarizeField field="Fiscal Month" action="GroupBy" rename="Fiscal Month" />
+            <SummarizeField field="Units" action="Avg" rename="Monthly_Avg_Units" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="210" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Fiscal Year" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Fiscal Year" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Fiscal Year" selected="False" rename="Right_Fiscal Year" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="282" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Fiscal Year" />
+            <Field field="Fiscal Month" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Fiscal Year" />
+            <Field field="Fiscal Month" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Fiscal Year" selected="False" rename="Right_Fiscal Year" input="Right_" />
+                <SelectField field="Right_Fiscal Month" selected="False" rename="Right_Fiscal Month" input="Right_" />
+                <SelectField field="Right_Units" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Monthly_Avg_Units]) THEN [Yearly_Avg_Units]&#xA;ELSE [Monthly_Avg_Units] ENDIF" field="Monthly_Avg_Units" size="8" type="Double" />
+            <FormulaField expression="IF IsNull([Units]) THEN [Monthly_Avg_Units]&#xA;ELSE [Units] ENDIF" field="Units" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Monthly_Avg_Units = IF IsNull([Monthly_Avg_Units]) THEN [Yearly_Avg_Units]
+ELSE ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings>
+        <Position x="402" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="mod_name" />
+          <Value name="target_field">Units</Value>
+          <Value name="use_covar">False</Value>
+          <Value name="covars">"Fiscal Year", "Yearly_Avg_Units", "Fiscal Month", "Monthly_Avg_Units", "Product", "Fiscal Week Number", "Units"</Value>
+          <Value name="use_covar_mean">True</Value>
+          <Value name="use_covar_diff">False</Value>
+          <Value name="freq_hourly">False</Value>
+          <Value name="freq_daily">False</Value>
+          <Value name="freq_weekdays">False</Value>
+          <Value name="freq_weekly">True</Value>
+          <Value name="freq_monthly">False</Value>
+          <Value name="freq_quarterly">False</Value>
+          <Value name="freq_annually">False</Value>
+          <Value name="freq_other">False</Value>
+          <Value name="custom_auto">False</Value>
+          <Value name="first_dif">False</Value>
+          <Value name="level_first_dif">0</Value>
+          <Value name="max_p">2</Value>
+          <Value name="max_q">2</Value>
+          <Value name="seas_dif">False</Value>
+          <Value name="level_seas_dif">0</Value>
+          <Value name="s_max_P">1</Value>
+          <Value name="s_max_Q">1</Value>
+          <Value name="ic_aic">False</Value>
+          <Value name="ic_aicc">True</Value>
+          <Value name="ic_bic">False</Value>
+          <Value name="full_enum">False</Value>
+          <Value name="max_order">5</Value>
+          <Value name="m_core">False</Value>
+          <Value name="drift">True</Value>
+          <Value name="box_cox">False</Value>
+          <Value name="lambda">0.00</Value>
+          <Value name="full_custom">False</Value>
+          <Value name="p">0</Value>
+          <Value name="d">0</Value>
+          <Value name="q">0</Value>
+          <Value name="S_P">0</Value>
+          <Value name="S_D">0</Value>
+          <Value name="S_Q">0</Value>
+          <Value name="m_drift">False</Value>
+          <Value name="m_box_cox">False</Value>
+          <Value name="m_lambda">0.00</Value>
+          <Value name="series_start">False</Value>
+          <Value name="start_year">1980</Value>
+          <Value name="start_month_qtr">1</Value>
+          <Value name="forecast_periods">6</Value>
+          <Value name="alteryx.week.US">True</Value>
+          <Value name="alteryx.week.UK">False</Value>
+          <Value name="alteryx.week.ISO8601">False</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.00</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\ARIMA.yxmc" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings>
+        <Position x="462" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="forecast">forecast</Value>
+          <Value name="large_conf">95</Value>
+          <Value name="small_conf">80</Value>
+          <Value name="horizon">6</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Period" source="R-DATA:" type="Double" />
+            <Field name="Sub_Period" source="R-DATA:" type="Int32" />
+            <Field name="forecast" source="R-DATA:" type="Double" />
+            <Field name="forecast_high_95" source="R-DATA:" type="Double" />
+            <Field name="forecast_high_80" source="R-DATA:" type="Double" />
+            <Field name="forecast_low_80" source="R-DATA:" type="Double" />
+            <Field name="forecast_low_95" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Interactive Viz">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\TS_Forecast.yxmc" />
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_6932_36d71f9288dd4d33a773f530c512232c_\Engine_6736_2012c543a7914bf8b09bee8d8dca472a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_6932_36d71f9288dd4d33a773f530c512232c_\Engine_6736_a489f35a143f4053b846213b06f99a96_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kiran\AppData\Local\Temp\Engine_6932_36d71f9288dd4d33a773f530c512232c_\Engine_6736_a6dcb459f3a445fc994d9361ce2efd09_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="125" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="121" Connection="Join" />
+      <Destination ToolID="125" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="121" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="121" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="125" Connection="Join" />
+      <Destination ToolID="126" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Output" />
+      <Destination ToolID="129" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Report" />
+      <Destination ToolID="130" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Interactive Viz" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_24_atcodedog05_Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
